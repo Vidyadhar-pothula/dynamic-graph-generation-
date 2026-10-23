@@ -1,0 +1,106 @@
+{
+  "relation": {
+    "baseline_old_val": {
+      "acc": 0.4286,
+      "macro_P": 0.0725,
+      "macro_R": 0.0656,
+      "macro_F1": 0.068,
+      "n": 560,
+      "loss": 1.7579
+    },
+    "baseline_new_val": {
+      "acc": 0.3029,
+      "macro_P": 0.0866,
+      "macro_R": 0.135,
+      "macro_F1": 0.0982,
+      "n": 7487,
+      "loss": 2.2645
+    },
+    "finetuned_old_val": {
+      "acc": 0.5286,
+      "macro_P": 0.0723,
+      "macro_R": 0.0828,
+      "macro_F1": 0.0771,
+      "n": 560,
+      "loss": 1.4896
+    },
+    "finetuned_new_val": {
+      "acc": 0.4075,
+      "macro_P": 0.1319,
+      "macro_R": 0.1228,
+      "macro_F1": 0.1236,
+      "n": 7487,
+      "loss": 1.7806
+    }
+  },
+  "temporal": {
+    "lstm": {
+      "baseline_old_val": {
+        "acc": 0.6448,
+        "macro_P": 0.0604,
+        "macro_R": 0.0881,
+        "macro_F1": 0.0717,
+        "n": 594,
+        "loss": 1.3173
+      },
+      "baseline_new_val": {
+        "acc": 0.2782,
+        "macro_P": 0.0205,
+        "macro_R": 0.043,
+        "macro_F1": 0.0257,
+        "n": 8723,
+        "loss": 2.1004
+      },
+      "finetuned_old_val": {
+        "acc": 0.5859,
+        "macro_P": 0.0952,
+        "macro_R": 0.1052,
+        "macro_F1": 0.0993,
+        "n": 594,
+        "loss": 1.3753
+      },
+      "finetuned_new_val": {
+        "acc": 0.3722,
+        "macro_P": 0.1172,
+        "macro_R": 0.073,
+        "macro_F1": 0.0739,
+        "n": 8723,
+        "loss": 1.8911
+      }
+    },
+    "gru": {
+      "baseline_old_val": {
+        "acc": 0.5758,
+        "macro_P": 0.0675,
+        "macro_R": 0.0839,
+        "macro_F1": 0.0746,
+        "n": 594,
+        "loss": 1.51
+      },
+      "baseline_new_val": {
+        "acc": 0.2813,
+        "macro_P": 0.0344,
+        "macro_R": 0.0465,
+        "macro_F1": 0.0324,
+        "n": 8723,
+        "loss": 2.284
+      },
+      "finetuned_old_val": {
+        "acc": 0.6279,
+        "macro_P": 0.1064,
+        "macro_R": 0.1237,
+        "macro_F1": 0.1127,
+        "n": 594,
+        "loss": 1.3718
+      },
+      "finetuned_new_val": {
+        "acc": 0.3901,
+        "macro_P": 0.0916,
+        "macro_R": 0.0676,
+        "macro_F1": 0.0631,
+        "n": 8723,
+        "loss": 1.8091
+      }
+    }
+  }
+}

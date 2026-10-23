@@ -1,0 +1,11 @@
+predicate,relation_model_edges,temporal_gru_edges
+in_front_of,1193,1741
+next_to,1154,787
+play(instrument),168,26
+behind,155,0
+beneath,142,0
+lean_on,82,0
+watch,78,0
+above,28,0
+hug,13,0
+hold,2,0

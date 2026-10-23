@@ -1,0 +1,5780 @@
+{
+ "video_id": "3805063660",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      423,
+      98,
+      576,
+      308
+     ],
+     "conf": 0.89
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      296,
+      129,
+      438,
+      347
+     ],
+     "conf": 0.875
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      463,
+      198,
+      510,
+      269
+     ],
+     "conf": 0.541
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.77
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.669
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.572
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.469
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.406
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.301
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      420,
+      98,
+      574,
+      305
+     ],
+     "conf": 0.898
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      287,
+      127,
+      438,
+      350
+     ],
+     "conf": 0.862
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      463,
+      198,
+      512,
+      261
+     ],
+     "conf": 0.385
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.686
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.654
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.505
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.448
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.37
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      425,
+      100,
+      579,
+      309
+     ],
+     "conf": 0.889
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      466,
+      195,
+      515,
+      264
+     ],
+     "conf": 0.847
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      295,
+      127,
+      440,
+      347
+     ],
+     "conf": 0.846
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.739
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.651
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.614
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.589
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      425,
+      96,
+      579,
+      304
+     ],
+     "conf": 0.876
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      295,
+      123,
+      439,
+      346
+     ],
+     "conf": 0.857
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      465,
+      188,
+      520,
+      263
+     ],
+     "conf": 0.763
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.918
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.826
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.814
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.656
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.636
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.511
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.431
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.412
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.367
+    }
+   ]
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      418,
+      98,
+      574,
+      306
+     ],
+     "conf": 0.92
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      287,
+      124,
+      430,
+      348
+     ],
+     "conf": 0.89
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      459,
+      192,
+      512,
+      265
+     ],
+     "conf": 0.64
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.753
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.721
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.642
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.451
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.346
+    },
+    {
+     "subject": 42084,
+     "predicate": "behind",
+     "object": 42083,
+     "confidence": 0.309
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.463
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.436
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.433
+    }
+   ]
+  },
+  {
+   "frame_id": 180,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      420,
+      95,
+      574,
+      302
+     ],
+     "conf": 0.903
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      287,
+      121,
+      432,
+      350
+     ],
+     "conf": 0.889
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      463,
+      191,
+      511,
+      263
+     ],
+     "conf": 0.683
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.839
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.714
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.587
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.41
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.403
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.504
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.463
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.447
+    }
+   ]
+  },
+  {
+   "frame_id": 210,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      421,
+      97,
+      577,
+      305
+     ],
+     "conf": 0.896
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      289,
+      122,
+      431,
+      346
+     ],
+     "conf": 0.895
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      467,
+      193,
+      515,
+      262
+     ],
+     "conf": 0.412
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.656
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.59
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.57
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.466
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42085,
+     "confidence": 0.363
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.515
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.48
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.458
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.317
+    }
+   ]
+  },
+  {
+   "frame_id": 240,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      424,
+      98,
+      577,
+      305
+     ],
+     "conf": 0.894
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      293,
+      121,
+      438,
+      347
+     ],
+     "conf": 0.865
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      468,
+      193,
+      517,
+      263
+     ],
+     "conf": 0.674
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.898
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.749
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.641
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.566
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.527
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.302
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.528
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.494
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.456
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.319
+    }
+   ]
+  },
+  {
+   "frame_id": 270,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      428,
+      96,
+      581,
+      307
+     ],
+     "conf": 0.89
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      298,
+      125,
+      441,
+      349
+     ],
+     "conf": 0.866
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      473,
+      201,
+      518,
+      261
+     ],
+     "conf": 0.574
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.548
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.469
+    },
+    {
+     "subject": 42084,
+     "predicate": "behind",
+     "object": 42083,
+     "confidence": 0.466
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.446
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.501
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.453
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.407
+    }
+   ]
+  },
+  {
+   "frame_id": 300,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      288,
+      119,
+      432,
+      350
+     ],
+     "conf": 0.88
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      420,
+      93,
+      574,
+      302
+     ],
+     "conf": 0.863
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      464,
+      193,
+      512,
+      256
+     ],
+     "conf": 0.704
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.806
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.712
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.673
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.631
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.626
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.541
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.457
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.443
+    }
+   ]
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      292,
+      114,
+      439,
+      340
+     ],
+     "conf": 0.862
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      423,
+      92,
+      579,
+      303
+     ],
+     "conf": 0.842
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      466,
+      192,
+      515,
+      252
+     ],
+     "conf": 0.336
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.723
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.529
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.466
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.579
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.446
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.443
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.375
+    }
+   ]
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      430,
+      97,
+      587,
+      306
+     ],
+     "conf": 0.896
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      299,
+      121,
+      446,
+      349
+     ],
+     "conf": 0.828
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      472,
+      195,
+      524,
+      259
+     ],
+     "conf": 0.538
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.847
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.695
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.581
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.542
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.533
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.598
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.564
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.401
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.365
+    }
+   ]
+  },
+  {
+   "frame_id": 390,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      432,
+      99,
+      589,
+      309
+     ],
+     "conf": 0.908
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      302,
+      124,
+      443,
+      343
+     ],
+     "conf": 0.814
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      476,
+      196,
+      526,
+      262
+     ],
+     "conf": 0.48
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.73
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.654
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.568
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.462
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.373
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.586
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.536
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.397
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.387
+    }
+   ]
+  },
+  {
+   "frame_id": 420,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      302,
+      118,
+      447,
+      341
+     ],
+     "conf": 0.863
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      434,
+      94,
+      591,
+      305
+     ],
+     "conf": 0.854
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      478,
+      189,
+      529,
+      260
+     ],
+     "conf": 0.688
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.714
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.668
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.666
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.5
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.4
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.604
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.481
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.409
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.393
+    }
+   ]
+  },
+  {
+   "frame_id": 450,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      436,
+      97,
+      593,
+      303
+     ],
+     "conf": 0.944
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      304,
+      122,
+      450,
+      347
+     ],
+     "conf": 0.832
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      480,
+      193,
+      531,
+      261
+     ],
+     "conf": 0.572
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.515
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.428
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.412
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.368
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.334
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.571
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.424
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.409
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.397
+    }
+   ]
+  },
+  {
+   "frame_id": 480,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      432,
+      96,
+      587,
+      302
+     ],
+     "conf": 0.896
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      303,
+      122,
+      446,
+      341
+     ],
+     "conf": 0.808
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      474,
+      191,
+      525,
+      264
+     ],
+     "conf": 0.693
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.808
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.802
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.669
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.499
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.385
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.567
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.44
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.377
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.373
+    }
+   ]
+  },
+  {
+   "frame_id": 510,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      430,
+      96,
+      584,
+      306
+     ],
+     "conf": 0.893
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      301,
+      124,
+      441,
+      342
+     ],
+     "conf": 0.835
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      468,
+      187,
+      522,
+      265
+     ],
+     "conf": 0.736
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.824
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.753
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.612
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.587
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.501
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.336
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.573
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.434
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.403
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.386
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.33
+    }
+   ]
+  },
+  {
+   "frame_id": 540,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      436,
+      91,
+      594,
+      301
+     ],
+     "conf": 0.884
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      305,
+      117,
+      448,
+      338
+     ],
+     "conf": 0.857
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      478,
+      183,
+      527,
+      253
+     ],
+     "conf": 0.654
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.618
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.579
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.495
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.449
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.353
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.541
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.437
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.361
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.342
+    }
+   ]
+  },
+  {
+   "frame_id": 570,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      437,
+      92,
+      596,
+      300
+     ],
+     "conf": 0.9
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      303,
+      117,
+      452,
+      339
+     ],
+     "conf": 0.838
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      479,
+      182,
+      527,
+      254
+     ],
+     "conf": 0.707
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.657
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.614
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.611
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.425
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.387
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.513
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.466
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.373
+    }
+   ]
+  },
+  {
+   "frame_id": 600,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      439,
+      88,
+      599,
+      301
+     ],
+     "conf": 0.894
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      309,
+      115,
+      452,
+      333
+     ],
+     "conf": 0.82
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      480,
+      177,
+      530,
+      252
+     ],
+     "conf": 0.52
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.621
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.56
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.525
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.501
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.338
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.528
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.494
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.374
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.34
+    }
+   ]
+  },
+  {
+   "frame_id": 630,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      434,
+      70,
+      592,
+      283
+     ],
+     "conf": 0.904
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      306,
+      98,
+      451,
+      318
+     ],
+     "conf": 0.804
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      479,
+      159,
+      530,
+      229
+     ],
+     "conf": 0.76
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.757
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.714
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.538
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.462
+    },
+    {
+     "subject": 42084,
+     "predicate": "behind",
+     "object": 42083,
+     "confidence": 0.379
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.313
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.531
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.399
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.379
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.328
+    }
+   ]
+  },
+  {
+   "frame_id": 660,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      432,
+      72,
+      589,
+      286
+     ],
+     "conf": 0.897
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      304,
+      98,
+      449,
+      317
+     ],
+     "conf": 0.781
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      473,
+      161,
+      521,
+      234
+     ],
+     "conf": 0.761
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.897
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.716
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.659
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.432
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.407
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.549
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.453
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.408
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.319
+    }
+   ]
+  },
+  {
+   "frame_id": 690,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      433,
+      74,
+      590,
+      293
+     ],
+     "conf": 0.909
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      473,
+      173,
+      520,
+      244
+     ],
+     "conf": 0.865
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      304,
+      105,
+      449,
+      323
+     ],
+     "conf": 0.835
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.7
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.607
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.539
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.439
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.422
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.404
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.57
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.441
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.328
+    }
+   ]
+  },
+  {
+   "frame_id": 720,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      427,
+      70,
+      581,
+      283
+     ],
+     "conf": 0.918
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      294,
+      97,
+      445,
+      315
+     ],
+     "conf": 0.819
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      464,
+      163,
+      514,
+      233
+     ],
+     "conf": 0.764
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.811
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.644
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.554
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.55
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.396
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.37
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.572
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.445
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.341
+    }
+   ]
+  },
+  {
+   "frame_id": 750,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      429,
+      65,
+      584,
+      279
+     ],
+     "conf": 0.917
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      463,
+      157,
+      517,
+      233
+     ],
+     "conf": 0.897
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      297,
+      91,
+      444,
+      312
+     ],
+     "conf": 0.836
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.679
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.586
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.511
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.508
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.372
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.36
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.531
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.406
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.346
+    }
+   ]
+  },
+  {
+   "frame_id": 780,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      432,
+      65,
+      587,
+      278
+     ],
+     "conf": 0.919
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      301,
+      90,
+      446,
+      314
+     ],
+     "conf": 0.842
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      471,
+      157,
+      521,
+      229
+     ],
+     "conf": 0.818
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.808
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.562
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.495
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.49
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.389
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.322
+    }
+   ]
+  },
+  {
+   "frame_id": 810,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      434,
+      61,
+      591,
+      274
+     ],
+     "conf": 0.925
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      306,
+      86,
+      447,
+      304
+     ],
+     "conf": 0.851
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      469,
+      149,
+      526,
+      231
+     ],
+     "conf": 0.505
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.676
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.663
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.595
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.53
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.416
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.498
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.377
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.306
+    }
+   ]
+  },
+  {
+   "frame_id": 840,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      295,
+      73,
+      438,
+      299
+     ],
+     "conf": 0.848
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      424,
+      49,
+      580,
+      263
+     ],
+     "conf": 0.838
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      465,
+      143,
+      510,
+      211
+     ],
+     "conf": 0.356
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.766
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.532
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.461
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.43
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42085,
+     "confidence": 0.363
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.53
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.424
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.316
+    }
+   ]
+  },
+  {
+   "frame_id": 870,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      292,
+      74,
+      434,
+      298
+     ],
+     "conf": 0.864
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      425,
+      49,
+      579,
+      265
+     ],
+     "conf": 0.853
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      465,
+      145,
+      514,
+      211
+     ],
+     "conf": 0.794
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.848
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.595
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.557
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.451
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.519
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.406
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.344
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.316
+    }
+   ]
+  },
+  {
+   "frame_id": 900,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      428,
+      61,
+      580,
+      273
+     ],
+     "conf": 0.905
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      296,
+      84,
+      437,
+      300
+     ],
+     "conf": 0.882
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      470,
+      152,
+      517,
+      223
+     ],
+     "conf": 0.48
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.432
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.397
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.342
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.58
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.474
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.328
+    }
+   ]
+  },
+  {
+   "frame_id": 930,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      427,
+      54,
+      581,
+      268
+     ],
+     "conf": 0.859
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      298,
+      83,
+      439,
+      299
+     ],
+     "conf": 0.848
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      470,
+      149,
+      518,
+      217
+     ],
+     "conf": 0.72
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.487
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.459
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.379
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.575
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.449
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.358
+    }
+   ]
+  },
+  {
+   "frame_id": 960,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      422,
+      52,
+      576,
+      269
+     ],
+     "conf": 0.861
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      290,
+      78,
+      435,
+      304
+     ],
+     "conf": 0.847
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      466,
+      153,
+      511,
+      213
+     ],
+     "conf": 0.748
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.458
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.441
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.43
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.589
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.423
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.376
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.367
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.318
+    }
+   ]
+  },
+  {
+   "frame_id": 990,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      415,
+      51,
+      571,
+      267
+     ],
+     "conf": 0.905
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      286,
+      76,
+      425,
+      298
+     ],
+     "conf": 0.793
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      452,
+      135,
+      511,
+      213
+     ],
+     "conf": 0.5
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.738
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.614
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.551
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.541
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.625
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.425
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.417
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.38
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.335
+    }
+   ]
+  },
+  {
+   "frame_id": 1020,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      292,
+      76,
+      436,
+      300
+     ],
+     "conf": 0.858
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      422,
+      53,
+      579,
+      269
+     ],
+     "conf": 0.786
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      468,
+      150,
+      513,
+      211
+     ],
+     "conf": 0.592
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.584
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.622
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.39
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.389
+    }
+   ]
+  },
+  {
+   "frame_id": 1050,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      420,
+      60,
+      575,
+      275
+     ],
+     "conf": 0.932
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      286,
+      89,
+      432,
+      313
+     ],
+     "conf": 0.87
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      461,
+      157,
+      514,
+      226
+     ],
+     "conf": 0.511
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.718
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.69
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.583
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.507
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.373
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.633
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.425
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.421
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.405
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.315
+    }
+   ]
+  },
+  {
+   "frame_id": 1080,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      420,
+      63,
+      575,
+      274
+     ],
+     "conf": 0.923
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      286,
+      86,
+      432,
+      316
+     ],
+     "conf": 0.874
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      462,
+      156,
+      513,
+      230
+     ],
+     "conf": 0.673
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.893
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.788
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.753
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.491
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42085,
+     "confidence": 0.356
+    },
+    {
+     "subject": 42084,
+     "predicate": "behind",
+     "object": 42083,
+     "confidence": 0.317
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.645
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.411
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.407
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.376
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.36
+    }
+   ]
+  },
+  {
+   "frame_id": 1110,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      419,
+      58,
+      575,
+      273
+     ],
+     "conf": 0.904
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      284,
+      82,
+      431,
+      309
+     ],
+     "conf": 0.843
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      461,
+      155,
+      511,
+      226
+     ],
+     "conf": 0.584
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.729
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.64
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.578
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.483
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.357
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.649
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.387
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.383
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.366
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.356
+    }
+   ]
+  },
+  {
+   "frame_id": 1140,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      421,
+      58,
+      576,
+      272
+     ],
+     "conf": 0.898
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      290,
+      85,
+      431,
+      305
+     ],
+     "conf": 0.882
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      464,
+      151,
+      515,
+      219
+     ],
+     "conf": 0.569
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.923
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.743
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.679
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.57
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.41
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.392
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.625
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.446
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.446
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.376
+    }
+   ]
+  },
+  {
+   "frame_id": 1170,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      412,
+      57,
+      569,
+      272
+     ],
+     "conf": 0.888
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      280,
+      85,
+      418,
+      303
+     ],
+     "conf": 0.814
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      449,
+      142,
+      501,
+      221
+     ],
+     "conf": 0.431
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.643
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.599
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.45
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.45
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.429
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.606
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.463
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.429
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.402
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.4
+    }
+   ]
+  },
+  {
+   "frame_id": 1200,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      412,
+      62,
+      568,
+      275
+     ],
+     "conf": 0.903
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      277,
+      86,
+      424,
+      307
+     ],
+     "conf": 0.865
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      448,
+      148,
+      500,
+      222
+     ],
+     "conf": 0.387
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.903
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.531
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.511
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.446
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.444
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.544
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.469
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.425
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.403
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.351
+    }
+   ]
+  },
+  {
+   "frame_id": 1230,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      405,
+      57,
+      561,
+      269
+     ],
+     "conf": 0.859
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      264,
+      85,
+      418,
+      308
+     ],
+     "conf": 0.824
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      448,
+      154,
+      504,
+      228
+     ],
+     "conf": 0.255
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.808
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.733
+    },
+    {
+     "subject": 42085,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.621
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42085,
+     "confidence": 0.384
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.577
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.485
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.402
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.353
+    }
+   ]
+  },
+  {
+   "frame_id": 1260,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      417,
+      75,
+      574,
+      291
+     ],
+     "conf": 0.875
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      278,
+      105,
+      421,
+      320
+     ],
+     "conf": 0.827
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      457,
+      174,
+      505,
+      238
+     ],
+     "conf": 0.285
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.685
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.632
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.498
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.389
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.605
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.5
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.398
+    }
+   ]
+  },
+  {
+   "frame_id": 1290,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      268,
+      108,
+      409,
+      319
+     ],
+     "conf": 0.805
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      409,
+      78,
+      566,
+      294
+     ],
+     "conf": 0.765
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      448,
+      169,
+      504,
+      242
+     ],
+     "conf": 0.308
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.566
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.321
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.61
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.469
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.415
+    }
+   ]
+  },
+  {
+   "frame_id": 1320,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      409,
+      74,
+      570,
+      288
+     ],
+     "conf": 0.837
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      275,
+      104,
+      401,
+      312
+     ],
+     "conf": 0.499
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      450,
+      166,
+      501,
+      234
+     ],
+     "conf": 0.403
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.836
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.576
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.546
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.534
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.513
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.396
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.527
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.467
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.408
+    }
+   ]
+  },
+  {
+   "frame_id": 1350,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      406,
+      75,
+      565,
+      285
+     ],
+     "conf": 0.861
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      272,
+      101,
+      412,
+      328
+     ],
+     "conf": 0.806
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      449,
+      162,
+      497,
+      233
+     ],
+     "conf": 0.694
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.782
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.654
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.616
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.494
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.357
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.34
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.428
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.381
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.347
+    }
+   ]
+  },
+  {
+   "frame_id": 1380,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      410,
+      88,
+      565,
+      290
+     ],
+     "conf": 0.908
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      271,
+      61,
+      414,
+      300
+     ],
+     "conf": 0.816
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      449,
+      167,
+      500,
+      238
+     ],
+     "conf": 0.812
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.841
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.841
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.499
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.45
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.361
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.303
+    }
+   ]
+  },
+  {
+   "frame_id": 1410,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      404,
+      97,
+      565,
+      304
+     ],
+     "conf": 0.864
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      256,
+      55,
+      410,
+      329
+     ],
+     "conf": 0.83
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      444,
+      177,
+      500,
+      248
+     ],
+     "conf": 0.697
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.853
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.7
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.619
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.603
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.538
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.536
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.493
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.44
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.436
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.368
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.341
+    }
+   ]
+  },
+  {
+   "frame_id": 1440,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      262,
+      52,
+      414,
+      328
+     ],
+     "conf": 0.835
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      406,
+      95,
+      565,
+      302
+     ],
+     "conf": 0.804
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      451,
+      178,
+      502,
+      244
+     ],
+     "conf": 0.471
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.781
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.771
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.71
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.656
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.523
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.492
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.51
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.492
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.426
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.348
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.309
+    }
+   ]
+  },
+  {
+   "frame_id": 1470,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      410,
+      94,
+      574,
+      307
+     ],
+     "conf": 0.87
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      267,
+      56,
+      415,
+      322
+     ],
+     "conf": 0.87
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      455,
+      188,
+      508,
+      251
+     ],
+     "conf": 0.52
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.893
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.722
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.692
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.596
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.526
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.512
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.56
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.498
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.468
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.411
+    }
+   ]
+  },
+  {
+   "frame_id": 1500,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      404,
+      89,
+      570,
+      305
+     ],
+     "conf": 0.879
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      263,
+      56,
+      416,
+      329
+     ],
+     "conf": 0.85
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      447,
+      183,
+      505,
+      259
+     ],
+     "conf": 0.302
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.893
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.822
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42085,
+     "confidence": 0.656
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.565
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.482
+    },
+    {
+     "subject": 42084,
+     "predicate": "behind",
+     "object": 42083,
+     "confidence": 0.398
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.58
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.472
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.47
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.458
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.31
+    }
+   ]
+  },
+  {
+   "frame_id": 1530,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      265,
+      56,
+      412,
+      325
+     ],
+     "conf": 0.87
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      413,
+      96,
+      599,
+      332
+     ],
+     "conf": 0.822
+    },
+    {
+     "track_id": 42085,
+     "class": "guitar",
+     "bbox": [
+      439,
+      181,
+      489,
+      251
+     ],
+     "conf": 0.336
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.754
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.355
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.589
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.546
+    },
+    {
+     "subject": 42085,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.516
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.47
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42085,
+     "confidence": 0.3
+    }
+   ]
+  },
+  {
+   "frame_id": 1560,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      422,
+      96,
+      599,
+      349
+     ],
+     "conf": 0.864
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      266,
+      65,
+      392,
+      329
+     ],
+     "conf": 0.829
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.39
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.363
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.552
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.458
+    }
+   ]
+  },
+  {
+   "frame_id": 1590,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      244,
+      60,
+      379,
+      331
+     ],
+     "conf": 0.859
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      418,
+      98,
+      608,
+      354
+     ],
+     "conf": 0.842
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.627
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.545
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.617
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.506
+    }
+   ]
+  },
+  {
+   "frame_id": 1620,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      240,
+      57,
+      375,
+      330
+     ],
+     "conf": 0.858
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      399,
+      19,
+      597,
+      353
+     ],
+     "conf": 0.852
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.604
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.361
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.661
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.511
+    }
+   ]
+  },
+  {
+   "frame_id": 1650,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      252,
+      70,
+      388,
+      346
+     ],
+     "conf": 0.861
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      435,
+      1,
+      586,
+      355
+     ],
+     "conf": 0.798
+    },
+    {
+     "track_id": 42122,
+     "class": "guitar",
+     "bbox": [
+      421,
+      125,
+      517,
+      277
+     ],
+     "conf": 0.386
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42122,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.99
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.867
+    },
+    {
+     "subject": 42122,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.767
+    },
+    {
+     "subject": 42084,
+     "predicate": "play(instrument)",
+     "object": 42122,
+     "confidence": 0.696
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.383
+    },
+    {
+     "subject": 42083,
+     "predicate": "play(instrument)",
+     "object": 42122,
+     "confidence": 0.344
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.718
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.447
+    }
+   ]
+  },
+  {
+   "frame_id": 1680,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      243,
+      71,
+      398,
+      345
+     ],
+     "conf": 0.869
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      455,
+      0,
+      598,
+      336
+     ],
+     "conf": 0.809
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.425
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.423
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.72
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.395
+    }
+   ]
+  },
+  {
+   "frame_id": 1710,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      257,
+      84,
+      406,
+      355
+     ],
+     "conf": 0.894
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      460,
+      1,
+      602,
+      360
+     ],
+     "conf": 0.843
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.493
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.401
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.61
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.493
+    }
+   ]
+  },
+  {
+   "frame_id": 1740,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      252,
+      96,
+      406,
+      358
+     ],
+     "conf": 0.896
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      460,
+      10,
+      605,
+      348
+     ],
+     "conf": 0.805
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.506
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.321
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.574
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.553
+    }
+   ]
+  },
+  {
+   "frame_id": 1770,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      249,
+      91,
+      430,
+      356
+     ],
+     "conf": 0.888
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      453,
+      36,
+      597,
+      352
+     ],
+     "conf": 0.861
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "watch",
+     "object": 42084,
+     "confidence": 0.35
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.347
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.55
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.532
+    }
+   ]
+  },
+  {
+   "frame_id": 1800,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      428,
+      28,
+      600,
+      354
+     ],
+     "conf": 0.89
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      243,
+      89,
+      401,
+      356
+     ],
+     "conf": 0.881
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.659
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.636
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.507
+    }
+   ]
+  },
+  {
+   "frame_id": 1830,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      243,
+      79,
+      390,
+      351
+     ],
+     "conf": 0.861
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      444,
+      20,
+      577,
+      302
+     ],
+     "conf": 0.737
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.453
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.382
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.685
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.449
+    }
+   ]
+  },
+  {
+   "frame_id": 1860,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      245,
+      71,
+      378,
+      344
+     ],
+     "conf": 0.857
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      449,
+      0,
+      580,
+      327
+     ],
+     "conf": 0.791
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.397
+    },
+    {
+     "subject": 42084,
+     "predicate": "watch",
+     "object": 42083,
+     "confidence": 0.362
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.672
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.48
+    }
+   ]
+  },
+  {
+   "frame_id": 1890,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      252,
+      90,
+      380,
+      352
+     ],
+     "conf": 0.83
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      458,
+      6,
+      606,
+      358
+     ],
+     "conf": 0.822
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.74
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.755
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.495
+    }
+   ]
+  },
+  {
+   "frame_id": 1920,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      242,
+      83,
+      375,
+      353
+     ],
+     "conf": 0.811
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      471,
+      142,
+      588,
+      359
+     ],
+     "conf": 0.695
+    },
+    {
+     "track_id": 42151,
+     "class": "adult",
+     "bbox": [
+      542,
+      78,
+      586,
+      202
+     ],
+     "conf": 0.695
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42151,
+     "confidence": 0.586
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42151,
+     "confidence": 0.577
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.575
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.361
+    },
+    {
+     "subject": 42151,
+     "predicate": "behind",
+     "object": 42083,
+     "confidence": 0.354
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.743
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.536
+    }
+   ]
+  },
+  {
+   "frame_id": 1950,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      446,
+      11,
+      605,
+      360
+     ],
+     "conf": 0.905
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      246,
+      101,
+      374,
+      351
+     ],
+     "conf": 0.808
+    },
+    {
+     "track_id": 42160,
+     "class": "adult",
+     "bbox": [
+      385,
+      96,
+      494,
+      310
+     ],
+     "conf": 0.751
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42160,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.868
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.674
+    },
+    {
+     "subject": 42084,
+     "predicate": "behind",
+     "object": 42083,
+     "confidence": 0.508
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.703
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.55
+    }
+   ]
+  },
+  {
+   "frame_id": 1980,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      437,
+      6,
+      564,
+      359
+     ],
+     "conf": 0.81
+    },
+    {
+     "track_id": 42160,
+     "class": "adult",
+     "bbox": [
+      377,
+      92,
+      475,
+      311
+     ],
+     "conf": 0.804
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      248,
+      101,
+      386,
+      345
+     ],
+     "conf": 0.7
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42160,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.656
+    },
+    {
+     "subject": 42084,
+     "predicate": "next_to",
+     "object": 42083,
+     "confidence": 0.475
+    },
+    {
+     "subject": 42083,
+     "predicate": "next_to",
+     "object": 42084,
+     "confidence": 0.462
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.661
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.575
+    }
+   ]
+  },
+  {
+   "frame_id": 2010,
+   "objects": [
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      468,
+      4,
+      587,
+      359
+     ],
+     "conf": 0.827
+    },
+    {
+     "track_id": 42160,
+     "class": "adult",
+     "bbox": [
+      376,
+      85,
+      472,
+      302
+     ],
+     "conf": 0.799
+    },
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      257,
+      92,
+      381,
+      351
+     ],
+     "conf": 0.785
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42160,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.55
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.496
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.383
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.647
+    },
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.619
+    },
+    {
+     "subject": 42160,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.527
+    },
+    {
+     "subject": 42160,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.517
+    }
+   ]
+  },
+  {
+   "frame_id": 2040,
+   "objects": [
+    {
+     "track_id": 42084,
+     "class": "adult",
+     "bbox": [
+      248,
+      94,
+      388,
+      355
+     ],
+     "conf": 0.876
+    },
+    {
+     "track_id": 42083,
+     "class": "adult",
+     "bbox": [
+      490,
+      5,
+      602,
+      360
+     ],
+     "conf": 0.86
+    },
+    {
+     "track_id": 42160,
+     "class": "adult",
+     "bbox": [
+      376,
+      87,
+      477,
+      304
+     ],
+     "conf": 0.842
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 42160,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.732
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 42084,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.626
+    },
+    {
+     "subject": 42083,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.623
+    },
+    {
+     "subject": 42160,
+     "predicate": "in_front_of",
+     "object": 42084,
+     "confidence": 0.565
+    },
+    {
+     "subject": 42160,
+     "predicate": "in_front_of",
+     "object": 42083,
+     "confidence": 0.559
+    }
+   ]
+  }
+ ]
+}

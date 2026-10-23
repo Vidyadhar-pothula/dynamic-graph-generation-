@@ -1,0 +1,1122 @@
+{
+ "video_id": "5936609774",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      286,
+      27,
+      337,
+      179
+     ],
+     "conf": 0.788
+    },
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      177,
+      38,
+      231,
+      196
+     ],
+     "conf": 0.784
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      202,
+      78,
+      253,
+      233
+     ],
+     "conf": 0.841
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      310,
+      67,
+      360,
+      213
+     ],
+     "conf": 0.805
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      202,
+      78,
+      253,
+      233
+     ],
+     "conf": 0.832
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      311,
+      69,
+      362,
+      213
+     ],
+     "conf": 0.808
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      306,
+      66,
+      357,
+      216
+     ],
+     "conf": 0.837
+    },
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      198,
+      82,
+      247,
+      235
+     ],
+     "conf": 0.804
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      305,
+      68,
+      354,
+      215
+     ],
+     "conf": 0.846
+    },
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      199,
+      81,
+      247,
+      233
+     ],
+     "conf": 0.798
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 180,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      199,
+      86,
+      249,
+      236
+     ],
+     "conf": 0.814
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      320,
+      75,
+      366,
+      198
+     ],
+     "conf": 0.81
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 210,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      197,
+      87,
+      248,
+      234
+     ],
+     "conf": 0.815
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      313,
+      68,
+      366,
+      213
+     ],
+     "conf": 0.788
+    },
+    {
+     "track_id": 28965,
+     "class": "guitar",
+     "bbox": [
+      198,
+      124,
+      249,
+      164
+     ],
+     "conf": 0.295
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 28958,
+     "predicate": "in_front_of",
+     "object": 28379,
+     "confidence": 0.458
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 240,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      200,
+      86,
+      253,
+      235
+     ],
+     "conf": 0.862
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      307,
+      67,
+      358,
+      211
+     ],
+     "conf": 0.827
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 270,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      202,
+      82,
+      257,
+      235
+     ],
+     "conf": 0.853
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      309,
+      65,
+      358,
+      212
+     ],
+     "conf": 0.79
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 300,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      210,
+      80,
+      262,
+      232
+     ],
+     "conf": 0.851
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      313,
+      66,
+      362,
+      210
+     ],
+     "conf": 0.79
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 28379,
+     "predicate": "in_front_of",
+     "object": 28958,
+     "confidence": 0.465
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      206,
+      82,
+      259,
+      235
+     ],
+     "conf": 0.828
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      309,
+      65,
+      361,
+      212
+     ],
+     "conf": 0.769
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      208,
+      94,
+      260,
+      245
+     ],
+     "conf": 0.819
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      312,
+      77,
+      362,
+      223
+     ],
+     "conf": 0.792
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 390,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      204,
+      99,
+      255,
+      251
+     ],
+     "conf": 0.852
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      312,
+      84,
+      363,
+      225
+     ],
+     "conf": 0.802
+    },
+    {
+     "track_id": 28974,
+     "class": "guitar",
+     "bbox": [
+      204,
+      134,
+      256,
+      178
+     ],
+     "conf": 0.364
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 420,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      198,
+      97,
+      250,
+      250
+     ],
+     "conf": 0.824
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      313,
+      81,
+      366,
+      225
+     ],
+     "conf": 0.802
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 450,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      194,
+      99,
+      246,
+      254
+     ],
+     "conf": 0.845
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      297,
+      86,
+      349,
+      230
+     ],
+     "conf": 0.787
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 480,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      194,
+      95,
+      245,
+      251
+     ],
+     "conf": 0.837
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      300,
+      79,
+      352,
+      227
+     ],
+     "conf": 0.795
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 510,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      199,
+      92,
+      249,
+      246
+     ],
+     "conf": 0.869
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      307,
+      77,
+      357,
+      222
+     ],
+     "conf": 0.838
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 540,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      206,
+      91,
+      256,
+      247
+     ],
+     "conf": 0.833
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      312,
+      78,
+      364,
+      221
+     ],
+     "conf": 0.788
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 570,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      208,
+      89,
+      258,
+      243
+     ],
+     "conf": 0.814
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      313,
+      73,
+      365,
+      220
+     ],
+     "conf": 0.795
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 600,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      205,
+      91,
+      255,
+      245
+     ],
+     "conf": 0.826
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      314,
+      77,
+      364,
+      222
+     ],
+     "conf": 0.788
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 630,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      210,
+      95,
+      261,
+      245
+     ],
+     "conf": 0.823
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      316,
+      72,
+      368,
+      222
+     ],
+     "conf": 0.807
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 660,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      208,
+      108,
+      256,
+      253
+     ],
+     "conf": 0.825
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      309,
+      86,
+      359,
+      231
+     ],
+     "conf": 0.786
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 690,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      211,
+      102,
+      262,
+      250
+     ],
+     "conf": 0.792
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      316,
+      84,
+      367,
+      228
+     ],
+     "conf": 0.776
+    },
+    {
+     "track_id": 28997,
+     "class": "adult",
+     "bbox": [
+      586,
+      192,
+      612,
+      225
+     ],
+     "conf": 0.668
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 720,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      213,
+      103,
+      264,
+      251
+     ],
+     "conf": 0.814
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      317,
+      81,
+      368,
+      230
+     ],
+     "conf": 0.791
+    },
+    {
+     "track_id": 28997,
+     "class": "adult",
+     "bbox": [
+      526,
+      195,
+      554,
+      229
+     ],
+     "conf": 0.516
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 28379,
+     "predicate": "in_front_of",
+     "object": 28958,
+     "confidence": 0.396
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 750,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      211,
+      99,
+      260,
+      246
+     ],
+     "conf": 0.799
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      314,
+      78,
+      364,
+      224
+     ],
+     "conf": 0.764
+    },
+    {
+     "track_id": 28997,
+     "class": "adult",
+     "bbox": [
+      465,
+      195,
+      492,
+      225
+     ],
+     "conf": 0.502
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 780,
+   "objects": [
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      317,
+      74,
+      368,
+      223
+     ],
+     "conf": 0.805
+    },
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      212,
+      96,
+      262,
+      246
+     ],
+     "conf": 0.78
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 810,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      216,
+      97,
+      266,
+      249
+     ],
+     "conf": 0.836
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      323,
+      81,
+      373,
+      227
+     ],
+     "conf": 0.805
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 840,
+   "objects": [
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      330,
+      92,
+      381,
+      226
+     ],
+     "conf": 0.807
+    },
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      212,
+      99,
+      262,
+      250
+     ],
+     "conf": 0.756
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 870,
+   "objects": [
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      314,
+      82,
+      367,
+      230
+     ],
+     "conf": 0.807
+    },
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      209,
+      100,
+      259,
+      251
+     ],
+     "conf": 0.788
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 900,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      206,
+      97,
+      259,
+      252
+     ],
+     "conf": 0.836
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      302,
+      84,
+      356,
+      232
+     ],
+     "conf": 0.799
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 930,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      209,
+      99,
+      260,
+      254
+     ],
+     "conf": 0.831
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      296,
+      83,
+      362,
+      234
+     ],
+     "conf": 0.789
+    },
+    {
+     "track_id": 29006,
+     "class": "guitar",
+     "bbox": [
+      292,
+      121,
+      369,
+      179
+     ],
+     "conf": 0.644
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 29006,
+     "predicate": "in_front_of",
+     "object": 28958,
+     "confidence": 0.531
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 960,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      207,
+      97,
+      257,
+      252
+     ],
+     "conf": 0.83
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      309,
+      79,
+      362,
+      228
+     ],
+     "conf": 0.788
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 990,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      207,
+      97,
+      256,
+      253
+     ],
+     "conf": 0.827
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      302,
+      81,
+      358,
+      229
+     ],
+     "conf": 0.804
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1020,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      211,
+      103,
+      260,
+      254
+     ],
+     "conf": 0.832
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      318,
+      87,
+      372,
+      234
+     ],
+     "conf": 0.816
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1050,
+   "objects": [
+    {
+     "track_id": 28379,
+     "class": "adult",
+     "bbox": [
+      212,
+      107,
+      262,
+      255
+     ],
+     "conf": 0.839
+    },
+    {
+     "track_id": 28958,
+     "class": "adult",
+     "bbox": [
+      345,
+      99,
+      402,
+      214
+     ],
+     "conf": 0.791
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 28379,
+     "predicate": "in_front_of",
+     "object": 28958,
+     "confidence": 0.427
+    }
+   ],
+   "temporal_gru": []
+  }
+ ]
+}

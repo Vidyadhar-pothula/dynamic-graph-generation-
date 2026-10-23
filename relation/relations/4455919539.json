@@ -1,0 +1,436 @@
+{
+ "video_id": "4455919539",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 52674,
+     "class": "adult",
+     "bbox": [
+      128,
+      118,
+      231,
+      323
+     ],
+     "conf": 0.778
+    },
+    {
+     "track_id": 52676,
+     "class": "adult",
+     "bbox": [
+      296,
+      85,
+      364,
+      257
+     ],
+     "conf": 0.752
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 52674,
+     "class": "adult",
+     "bbox": [
+      0,
+      137,
+      88,
+      325
+     ],
+     "conf": 0.812
+    },
+    {
+     "track_id": 52676,
+     "class": "adult",
+     "bbox": [
+      398,
+      81,
+      473,
+      251
+     ],
+     "conf": 0.701
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 52674,
+     "class": "adult",
+     "bbox": [
+      11,
+      124,
+      108,
+      324
+     ],
+     "conf": 0.841
+    },
+    {
+     "track_id": 52676,
+     "class": "adult",
+     "bbox": [
+      462,
+      88,
+      570,
+      246
+     ],
+     "conf": 0.746
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 52674,
+     "class": "adult",
+     "bbox": [
+      234,
+      113,
+      302,
+      237
+     ],
+     "conf": 0.747
+    },
+    {
+     "track_id": 52676,
+     "class": "adult",
+     "bbox": [
+      409,
+      108,
+      489,
+      221
+     ],
+     "conf": 0.689
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 52674,
+     "predicate": "behind",
+     "object": 52676,
+     "confidence": 0.342
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 52674,
+     "class": "adult",
+     "bbox": [
+      273,
+      113,
+      360,
+      235
+     ],
+     "conf": 0.747
+    },
+    {
+     "track_id": 52676,
+     "class": "adult",
+     "bbox": [
+      386,
+      105,
+      450,
+      223
+     ],
+     "conf": 0.629
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 52674,
+     "predicate": "in_front_of",
+     "object": 52676,
+     "confidence": 0.327
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 180,
+   "objects": [
+    {
+     "track_id": 52676,
+     "class": "adult",
+     "bbox": [
+      348,
+      96,
+      428,
+      253
+     ],
+     "conf": 0.703
+    },
+    {
+     "track_id": 52674,
+     "class": "adult",
+     "bbox": [
+      238,
+      97,
+      329,
+      277
+     ],
+     "conf": 0.625
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 210,
+   "objects": [
+    {
+     "track_id": 52674,
+     "class": "adult",
+     "bbox": [
+      136,
+      72,
+      245,
+      306
+     ],
+     "conf": 0.775
+    },
+    {
+     "track_id": 52676,
+     "class": "adult",
+     "bbox": [
+      309,
+      74,
+      409,
+      276
+     ],
+     "conf": 0.705
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 52676,
+     "predicate": "in_front_of",
+     "object": 52674,
+     "confidence": 0.486
+    },
+    {
+     "subject": 52674,
+     "predicate": "in_front_of",
+     "object": 52676,
+     "confidence": 0.406
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 240,
+   "objects": [
+    {
+     "track_id": 52674,
+     "class": "adult",
+     "bbox": [
+      128,
+      129,
+      247,
+      357
+     ],
+     "conf": 0.812
+    },
+    {
+     "track_id": 52676,
+     "class": "adult",
+     "bbox": [
+      303,
+      107,
+      408,
+      326
+     ],
+     "conf": 0.777
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 52674,
+     "predicate": "in_front_of",
+     "object": 52676,
+     "confidence": 0.385
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 300,
+   "objects": [
+    {
+     "track_id": 52723,
+     "class": "adult",
+     "bbox": [
+      179,
+      1,
+      297,
+      256
+     ],
+     "conf": 0.834
+    },
+    {
+     "track_id": 52674,
+     "class": "adult",
+     "bbox": [
+      301,
+      146,
+      472,
+      329
+     ],
+     "conf": 0.468
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 52674,
+     "predicate": "watch",
+     "object": 52723,
+     "confidence": 0.34
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 52723,
+     "class": "adult",
+     "bbox": [
+      144,
+      22,
+      305,
+      355
+     ],
+     "conf": 0.826
+    },
+    {
+     "track_id": 52674,
+     "class": "adult",
+     "bbox": [
+      302,
+      139,
+      459,
+      358
+     ],
+     "conf": 0.73
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 390,
+   "objects": [
+    {
+     "track_id": 52723,
+     "class": "adult",
+     "bbox": [
+      216,
+      60,
+      337,
+      297
+     ],
+     "conf": 0.783
+    },
+    {
+     "track_id": 52736,
+     "class": "adult",
+     "bbox": [
+      561,
+      1,
+      635,
+      143
+     ],
+     "conf": 0.66
+    },
+    {
+     "track_id": 52737,
+     "class": "adult",
+     "bbox": [
+      299,
+      187,
+      536,
+      306
+     ],
+     "conf": 0.521
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 52723,
+     "predicate": "in_front_of",
+     "object": 52737,
+     "confidence": 0.666
+    },
+    {
+     "subject": 52736,
+     "predicate": "in_front_of",
+     "object": 52737,
+     "confidence": 0.425
+    },
+    {
+     "subject": 52723,
+     "predicate": "in_front_of",
+     "object": 52736,
+     "confidence": 0.408
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 420,
+   "objects": [
+    {
+     "track_id": 52723,
+     "class": "adult",
+     "bbox": [
+      205,
+      129,
+      347,
+      315
+     ],
+     "conf": 0.813
+    },
+    {
+     "track_id": 52737,
+     "class": "adult",
+     "bbox": [
+      294,
+      124,
+      420,
+      297
+     ],
+     "conf": 0.564
+    },
+    {
+     "track_id": 52736,
+     "class": "adult",
+     "bbox": [
+      598,
+      31,
+      640,
+      185
+     ],
+     "conf": 0.502
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  }
+ ]
+}

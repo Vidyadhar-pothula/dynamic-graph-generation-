@@ -1,0 +1,501 @@
+{
+ "video_id": "4233953400",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      202,
+      73,
+      238,
+      135
+     ],
+     "conf": 0.824
+    },
+    {
+     "track_id": 34263,
+     "class": "adult",
+     "bbox": [
+      89,
+      47,
+      112,
+      95
+     ],
+     "conf": 0.805
+    },
+    {
+     "track_id": 34264,
+     "class": "adult",
+     "bbox": [
+      252,
+      68,
+      278,
+      111
+     ],
+     "conf": 0.767
+    },
+    {
+     "track_id": 34277,
+     "class": "adult",
+     "bbox": [
+      0,
+      0,
+      10,
+      28
+     ],
+     "conf": 0.462
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 34263,
+     "class": "adult",
+     "bbox": [
+      63,
+      12,
+      87,
+      59
+     ],
+     "conf": 0.754
+    },
+    {
+     "track_id": 34300,
+     "class": "snowboard",
+     "bbox": [
+      176,
+      109,
+      234,
+      124
+     ],
+     "conf": 0.734
+    },
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      189,
+      47,
+      234,
+      112
+     ],
+     "conf": 0.709
+    },
+    {
+     "track_id": 34297,
+     "class": "adult",
+     "bbox": [
+      223,
+      45,
+      250,
+      79
+     ],
+     "conf": 0.683
+    },
+    {
+     "track_id": 34290,
+     "class": "ski",
+     "bbox": [
+      53,
+      56,
+      97,
+      63
+     ],
+     "conf": 0.398
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      212,
+      56,
+      261,
+      145
+     ],
+     "conf": 0.783
+    },
+    {
+     "track_id": 34281,
+     "class": "snowboard",
+     "bbox": [
+      203,
+      137,
+      276,
+      148
+     ],
+     "conf": 0.757
+    },
+    {
+     "track_id": 34263,
+     "class": "adult",
+     "bbox": [
+      161,
+      21,
+      184,
+      68
+     ],
+     "conf": 0.727
+    },
+    {
+     "track_id": 34322,
+     "class": "adult",
+     "bbox": [
+      133,
+      0,
+      160,
+      15
+     ],
+     "conf": 0.636
+    },
+    {
+     "track_id": 34311,
+     "class": "ski",
+     "bbox": [
+      152,
+      65,
+      192,
+      72
+     ],
+     "conf": 0.433
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 34281,
+     "predicate": "behind",
+     "object": 34262,
+     "confidence": 0.345
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      127,
+      67,
+      189,
+      156
+     ],
+     "conf": 0.802
+    },
+    {
+     "track_id": 34263,
+     "class": "adult",
+     "bbox": [
+      172,
+      0,
+      195,
+      45
+     ],
+     "conf": 0.708
+    },
+    {
+     "track_id": 34332,
+     "class": "ski",
+     "bbox": [
+      162,
+      42,
+      202,
+      48
+     ],
+     "conf": 0.612
+    },
+    {
+     "track_id": 34337,
+     "class": "snowboard",
+     "bbox": [
+      126,
+      146,
+      166,
+      160
+     ],
+     "conf": 0.541
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      115,
+      37,
+      182,
+      145
+     ],
+     "conf": 0.802
+    },
+    {
+     "track_id": 34356,
+     "class": "ski",
+     "bbox": [
+      140,
+      8,
+      179,
+      15
+     ],
+     "conf": 0.382
+    },
+    {
+     "track_id": 34354,
+     "class": "adult",
+     "bbox": [
+      145,
+      0,
+      172,
+      12
+     ],
+     "conf": 0.307
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      147,
+      75,
+      212,
+      188
+     ],
+     "conf": 0.844
+    },
+    {
+     "track_id": 34406,
+     "class": "adult",
+     "bbox": [
+      107,
+      120,
+      127,
+      155
+     ],
+     "conf": 0.676
+    },
+    {
+     "track_id": 34409,
+     "class": "adult",
+     "bbox": [
+      99,
+      140,
+      147,
+      177
+     ],
+     "conf": 0.532
+    },
+    {
+     "track_id": 34403,
+     "class": "snowboard",
+     "bbox": [
+      140,
+      171,
+      208,
+      194
+     ],
+     "conf": 0.442
+    },
+    {
+     "track_id": 34413,
+     "class": "ski",
+     "bbox": [
+      125,
+      177,
+      201,
+      192
+     ],
+     "conf": 0.368
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 34427,
+     "class": "adult",
+     "bbox": [
+      248,
+      125,
+      290,
+      157
+     ],
+     "conf": 0.739
+    },
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      149,
+      77,
+      195,
+      148
+     ],
+     "conf": 0.717
+    },
+    {
+     "track_id": 34428,
+     "class": "adult",
+     "bbox": [
+      254,
+      106,
+      275,
+      136
+     ],
+     "conf": 0.706
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 390,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      189,
+      107,
+      219,
+      151
+     ],
+     "conf": 0.806
+    },
+    {
+     "track_id": 34428,
+     "class": "adult",
+     "bbox": [
+      246,
+      115,
+      268,
+      140
+     ],
+     "conf": 0.708
+    },
+    {
+     "track_id": 34427,
+     "class": "adult",
+     "bbox": [
+      237,
+      133,
+      286,
+      164
+     ],
+     "conf": 0.625
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 420,
+   "objects": [
+    {
+     "track_id": 34427,
+     "class": "adult",
+     "bbox": [
+      202,
+      121,
+      252,
+      154
+     ],
+     "conf": 0.797
+    },
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      154,
+      111,
+      187,
+      144
+     ],
+     "conf": 0.714
+    },
+    {
+     "track_id": 34428,
+     "class": "adult",
+     "bbox": [
+      214,
+      103,
+      237,
+      129
+     ],
+     "conf": 0.589
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 450,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      129,
+      103,
+      166,
+      136
+     ],
+     "conf": 0.807
+    },
+    {
+     "track_id": 34428,
+     "class": "adult",
+     "bbox": [
+      189,
+      94,
+      211,
+      124
+     ],
+     "conf": 0.693
+    },
+    {
+     "track_id": 34427,
+     "class": "adult",
+     "bbox": [
+      179,
+      113,
+      227,
+      144
+     ],
+     "conf": 0.691
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  }
+ ]
+}

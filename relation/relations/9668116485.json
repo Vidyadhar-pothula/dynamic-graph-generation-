@@ -1,0 +1,1753 @@
+{
+ "video_id": "9668116485",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      329,
+      140,
+      453,
+      240
+     ],
+     "conf": 0.85
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      246,
+      203,
+      302,
+      262
+     ],
+     "conf": 0.822
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      181,
+      199,
+      635,
+      277
+     ],
+     "conf": 0.687
+    },
+    {
+     "track_id": 49668,
+     "class": "surfboard",
+     "bbox": [
+      450,
+      375,
+      635,
+      480
+     ],
+     "conf": 0.374
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.668
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.569
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.493
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49664,
+     "confidence": 0.416
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49665,
+     "confidence": 0.359
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      177,
+      223,
+      639,
+      306
+     ],
+     "conf": 0.803
+    },
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      332,
+      162,
+      461,
+      265
+     ],
+     "conf": 0.787
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      251,
+      230,
+      308,
+      290
+     ],
+     "conf": 0.765
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.662
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.557
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49665,
+     "confidence": 0.52
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.491
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49664,
+     "confidence": 0.465
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      294,
+      141,
+      423,
+      243
+     ],
+     "conf": 0.87
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      213,
+      209,
+      271,
+      270
+     ],
+     "conf": 0.815
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      139,
+      203,
+      596,
+      284
+     ],
+     "conf": 0.703
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.688
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.615
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49664,
+     "confidence": 0.361
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.509
+    }
+   ]
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      225,
+      232,
+      283,
+      293
+     ],
+     "conf": 0.848
+    },
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      306,
+      167,
+      435,
+      268
+     ],
+     "conf": 0.843
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      142,
+      226,
+      618,
+      310
+     ],
+     "conf": 0.758
+    },
+    {
+     "track_id": 49671,
+     "class": "surfboard",
+     "bbox": [
+      379,
+      387,
+      574,
+      480
+     ],
+     "conf": 0.253
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.649
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.572
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49665,
+     "confidence": 0.53
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.446
+    },
+    {
+     "subject": 49671,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.419
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49664,
+     "confidence": 0.379
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.59
+    }
+   ]
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      308,
+      163,
+      434,
+      264
+     ],
+     "conf": 0.84
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      155,
+      223,
+      610,
+      305
+     ],
+     "conf": 0.837
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      226,
+      229,
+      286,
+      290
+     ],
+     "conf": 0.812
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.694
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.59
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.332
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.663
+    }
+   ]
+  },
+  {
+   "frame_id": 180,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      317,
+      174,
+      441,
+      272
+     ],
+     "conf": 0.823
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      232,
+      237,
+      292,
+      298
+     ],
+     "conf": 0.768
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      152,
+      230,
+      609,
+      313
+     ],
+     "conf": 0.732
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.652
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.554
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.376
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.652
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49664,
+     "confidence": 0.347
+    }
+   ]
+  },
+  {
+   "frame_id": 210,
+   "objects": [
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      243,
+      234,
+      299,
+      292
+     ],
+     "conf": 0.817
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      170,
+      226,
+      610,
+      306
+     ],
+     "conf": 0.801
+    },
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      321,
+      170,
+      448,
+      268
+     ],
+     "conf": 0.789
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.604
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.583
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49665,
+     "confidence": 0.451
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49664,
+     "confidence": 0.405
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.676
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49665,
+     "confidence": 0.372
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49664,
+     "confidence": 0.35
+    }
+   ]
+  },
+  {
+   "frame_id": 240,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      328,
+      172,
+      455,
+      269
+     ],
+     "conf": 0.808
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      247,
+      236,
+      306,
+      295
+     ],
+     "conf": 0.797
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      169,
+      226,
+      624,
+      308
+     ],
+     "conf": 0.755
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.64
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.604
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49664,
+     "confidence": 0.509
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.665
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.376
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49664,
+     "confidence": 0.347
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49665,
+     "confidence": 0.335
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.312
+    }
+   ]
+  },
+  {
+   "frame_id": 270,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      309,
+      177,
+      433,
+      274
+     ],
+     "conf": 0.845
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      228,
+      242,
+      288,
+      301
+     ],
+     "conf": 0.841
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      143,
+      232,
+      596,
+      317
+     ],
+     "conf": 0.743
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.565
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.491
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.466
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.679
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.328
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49664,
+     "confidence": 0.317
+    }
+   ]
+  },
+  {
+   "frame_id": 300,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      274,
+      174,
+      393,
+      274
+     ],
+     "conf": 0.876
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      197,
+      242,
+      256,
+      300
+     ],
+     "conf": 0.827
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      112,
+      236,
+      551,
+      321
+     ],
+     "conf": 0.805
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.702
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.587
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49664,
+     "confidence": 0.452
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.738
+    },
+    {
+     "subject": 49665,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.348
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.343
+    }
+   ]
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      274,
+      181,
+      391,
+      282
+     ],
+     "conf": 0.855
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      196,
+      248,
+      255,
+      308
+     ],
+     "conf": 0.836
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      115,
+      248,
+      541,
+      325
+     ],
+     "conf": 0.8
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.725
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.568
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49664,
+     "confidence": 0.344
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.728
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.377
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.374
+    },
+    {
+     "subject": 49665,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.358
+    }
+   ]
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      268,
+      184,
+      381,
+      279
+     ],
+     "conf": 0.84
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      191,
+      246,
+      250,
+      305
+     ],
+     "conf": 0.834
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      106,
+      244,
+      533,
+      320
+     ],
+     "conf": 0.787
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.75
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.547
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.445
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49665,
+     "confidence": 0.421
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.382
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.734
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.4
+    },
+    {
+     "subject": 49665,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.379
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.378
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49665,
+     "confidence": 0.352
+    }
+   ]
+  },
+  {
+   "frame_id": 390,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      270,
+      177,
+      382,
+      273
+     ],
+     "conf": 0.853
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      196,
+      239,
+      257,
+      298
+     ],
+     "conf": 0.826
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      104,
+      233,
+      536,
+      312
+     ],
+     "conf": 0.716
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.766
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.677
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.376
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.753
+    },
+    {
+     "subject": 49665,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.445
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.408
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49665,
+     "confidence": 0.365
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.333
+    }
+   ]
+  },
+  {
+   "frame_id": 420,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      262,
+      185,
+      368,
+      280
+     ],
+     "conf": 0.845
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      190,
+      247,
+      250,
+      306
+     ],
+     "conf": 0.814
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      112,
+      246,
+      507,
+      320
+     ],
+     "conf": 0.804
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.647
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.452
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.405
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.776
+    },
+    {
+     "subject": 49665,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.451
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.415
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49665,
+     "confidence": 0.364
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.363
+    }
+   ]
+  },
+  {
+   "frame_id": 450,
+   "objects": [
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      121,
+      252,
+      527,
+      329
+     ],
+     "conf": 0.852
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      207,
+      257,
+      266,
+      314
+     ],
+     "conf": 0.828
+    },
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      275,
+      195,
+      380,
+      287
+     ],
+     "conf": 0.827
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.544
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.495
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.463
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49665,
+     "confidence": 0.389
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.786
+    },
+    {
+     "subject": 49665,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.492
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.403
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49665,
+     "confidence": 0.397
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.381
+    }
+   ]
+  },
+  {
+   "frame_id": 480,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      258,
+      208,
+      363,
+      300
+     ],
+     "conf": 0.857
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      103,
+      262,
+      513,
+      339
+     ],
+     "conf": 0.778
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      191,
+      271,
+      252,
+      328
+     ],
+     "conf": 0.747
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.52
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.478
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.416
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.404
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.776
+    },
+    {
+     "subject": 49665,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.466
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49665,
+     "confidence": 0.428
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.395
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.384
+    }
+   ]
+  },
+  {
+   "frame_id": 510,
+   "objects": [
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      206,
+      274,
+      266,
+      330
+     ],
+     "conf": 0.822
+    },
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      274,
+      213,
+      374,
+      303
+     ],
+     "conf": 0.821
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      116,
+      266,
+      518,
+      343
+     ],
+     "conf": 0.673
+    },
+    {
+     "track_id": 49693,
+     "class": "child",
+     "bbox": [
+      243,
+      266,
+      299,
+      329
+     ],
+     "conf": 0.42
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.662
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.655
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49693,
+     "confidence": 0.541
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49665,
+     "confidence": 0.461
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49664,
+     "confidence": 0.43
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.773
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49665,
+     "confidence": 0.472
+    },
+    {
+     "subject": 49665,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.409
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.39
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.383
+    }
+   ]
+  },
+  {
+   "frame_id": 540,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      271,
+      207,
+      370,
+      300
+     ],
+     "conf": 0.877
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      205,
+      272,
+      263,
+      327
+     ],
+     "conf": 0.821
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      119,
+      264,
+      509,
+      340
+     ],
+     "conf": 0.746
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.584
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.569
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49664,
+     "confidence": 0.474
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.76
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49665,
+     "confidence": 0.49
+    },
+    {
+     "subject": 49665,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.397
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.389
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.374
+    }
+   ]
+  },
+  {
+   "frame_id": 570,
+   "objects": [
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      268,
+      206,
+      366,
+      297
+     ],
+     "conf": 0.845
+    },
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      116,
+      261,
+      502,
+      337
+     ],
+     "conf": 0.81
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      202,
+      269,
+      260,
+      322
+     ],
+     "conf": 0.728
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.533
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49665,
+     "confidence": 0.493
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49664,
+     "confidence": 0.41
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.404
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.393
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.747
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49665,
+     "confidence": 0.538
+    },
+    {
+     "subject": 49665,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.368
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.341
+    }
+   ]
+  },
+  {
+   "frame_id": 600,
+   "objects": [
+    {
+     "track_id": 49625,
+     "class": "watercraft",
+     "bbox": [
+      122,
+      254,
+      505,
+      332
+     ],
+     "conf": 0.83
+    },
+    {
+     "track_id": 49664,
+     "class": "adult",
+     "bbox": [
+      273,
+      201,
+      372,
+      291
+     ],
+     "conf": 0.828
+    },
+    {
+     "track_id": 49665,
+     "class": "child",
+     "bbox": [
+      210,
+      262,
+      269,
+      316
+     ],
+     "conf": 0.65
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.643
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49665,
+     "confidence": 0.519
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.455
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.45
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49664,
+     "confidence": 0.421
+    },
+    {
+     "subject": 49625,
+     "predicate": "beneath",
+     "object": 49665,
+     "confidence": 0.312
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.765
+    },
+    {
+     "subject": 49625,
+     "predicate": "in_front_of",
+     "object": 49665,
+     "confidence": 0.566
+    },
+    {
+     "subject": 49665,
+     "predicate": "in_front_of",
+     "object": 49664,
+     "confidence": 0.377
+    },
+    {
+     "subject": 49665,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.345
+    },
+    {
+     "subject": 49664,
+     "predicate": "next_to",
+     "object": 49625,
+     "confidence": 0.309
+    }
+   ]
+  }
+ ]
+}

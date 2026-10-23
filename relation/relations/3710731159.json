@@ -1,0 +1,904 @@
+{
+ "video_id": "3710731159",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      89,
+      85,
+      458,
+      359
+     ],
+     "conf": 0.86
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      3,
+      91,
+      303,
+      359
+     ],
+     "conf": 0.416
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.33
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      108,
+      84,
+      479,
+      360
+     ],
+     "conf": 0.9
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      10,
+      86,
+      308,
+      360
+     ],
+     "conf": 0.824
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      100,
+      83,
+      473,
+      359
+     ],
+     "conf": 0.866
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      89,
+      283,
+      359
+     ],
+     "conf": 0.688
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      107,
+      87,
+      477,
+      359
+     ],
+     "conf": 0.93
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      10,
+      92,
+      301,
+      359
+     ],
+     "conf": 0.687
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.429
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.341
+    }
+   ]
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      98,
+      88,
+      473,
+      359
+     ],
+     "conf": 0.88
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      4,
+      93,
+      305,
+      359
+     ],
+     "conf": 0.785
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.469
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.375
+    }
+   ]
+  },
+  {
+   "frame_id": 180,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      97,
+      77,
+      478,
+      359
+     ],
+     "conf": 0.888
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      79,
+      296,
+      359
+     ],
+     "conf": 0.846
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.484
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.421
+    }
+   ]
+  },
+  {
+   "frame_id": 210,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      114,
+      74,
+      480,
+      360
+     ],
+     "conf": 0.872
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      74,
+      278,
+      359
+     ],
+     "conf": 0.795
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.543
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.477
+    }
+   ]
+  },
+  {
+   "frame_id": 240,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      111,
+      82,
+      463,
+      359
+     ],
+     "conf": 0.854
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      80,
+      282,
+      359
+     ],
+     "conf": 0.737
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.582
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.446
+    }
+   ]
+  },
+  {
+   "frame_id": 270,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      104,
+      79,
+      480,
+      359
+     ],
+     "conf": 0.863
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      82,
+      296,
+      360
+     ],
+     "conf": 0.795
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.618
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.378
+    }
+   ]
+  },
+  {
+   "frame_id": 300,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      124,
+      87,
+      478,
+      358
+     ],
+     "conf": 0.891
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      12,
+      91,
+      309,
+      360
+     ],
+     "conf": 0.809
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.312
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.596
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.39
+    }
+   ]
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      104,
+      80,
+      480,
+      358
+     ],
+     "conf": 0.891
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      81,
+      302,
+      360
+     ],
+     "conf": 0.844
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.338
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.591
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.44
+    }
+   ]
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      95,
+      78,
+      477,
+      359
+     ],
+     "conf": 0.862
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      84,
+      296,
+      359
+     ],
+     "conf": 0.673
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.377
+    },
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.352
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.583
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.431
+    }
+   ]
+  },
+  {
+   "frame_id": 390,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      105,
+      86,
+      480,
+      358
+     ],
+     "conf": 0.844
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      15,
+      89,
+      314,
+      358
+     ],
+     "conf": 0.702
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.318
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.608
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.39
+    }
+   ]
+  },
+  {
+   "frame_id": 420,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      100,
+      89,
+      480,
+      356
+     ],
+     "conf": 0.846
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      22,
+      92,
+      323,
+      356
+     ],
+     "conf": 0.796
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.372
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.584
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.398
+    }
+   ]
+  },
+  {
+   "frame_id": 450,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      108,
+      88,
+      480,
+      358
+     ],
+     "conf": 0.875
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      14,
+      92,
+      301,
+      360
+     ],
+     "conf": 0.819
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.573
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.431
+    }
+   ]
+  },
+  {
+   "frame_id": 480,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      115,
+      89,
+      479,
+      356
+     ],
+     "conf": 0.843
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      6,
+      91,
+      294,
+      359
+     ],
+     "conf": 0.831
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.401
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.55
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.405
+    }
+   ]
+  },
+  {
+   "frame_id": 510,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      108,
+      91,
+      477,
+      358
+     ],
+     "conf": 0.921
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      10,
+      91,
+      298,
+      359
+     ],
+     "conf": 0.824
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.578
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.408
+    }
+   ]
+  },
+  {
+   "frame_id": 540,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      116,
+      101,
+      474,
+      358
+     ],
+     "conf": 0.879
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      8,
+      96,
+      296,
+      359
+     ],
+     "conf": 0.796
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.544
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.448
+    }
+   ]
+  },
+  {
+   "frame_id": 570,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      86,
+      88,
+      473,
+      359
+     ],
+     "conf": 0.883
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      2,
+      91,
+      289,
+      360
+     ],
+     "conf": 0.78
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.469
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.423
+    }
+   ]
+  },
+  {
+   "frame_id": 600,
+   "objects": [
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      8,
+      96,
+      305,
+      359
+     ],
+     "conf": 0.883
+    },
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      99,
+      96,
+      479,
+      359
+     ],
+     "conf": 0.853
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.469
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.41
+    }
+   ]
+  },
+  {
+   "frame_id": 630,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      111,
+      84,
+      477,
+      359
+     ],
+     "conf": 0.836
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      18,
+      90,
+      331,
+      359
+     ],
+     "conf": 0.788
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "in_front_of",
+     "object": 45110,
+     "confidence": 0.475
+    },
+    {
+     "subject": 45110,
+     "predicate": "in_front_of",
+     "object": 45409,
+     "confidence": 0.395
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "video_id": "6416670847",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 450,
+   "objects": [
+    {
+     "track_id": 57990,
+     "class": "adult",
+     "bbox": [
+      287,
+      566,
+      338,
+      631
+     ],
+     "conf": 0.571
+    },
+    {
+     "track_id": 57991,
+     "class": "adult",
+     "bbox": [
+      316,
+      573,
+      348,
+      629
+     ],
+     "conf": 0.496
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 480,
+   "objects": [
+    {
+     "track_id": 57994,
+     "class": "adult",
+     "bbox": [
+      314,
+      567,
+      359,
+      629
+     ],
+     "conf": 0.759
+    },
+    {
+     "track_id": 57990,
+     "class": "adult",
+     "bbox": [
+      291,
+      560,
+      319,
+      622
+     ],
+     "conf": 0.71
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 57990,
+     "predicate": "in_front_of",
+     "object": 57994,
+     "confidence": 0.301
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 510,
+   "objects": [
+    {
+     "track_id": 57990,
+     "class": "adult",
+     "bbox": [
+      310,
+      567,
+      337,
+      628
+     ],
+     "conf": 0.893
+    },
+    {
+     "track_id": 57994,
+     "class": "adult",
+     "bbox": [
+      338,
+      560,
+      383,
+      638
+     ],
+     "conf": 0.694
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 57994,
+     "predicate": "in_front_of",
+     "object": 57990,
+     "confidence": 0.305
+    },
+    {
+     "subject": 57990,
+     "predicate": "in_front_of",
+     "object": 57994,
+     "confidence": 0.303
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 540,
+   "objects": [
+    {
+     "track_id": 57994,
+     "class": "adult",
+     "bbox": [
+      317,
+      565,
+      360,
+      645
+     ],
+     "conf": 0.731
+    },
+    {
+     "track_id": 57990,
+     "class": "adult",
+     "bbox": [
+      291,
+      563,
+      320,
+      625
+     ],
+     "conf": 0.641
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  }
+ ]
+}
