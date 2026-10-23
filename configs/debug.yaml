@@ -1,0 +1,47 @@
+dataset:
+  root: "./VidOR"
+  debug_limit_train: 5
+  debug_limit_val: 2
+  train_parts:
+    - "training-video-part1.zip"
+  validation:
+    - "validation-video.zip"
+  train_annotations:
+    - "training-annotation.zip"
+  validation_annotations:
+    - "validation-annotation.zip"
+
+frame_sampling:
+  fps: 2
+
+detection:
+  model: "yolov8s.pt"
+  image_size: 640
+  confidence: 0.25
+  iou: 0.50
+  batch_size: 4
+  epochs:
+    smoke_test: 1
+    pilot: 5
+    full: 15
+  learning_rate: 0.01
+  patience: 5
+
+relation:
+  batch_size: 8
+  epochs:
+    smoke_test: 1
+    pilot: 5
+    full: 15
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  patience: 5
+
+temporal:
+  batch_size: 4
+  epochs:
+    smoke_test: 1
+    pilot: 5
+    full: 15
+  learning_rate: 0.0001
+  patience: 5
