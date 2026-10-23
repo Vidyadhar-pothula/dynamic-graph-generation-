@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+*.log
+*.aux
+*.nav
+*.snm
+*.toc
+*.out
+# raw data is not part of the repository (VidOR is distributed separately under its own terms)
+data/
+VidOR/
