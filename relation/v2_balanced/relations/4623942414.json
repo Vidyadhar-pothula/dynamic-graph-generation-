@@ -1,0 +1,136 @@
+{
+ "video_id": "4623942414",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 24,
+   "objects": [
+    {
+     "track_id": 26789,
+     "class": "adult",
+     "bbox": [
+      0,
+      0,
+      326,
+      359
+     ],
+     "conf": 0.866
+    },
+    {
+     "track_id": 26790,
+     "class": "adult",
+     "bbox": [
+      229,
+      213,
+      405,
+      358
+     ],
+     "conf": 0.526
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 48,
+   "objects": [
+    {
+     "track_id": 26789,
+     "class": "adult",
+     "bbox": [
+      0,
+      0,
+      284,
+      358
+     ],
+     "conf": 0.758
+    },
+    {
+     "track_id": 26790,
+     "class": "adult",
+     "bbox": [
+      233,
+      229,
+      395,
+      357
+     ],
+     "conf": 0.391
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 72,
+   "objects": [
+    {
+     "track_id": 26790,
+     "class": "adult",
+     "bbox": [
+      224,
+      239,
+      405,
+      358
+     ],
+     "conf": 0.671
+    },
+    {
+     "track_id": 26789,
+     "class": "adult",
+     "bbox": [
+      0,
+      0,
+      279,
+      359
+     ],
+     "conf": 0.664
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 26790,
+     "predicate": "behind",
+     "object": 26789,
+     "confidence": 0.404
+    }
+   ]
+  },
+  {
+   "frame_id": 96,
+   "objects": [
+    {
+     "track_id": 26789,
+     "class": "adult",
+     "bbox": [
+      0,
+      0,
+      281,
+      359
+     ],
+     "conf": 0.861
+    },
+    {
+     "track_id": 26790,
+     "class": "adult",
+     "bbox": [
+      208,
+      202,
+      386,
+      358
+     ],
+     "conf": 0.828
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 26790,
+     "predicate": "behind",
+     "object": 26789,
+     "confidence": 0.451
+    }
+   ]
+  }
+ ]
+}

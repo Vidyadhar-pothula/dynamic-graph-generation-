@@ -1,0 +1,2525 @@
+{
+ "video_id": "3348930430",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 24,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      270,
+      135,
+      407,
+      323
+     ],
+     "conf": 0.811
+    },
+    {
+     "track_id": 44223,
+     "class": "adult",
+     "bbox": [
+      498,
+      232,
+      640,
+      479
+     ],
+     "conf": 0.8
+    },
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      301,
+      148,
+      359,
+      208
+     ],
+     "conf": 0.552
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.913
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.847
+    },
+    {
+     "subject": 44223,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.618
+    },
+    {
+     "subject": 44223,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.358
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44223,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.386
+    },
+    {
+     "subject": 44224,
+     "predicate": "in_front_of",
+     "object": 44223,
+     "confidence": 0.304
+    }
+   ]
+  },
+  {
+   "frame_id": 48,
+   "objects": [
+    {
+     "track_id": 44223,
+     "class": "adult",
+     "bbox": [
+      516,
+      233,
+      639,
+      480
+     ],
+     "conf": 0.847
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      268,
+      136,
+      387,
+      320
+     ],
+     "conf": 0.819
+    },
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      297,
+      145,
+      357,
+      206
+     ],
+     "conf": 0.72
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.96
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.942
+    },
+    {
+     "subject": 44223,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.465
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44223,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.561
+    },
+    {
+     "subject": 44224,
+     "predicate": "in_front_of",
+     "object": 44223,
+     "confidence": 0.558
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.323
+    }
+   ]
+  },
+  {
+   "frame_id": 72,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      241,
+      109,
+      359,
+      295
+     ],
+     "conf": 0.871
+    },
+    {
+     "track_id": 44223,
+     "class": "adult",
+     "bbox": [
+      474,
+      205,
+      629,
+      480
+     ],
+     "conf": 0.766
+    },
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      264,
+      121,
+      324,
+      182
+     ],
+     "conf": 0.713
+    },
+    {
+     "track_id": 44228,
+     "class": "backpack",
+     "bbox": [
+      516,
+      238,
+      616,
+      351
+     ],
+     "conf": 0.562
+    },
+    {
+     "track_id": 44230,
+     "class": "adult",
+     "bbox": [
+      577,
+      219,
+      632,
+      479
+     ],
+     "conf": 0.557
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44228,
+     "confidence": 0.991
+    },
+    {
+     "subject": 44228,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.955
+    },
+    {
+     "subject": 44223,
+     "predicate": "carry",
+     "object": 44228,
+     "confidence": 0.9
+    },
+    {
+     "subject": 44228,
+     "predicate": "in_front_of",
+     "object": 44230,
+     "confidence": 0.866
+    },
+    {
+     "subject": 44230,
+     "predicate": "carry",
+     "object": 44228,
+     "confidence": 0.861
+    },
+    {
+     "subject": 44228,
+     "predicate": "behind",
+     "object": 44223,
+     "confidence": 0.786
+    },
+    {
+     "subject": 44223,
+     "predicate": "in_front_of",
+     "object": 44230,
+     "confidence": 0.753
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.7
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44223,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.667
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.571
+    },
+    {
+     "subject": 44224,
+     "predicate": "in_front_of",
+     "object": 44230,
+     "confidence": 0.543
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.477
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44223,
+     "confidence": 0.476
+    },
+    {
+     "subject": 44223,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.421
+    },
+    {
+     "subject": 44223,
+     "predicate": "in_front_of",
+     "object": 44230,
+     "confidence": 0.331
+    },
+    {
+     "subject": 44224,
+     "predicate": "in_front_of",
+     "object": 44228,
+     "confidence": 0.29
+    }
+   ]
+  },
+  {
+   "frame_id": 96,
+   "objects": [
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      230,
+      96,
+      293,
+      163
+     ],
+     "conf": 0.794
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      197,
+      84,
+      338,
+      274
+     ],
+     "conf": 0.79
+    },
+    {
+     "track_id": 44223,
+     "class": "adult",
+     "bbox": [
+      441,
+      182,
+      592,
+      480
+     ],
+     "conf": 0.648
+    },
+    {
+     "track_id": 44230,
+     "class": "adult",
+     "bbox": [
+      541,
+      196,
+      630,
+      479
+     ],
+     "conf": 0.6
+    },
+    {
+     "track_id": 44228,
+     "class": "backpack",
+     "bbox": [
+      468,
+      212,
+      584,
+      329
+     ],
+     "conf": 0.422
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44228,
+     "confidence": 0.992
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.99
+    },
+    {
+     "subject": 44228,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.986
+    },
+    {
+     "subject": 44230,
+     "predicate": "carry",
+     "object": 44228,
+     "confidence": 0.985
+    },
+    {
+     "subject": 44230,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.978
+    },
+    {
+     "subject": 44223,
+     "predicate": "carry",
+     "object": 44228,
+     "confidence": 0.97
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.965
+    },
+    {
+     "subject": 44223,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.955
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44224,
+     "predicate": "in_front_of",
+     "object": 44230,
+     "confidence": 0.809
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.731
+    },
+    {
+     "subject": 44223,
+     "predicate": "carry",
+     "object": 44228,
+     "confidence": 0.687
+    },
+    {
+     "subject": 44223,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.675
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44228,
+     "confidence": 0.655
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44223,
+     "confidence": 0.515
+    },
+    {
+     "subject": 44223,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.48
+    },
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44230,
+     "confidence": 0.475
+    }
+   ]
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      264,
+      88,
+      321,
+      153
+     ],
+     "conf": 0.831
+    },
+    {
+     "track_id": 44230,
+     "class": "adult",
+     "bbox": [
+      552,
+      214,
+      640,
+      480
+     ],
+     "conf": 0.757
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      235,
+      94,
+      340,
+      273
+     ],
+     "conf": 0.746
+    },
+    {
+     "track_id": 44223,
+     "class": "adult",
+     "bbox": [
+      471,
+      181,
+      621,
+      479
+     ],
+     "conf": 0.669
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.942
+    },
+    {
+     "subject": 44230,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.89
+    },
+    {
+     "subject": 44224,
+     "predicate": "in_front_of",
+     "object": 44230,
+     "confidence": 0.889
+    },
+    {
+     "subject": 44223,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.884
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.876
+    },
+    {
+     "subject": 44223,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.824
+    },
+    {
+     "subject": 44223,
+     "predicate": "in_front_of",
+     "object": 44230,
+     "confidence": 0.761
+    },
+    {
+     "subject": 44230,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.732
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44224,
+     "predicate": "in_front_of",
+     "object": 44230,
+     "confidence": 0.874
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.783
+    },
+    {
+     "subject": 44223,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.765
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44223,
+     "confidence": 0.712
+    },
+    {
+     "subject": 44230,
+     "predicate": "behind",
+     "object": 44223,
+     "confidence": 0.528
+    },
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.524
+    },
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44230,
+     "confidence": 0.482
+    },
+    {
+     "subject": 44230,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.472
+    }
+   ]
+  },
+  {
+   "frame_id": 144,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      250,
+      69,
+      384,
+      262
+     ],
+     "conf": 0.84
+    },
+    {
+     "track_id": 44223,
+     "class": "adult",
+     "bbox": [
+      476,
+      183,
+      635,
+      479
+     ],
+     "conf": 0.8
+    },
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      278,
+      84,
+      337,
+      147
+     ],
+     "conf": 0.488
+    },
+    {
+     "track_id": 44239,
+     "class": "backpack",
+     "bbox": [
+      543,
+      209,
+      634,
+      316
+     ],
+     "conf": 0.26
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44239,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.952
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44239,
+     "confidence": 0.94
+    },
+    {
+     "subject": 44239,
+     "predicate": "behind",
+     "object": 44223,
+     "confidence": 0.915
+    },
+    {
+     "subject": 44223,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.886
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.883
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.882
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44223,
+     "confidence": 0.652
+    },
+    {
+     "subject": 44223,
+     "predicate": "carry",
+     "object": 44239,
+     "confidence": 0.597
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44223,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.874
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44223,
+     "confidence": 0.847
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.759
+    },
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.592
+    },
+    {
+     "subject": 44223,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.569
+    },
+    {
+     "subject": 44224,
+     "predicate": "in_front_of",
+     "object": 44239,
+     "confidence": 0.447
+    }
+   ]
+  },
+  {
+   "frame_id": 168,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      272,
+      58,
+      408,
+      263
+     ],
+     "conf": 0.84
+    },
+    {
+     "track_id": 44223,
+     "class": "adult",
+     "bbox": [
+      516,
+      159,
+      640,
+      479
+     ],
+     "conf": 0.826
+    },
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      307,
+      78,
+      371,
+      148
+     ],
+     "conf": 0.798
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.983
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.951
+    },
+    {
+     "subject": 44223,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.926
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44223,
+     "confidence": 0.614
+    },
+    {
+     "subject": 44224,
+     "predicate": "behind",
+     "object": 44223,
+     "confidence": 0.424
+    },
+    {
+     "subject": 44223,
+     "predicate": "next_to",
+     "object": 44224,
+     "confidence": 0.284
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44223,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.878
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44223,
+     "confidence": 0.826
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.759
+    },
+    {
+     "subject": 44223,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.663
+    },
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.615
+    },
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44223,
+     "confidence": 0.538
+    }
+   ]
+  },
+  {
+   "frame_id": 192,
+   "objects": [
+    {
+     "track_id": 44245,
+     "class": "adult",
+     "bbox": [
+      584,
+      152,
+      630,
+      479
+     ],
+     "conf": 0.672
+    },
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      352,
+      86,
+      418,
+      164
+     ],
+     "conf": 0.644
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      292,
+      50,
+      412,
+      277
+     ],
+     "conf": 0.643
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.946
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.655
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.85
+    },
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.83
+    },
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44245,
+     "confidence": 0.441
+    }
+   ]
+  },
+  {
+   "frame_id": 216,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      302,
+      57,
+      415,
+      276
+     ],
+     "conf": 0.73
+    },
+    {
+     "track_id": 44245,
+     "class": "adult",
+     "bbox": [
+      585,
+      172,
+      640,
+      479
+     ],
+     "conf": 0.535
+    },
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      350,
+      67,
+      424,
+      156
+     ],
+     "conf": 0.379
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.873
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.826
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.935
+    },
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.921
+    },
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44245,
+     "confidence": 0.614
+    }
+   ]
+  },
+  {
+   "frame_id": 240,
+   "objects": [
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      355,
+      94,
+      425,
+      163
+     ],
+     "conf": 0.843
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      302,
+      78,
+      424,
+      285
+     ],
+     "conf": 0.8
+    },
+    {
+     "track_id": 44248,
+     "class": "adult",
+     "bbox": [
+      605,
+      196,
+      635,
+      480
+     ],
+     "conf": 0.634
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.949
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.945
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.954
+    },
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.941
+    }
+   ]
+  },
+  {
+   "frame_id": 264,
+   "objects": [
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      416,
+      75,
+      482,
+      151
+     ],
+     "conf": 0.828
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      360,
+      59,
+      473,
+      271
+     ],
+     "conf": 0.74
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.908
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.787
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.934
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.927
+    }
+   ]
+  },
+  {
+   "frame_id": 288,
+   "objects": [
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      470,
+      119,
+      532,
+      200
+     ],
+     "conf": 0.801
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      417,
+      75,
+      520,
+      320
+     ],
+     "conf": 0.662
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.985
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.693
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.965
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.934
+    }
+   ]
+  },
+  {
+   "frame_id": 312,
+   "objects": [
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      364,
+      127,
+      425,
+      205
+     ],
+     "conf": 0.768
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      309,
+      93,
+      422,
+      324
+     ],
+     "conf": 0.714
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.923
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.645
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.975
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.909
+    }
+   ]
+  },
+  {
+   "frame_id": 336,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      344,
+      144,
+      447,
+      333
+     ],
+     "conf": 0.42
+    },
+    {
+     "track_id": 44254,
+     "class": "backpack",
+     "bbox": [
+      339,
+      143,
+      437,
+      207
+     ],
+     "conf": 0.327
+    },
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      395,
+      149,
+      448,
+      208
+     ],
+     "conf": 0.311
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44254,
+     "confidence": 0.989
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.986
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.888
+    },
+    {
+     "subject": 44254,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.886
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.977
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.915
+    }
+   ]
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      402,
+      148,
+      466,
+      217
+     ],
+     "conf": 0.816
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      317,
+      117,
+      449,
+      328
+     ],
+     "conf": 0.732
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.933
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.924
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.978
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.89
+    }
+   ]
+  },
+  {
+   "frame_id": 384,
+   "objects": [
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      402,
+      142,
+      446,
+      214
+     ],
+     "conf": 0.86
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      311,
+      102,
+      423,
+      326
+     ],
+     "conf": 0.717
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.945
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.69
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.979
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.898
+    }
+   ]
+  },
+  {
+   "frame_id": 408,
+   "objects": [
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      421,
+      137,
+      468,
+      212
+     ],
+     "conf": 0.855
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      330,
+      101,
+      443,
+      324
+     ],
+     "conf": 0.791
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.994
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.982
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.962
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.924
+    }
+   ]
+  },
+  {
+   "frame_id": 432,
+   "objects": [
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      423,
+      132,
+      479,
+      210
+     ],
+     "conf": 0.827
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      359,
+      91,
+      470,
+      322
+     ],
+     "conf": 0.728
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.969
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.967
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.921
+    },
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.916
+    }
+   ]
+  },
+  {
+   "frame_id": 456,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      327,
+      122,
+      442,
+      323
+     ],
+     "conf": 0.716
+    },
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      410,
+      136,
+      459,
+      197
+     ],
+     "conf": 0.677
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.928
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.89
+    }
+   ]
+  },
+  {
+   "frame_id": 480,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      296,
+      99,
+      437,
+      303
+     ],
+     "conf": 0.857
+    },
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      363,
+      100,
+      433,
+      157
+     ],
+     "conf": 0.802
+    },
+    {
+     "track_id": 44258,
+     "class": "adult",
+     "bbox": [
+      582,
+      188,
+      634,
+      478
+     ],
+     "conf": 0.6
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.949
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.818
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.965
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.594
+    }
+   ]
+  },
+  {
+   "frame_id": 504,
+   "objects": [
+    {
+     "track_id": 44225,
+     "class": "backpack",
+     "bbox": [
+      379,
+      132,
+      448,
+      185
+     ],
+     "conf": 0.801
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      313,
+      130,
+      453,
+      333
+     ],
+     "conf": 0.789
+    },
+    {
+     "track_id": 44258,
+     "class": "adult",
+     "bbox": [
+      597,
+      218,
+      640,
+      477
+     ],
+     "conf": 0.414
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44225,
+     "confidence": 0.989
+    },
+    {
+     "subject": 44225,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.965
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44225,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.947
+    },
+    {
+     "subject": 44224,
+     "predicate": "in_front_of",
+     "object": 44225,
+     "confidence": 0.599
+    }
+   ]
+  },
+  {
+   "frame_id": 528,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      307,
+      119,
+      475,
+      327
+     ],
+     "conf": 0.732
+    },
+    {
+     "track_id": 44262,
+     "class": "backpack",
+     "bbox": [
+      319,
+      121,
+      461,
+      185
+     ],
+     "conf": 0.522
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44262,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.857
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44262,
+     "confidence": 0.821
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44224,
+     "predicate": "in_front_of",
+     "object": 44262,
+     "confidence": 0.523
+    }
+   ]
+  },
+  {
+   "frame_id": 600,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      295,
+      86,
+      449,
+      275
+     ],
+     "conf": 0.74
+    },
+    {
+     "track_id": 44276,
+     "class": "backpack",
+     "bbox": [
+      323,
+      93,
+      417,
+      160
+     ],
+     "conf": 0.333
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44276,
+     "confidence": 0.971
+    },
+    {
+     "subject": 44276,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.896
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 648,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      326,
+      119,
+      502,
+      335
+     ],
+     "conf": 0.793
+    },
+    {
+     "track_id": 44285,
+     "class": "backpack",
+     "bbox": [
+      365,
+      137,
+      443,
+      202
+     ],
+     "conf": 0.619
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44285,
+     "confidence": 0.978
+    },
+    {
+     "subject": 44285,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.976
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44285,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.354
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44285,
+     "confidence": 0.262
+    }
+   ]
+  },
+  {
+   "frame_id": 672,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      312,
+      120,
+      490,
+      346
+     ],
+     "conf": 0.677
+    },
+    {
+     "track_id": 44285,
+     "class": "backpack",
+     "bbox": [
+      384,
+      141,
+      451,
+      206
+     ],
+     "conf": 0.574
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44285,
+     "confidence": 0.994
+    },
+    {
+     "subject": 44285,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.98
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44285,
+     "confidence": 0.796
+    },
+    {
+     "subject": 44285,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.585
+    }
+   ]
+  },
+  {
+   "frame_id": 864,
+   "objects": [
+    {
+     "track_id": 44318,
+     "class": "backpack",
+     "bbox": [
+      392,
+      67,
+      450,
+      112
+     ],
+     "conf": 0.389
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      383,
+      65,
+      520,
+      242
+     ],
+     "conf": 0.334
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44318,
+     "confidence": 0.683
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 888,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      336,
+      51,
+      474,
+      237
+     ],
+     "conf": 0.604
+    },
+    {
+     "track_id": 44326,
+     "class": "backpack",
+     "bbox": [
+      333,
+      53,
+      477,
+      157
+     ],
+     "conf": 0.33
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44326,
+     "confidence": 0.98
+    },
+    {
+     "subject": 44326,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.588
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44326,
+     "predicate": "in_front_of",
+     "object": 44224,
+     "confidence": 0.395
+    }
+   ]
+  },
+  {
+   "frame_id": 936,
+   "objects": [
+    {
+     "track_id": 44331,
+     "class": "backpack",
+     "bbox": [
+      416,
+      108,
+      469,
+      162
+     ],
+     "conf": 0.761
+    },
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      346,
+      103,
+      478,
+      292
+     ],
+     "conf": 0.735
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44331,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.544
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 984,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      342,
+      118,
+      443,
+      311
+     ],
+     "conf": 0.785
+    },
+    {
+     "track_id": 44333,
+     "class": "backpack",
+     "bbox": [
+      395,
+      139,
+      453,
+      193
+     ],
+     "conf": 0.728
+    },
+    {
+     "track_id": 44336,
+     "class": "ski",
+     "bbox": [
+      334,
+      267,
+      417,
+      311
+     ],
+     "conf": 0.586
+    },
+    {
+     "track_id": 44337,
+     "class": "backpack",
+     "bbox": [
+      389,
+      125,
+      426,
+      146
+     ],
+     "conf": 0.305
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44333,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.956
+    },
+    {
+     "subject": 44337,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.859
+    },
+    {
+     "subject": 44336,
+     "predicate": "next_to",
+     "object": 44224,
+     "confidence": 0.835
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44333,
+     "confidence": 0.834
+    },
+    {
+     "subject": 44224,
+     "predicate": "next_to",
+     "object": 44336,
+     "confidence": 0.594
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44224,
+     "predicate": "in_front_of",
+     "object": 44333,
+     "confidence": 0.482
+    },
+    {
+     "subject": 44336,
+     "predicate": "in_front_of",
+     "object": 44333,
+     "confidence": 0.413
+    },
+    {
+     "subject": 44336,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.323
+    }
+   ]
+  },
+  {
+   "frame_id": 1008,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      331,
+      126,
+      417,
+      291
+     ],
+     "conf": 0.795
+    },
+    {
+     "track_id": 44333,
+     "class": "backpack",
+     "bbox": [
+      364,
+      128,
+      409,
+      176
+     ],
+     "conf": 0.772
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44333,
+     "confidence": 0.81
+    },
+    {
+     "subject": 44333,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.671
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44224,
+     "predicate": "in_front_of",
+     "object": 44333,
+     "confidence": 0.646
+    }
+   ]
+  },
+  {
+   "frame_id": 1032,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      305,
+      127,
+      402,
+      303
+     ],
+     "conf": 0.777
+    },
+    {
+     "track_id": 44333,
+     "class": "backpack",
+     "bbox": [
+      363,
+      152,
+      406,
+      202
+     ],
+     "conf": 0.659
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44333,
+     "predicate": "behind",
+     "object": 44224,
+     "confidence": 0.903
+    },
+    {
+     "subject": 44224,
+     "predicate": "carry",
+     "object": 44333,
+     "confidence": 0.726
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44224,
+     "predicate": "in_front_of",
+     "object": 44333,
+     "confidence": 0.781
+    }
+   ]
+  },
+  {
+   "frame_id": 1176,
+   "objects": [
+    {
+     "track_id": 44224,
+     "class": "adult",
+     "bbox": [
+      285,
+      118,
+      362,
+      282
+     ],
+     "conf": 0.791
+    },
+    {
+     "track_id": 44371,
+     "class": "backpack",
+     "bbox": [
+      339,
+      127,
+      372,
+      183
+     ],
+     "conf": 0.695
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1608,
+   "objects": [
+    {
+     "track_id": 44403,
+     "class": "adult",
+     "bbox": [
+      157,
+      206,
+      451,
+      413
+     ],
+     "conf": 0.609
+    },
+    {
+     "track_id": 44421,
+     "class": "adult",
+     "bbox": [
+      331,
+      205,
+      459,
+      310
+     ],
+     "conf": 0.52
+    },
+    {
+     "track_id": 44428,
+     "class": "ski",
+     "bbox": [
+      148,
+      347,
+      255,
+      413
+     ],
+     "conf": 0.377
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44403,
+     "predicate": "behind",
+     "object": 44421,
+     "confidence": 0.529
+    },
+    {
+     "subject": 44428,
+     "predicate": "next_to",
+     "object": 44421,
+     "confidence": 0.523
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44403,
+     "predicate": "in_front_of",
+     "object": 44421,
+     "confidence": 0.305
+    },
+    {
+     "subject": 44421,
+     "predicate": "behind",
+     "object": 44403,
+     "confidence": 0.281
+    }
+   ]
+  },
+  {
+   "frame_id": 1632,
+   "objects": [
+    {
+     "track_id": 44403,
+     "class": "adult",
+     "bbox": [
+      151,
+      169,
+      424,
+      371
+     ],
+     "conf": 0.729
+    },
+    {
+     "track_id": 44428,
+     "class": "ski",
+     "bbox": [
+      156,
+      300,
+      264,
+      369
+     ],
+     "conf": 0.582
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 44428,
+     "predicate": "behind",
+     "object": 44403,
+     "confidence": 0.361
+    }
+   ]
+  },
+  {
+   "frame_id": 1656,
+   "objects": [
+    {
+     "track_id": 44403,
+     "class": "adult",
+     "bbox": [
+      200,
+      137,
+      474,
+      375
+     ],
+     "conf": 0.783
+    },
+    {
+     "track_id": 44435,
+     "class": "ski",
+     "bbox": [
+      224,
+      354,
+      313,
+      388
+     ],
+     "conf": 0.48
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1680,
+   "objects": [
+    {
+     "track_id": 44448,
+     "class": "backpack",
+     "bbox": [
+      397,
+      175,
+      449,
+      246
+     ],
+     "conf": 0.812
+    },
+    {
+     "track_id": 44403,
+     "class": "adult",
+     "bbox": [
+      195,
+      160,
+      466,
+      383
+     ],
+     "conf": 0.807
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44403,
+     "predicate": "carry",
+     "object": 44448,
+     "confidence": 0.702
+    },
+    {
+     "subject": 44448,
+     "predicate": "behind",
+     "object": 44403,
+     "confidence": 0.662
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44403,
+     "predicate": "in_front_of",
+     "object": 44448,
+     "confidence": 0.617
+    }
+   ]
+  },
+  {
+   "frame_id": 1704,
+   "objects": [
+    {
+     "track_id": 44403,
+     "class": "adult",
+     "bbox": [
+      154,
+      197,
+      436,
+      447
+     ],
+     "conf": 0.752
+    },
+    {
+     "track_id": 44450,
+     "class": "backpack",
+     "bbox": [
+      363,
+      216,
+      427,
+      300
+     ],
+     "conf": 0.739
+    },
+    {
+     "track_id": 44428,
+     "class": "ski",
+     "bbox": [
+      159,
+      409,
+      248,
+      454
+     ],
+     "conf": 0.493
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 44403,
+     "predicate": "carry",
+     "object": 44450,
+     "confidence": 0.63
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 44403,
+     "predicate": "in_front_of",
+     "object": 44450,
+     "confidence": 0.495
+    },
+    {
+     "subject": 44403,
+     "predicate": "behind",
+     "object": 44428,
+     "confidence": 0.426
+    },
+    {
+     "subject": 44428,
+     "predicate": "in_front_of",
+     "object": 44403,
+     "confidence": 0.349
+    }
+   ]
+  }
+ ]
+}

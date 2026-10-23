@@ -1,0 +1,1068 @@
+{
+ "video_id": "3710731159",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      89,
+      85,
+      458,
+      359
+     ],
+     "conf": 0.86
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      3,
+      91,
+      303,
+      359
+     ],
+     "conf": 0.416
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.734
+    },
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.542
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      108,
+      84,
+      479,
+      360
+     ],
+     "conf": 0.9
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      10,
+      86,
+      308,
+      360
+     ],
+     "conf": 0.824
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.502
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.452
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.356
+    }
+   ]
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      100,
+      83,
+      473,
+      359
+     ],
+     "conf": 0.866
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      89,
+      283,
+      359
+     ],
+     "conf": 0.688
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.609
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.69
+    },
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.627
+    }
+   ]
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      107,
+      87,
+      477,
+      359
+     ],
+     "conf": 0.93
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      10,
+      92,
+      301,
+      359
+     ],
+     "conf": 0.687
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.702
+    },
+    {
+     "subject": 45110,
+     "predicate": "hold",
+     "object": 45409,
+     "confidence": 0.38
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.719
+    },
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.696
+    }
+   ]
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      98,
+      88,
+      473,
+      359
+     ],
+     "conf": 0.88
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      4,
+      93,
+      305,
+      359
+     ],
+     "conf": 0.785
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.371
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.764
+    },
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.764
+    }
+   ]
+  },
+  {
+   "frame_id": 180,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      97,
+      77,
+      478,
+      359
+     ],
+     "conf": 0.888
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      79,
+      296,
+      359
+     ],
+     "conf": 0.846
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.793
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.759
+    }
+   ]
+  },
+  {
+   "frame_id": 210,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      114,
+      74,
+      480,
+      360
+     ],
+     "conf": 0.872
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      74,
+      278,
+      359
+     ],
+     "conf": 0.795
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.498
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.8
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.698
+    }
+   ]
+  },
+  {
+   "frame_id": 240,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      111,
+      82,
+      463,
+      359
+     ],
+     "conf": 0.854
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      80,
+      282,
+      359
+     ],
+     "conf": 0.737
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.848
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.758
+    }
+   ]
+  },
+  {
+   "frame_id": 270,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      104,
+      79,
+      480,
+      359
+     ],
+     "conf": 0.863
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      82,
+      296,
+      360
+     ],
+     "conf": 0.795
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45110,
+     "predicate": "hold",
+     "object": 45409,
+     "confidence": 0.466
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.869
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.713
+    }
+   ]
+  },
+  {
+   "frame_id": 300,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      124,
+      87,
+      478,
+      358
+     ],
+     "conf": 0.891
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      12,
+      91,
+      309,
+      360
+     ],
+     "conf": 0.809
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.669
+    },
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.441
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.891
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.691
+    }
+   ]
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      104,
+      80,
+      480,
+      358
+     ],
+     "conf": 0.891
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      81,
+      302,
+      360
+     ],
+     "conf": 0.844
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.683
+    },
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.609
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.82
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.605
+    }
+   ]
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      95,
+      78,
+      477,
+      359
+     ],
+     "conf": 0.862
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      0,
+      84,
+      296,
+      359
+     ],
+     "conf": 0.673
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.519
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.881
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.617
+    }
+   ]
+  },
+  {
+   "frame_id": 390,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      105,
+      86,
+      480,
+      358
+     ],
+     "conf": 0.844
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      15,
+      89,
+      314,
+      358
+     ],
+     "conf": 0.702
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.511
+    },
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.474
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.939
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.755
+    }
+   ]
+  },
+  {
+   "frame_id": 420,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      100,
+      89,
+      480,
+      356
+     ],
+     "conf": 0.846
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      22,
+      92,
+      323,
+      356
+     ],
+     "conf": 0.796
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.602
+    },
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.433
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.97
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.812
+    }
+   ]
+  },
+  {
+   "frame_id": 450,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      108,
+      88,
+      480,
+      358
+     ],
+     "conf": 0.875
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      14,
+      92,
+      301,
+      360
+     ],
+     "conf": 0.819
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.516
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.971
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.837
+    }
+   ]
+  },
+  {
+   "frame_id": 480,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      115,
+      89,
+      479,
+      356
+     ],
+     "conf": 0.843
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      6,
+      91,
+      294,
+      359
+     ],
+     "conf": 0.831
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.45
+    },
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.431
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.959
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.735
+    }
+   ]
+  },
+  {
+   "frame_id": 510,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      108,
+      91,
+      477,
+      358
+     ],
+     "conf": 0.921
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      10,
+      91,
+      298,
+      359
+     ],
+     "conf": 0.824
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.415
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.94
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.861
+    }
+   ]
+  },
+  {
+   "frame_id": 540,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      116,
+      101,
+      474,
+      358
+     ],
+     "conf": 0.879
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      8,
+      96,
+      296,
+      359
+     ],
+     "conf": 0.796
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.559
+    },
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.371
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.933
+    },
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.902
+    }
+   ]
+  },
+  {
+   "frame_id": 570,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      86,
+      88,
+      473,
+      359
+     ],
+     "conf": 0.883
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      2,
+      91,
+      289,
+      360
+     ],
+     "conf": 0.78
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.61
+    },
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.51
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.975
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.942
+    }
+   ]
+  },
+  {
+   "frame_id": 600,
+   "objects": [
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      8,
+      96,
+      305,
+      359
+     ],
+     "conf": 0.883
+    },
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      99,
+      96,
+      479,
+      359
+     ],
+     "conf": 0.853
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.592
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.984
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.949
+    }
+   ]
+  },
+  {
+   "frame_id": 630,
+   "objects": [
+    {
+     "track_id": 45110,
+     "class": "horse",
+     "bbox": [
+      111,
+      84,
+      477,
+      359
+     ],
+     "conf": 0.836
+    },
+    {
+     "track_id": 45409,
+     "class": "horse",
+     "bbox": [
+      18,
+      90,
+      331,
+      359
+     ],
+     "conf": 0.788
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 45409,
+     "predicate": "beneath",
+     "object": 45110,
+     "confidence": 0.733
+    },
+    {
+     "subject": 45110,
+     "predicate": "beneath",
+     "object": 45409,
+     "confidence": 0.615
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 45409,
+     "predicate": "watch",
+     "object": 45110,
+     "confidence": 0.987
+    },
+    {
+     "subject": 45110,
+     "predicate": "watch",
+     "object": 45409,
+     "confidence": 0.959
+    }
+   ]
+  }
+ ]
+}

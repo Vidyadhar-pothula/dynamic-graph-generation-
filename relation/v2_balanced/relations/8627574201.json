@@ -1,0 +1,4878 @@
+{
+ "video_id": "8627574201",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      0,
+      177,
+      324,
+      357
+     ],
+     "conf": 0.865
+    },
+    {
+     "track_id": 58344,
+     "class": "child",
+     "bbox": [
+      320,
+      11,
+      420,
+      258
+     ],
+     "conf": 0.837
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58344,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.438
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58344,
+     "confidence": 0.386
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58344,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.372
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58344,
+     "confidence": 0.355
+    }
+   ]
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 58344,
+     "class": "child",
+     "bbox": [
+      282,
+      30,
+      364,
+      241
+     ],
+     "conf": 0.843
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      9,
+      174,
+      261,
+      354
+     ],
+     "conf": 0.813
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58344,
+     "confidence": 0.578
+    },
+    {
+     "subject": 58344,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.427
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58344,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.479
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58344,
+     "confidence": 0.381
+    }
+   ]
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 58344,
+     "class": "child",
+     "bbox": [
+      297,
+      39,
+      365,
+      219
+     ],
+     "conf": 0.822
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      96,
+      165,
+      289,
+      319
+     ],
+     "conf": 0.613
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58344,
+     "confidence": 0.481
+    },
+    {
+     "subject": 58344,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.476
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58344,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.53
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58344,
+     "confidence": 0.317
+    }
+   ]
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 58344,
+     "class": "child",
+     "bbox": [
+      305,
+      40,
+      384,
+      211
+     ],
+     "conf": 0.852
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      112,
+      171,
+      345,
+      320
+     ],
+     "conf": 0.409
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58477,
+     "predicate": "towards",
+     "object": 58344,
+     "confidence": 0.456
+    },
+    {
+     "subject": 58344,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.342
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58344,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.503
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58344,
+     "confidence": 0.324
+    }
+   ]
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 58344,
+     "class": "child",
+     "bbox": [
+      310,
+      36,
+      386,
+      209
+     ],
+     "conf": 0.847
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      103,
+      170,
+      307,
+      318
+     ],
+     "conf": 0.476
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58344,
+     "confidence": 0.439
+    },
+    {
+     "subject": 58344,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.361
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58344,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.622
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58344,
+     "confidence": 0.291
+    }
+   ]
+  },
+  {
+   "frame_id": 180,
+   "objects": [
+    {
+     "track_id": 58344,
+     "class": "child",
+     "bbox": [
+      309,
+      39,
+      373,
+      208
+     ],
+     "conf": 0.65
+    },
+    {
+     "track_id": 58477,
+     "class": "cattle/cow",
+     "bbox": [
+      201,
+      150,
+      372,
+      285
+     ],
+     "conf": 0.547
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 58344,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.52
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58344,
+     "confidence": 0.266
+    }
+   ]
+  },
+  {
+   "frame_id": 210,
+   "objects": [
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      278,
+      117,
+      404,
+      259
+     ],
+     "conf": 0.85
+    },
+    {
+     "track_id": 58344,
+     "class": "child",
+     "bbox": [
+      305,
+      37,
+      366,
+      148
+     ],
+     "conf": 0.801
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58344,
+     "confidence": 0.724
+    },
+    {
+     "subject": 58344,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.53
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58344,
+     "confidence": 0.34
+    },
+    {
+     "subject": 58344,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.337
+    }
+   ]
+  },
+  {
+   "frame_id": 240,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      274,
+      36,
+      361,
+      221
+     ],
+     "conf": 0.714
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      269,
+      111,
+      497,
+      270
+     ],
+     "conf": 0.59
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.533
+    },
+    {
+     "subject": 58493,
+     "predicate": "next_to",
+     "object": 58477,
+     "confidence": 0.359
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58477,
+     "predicate": "beneath",
+     "object": 58493,
+     "confidence": 0.269
+    }
+   ]
+  },
+  {
+   "frame_id": 270,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      258,
+      38,
+      333,
+      221
+     ],
+     "conf": 0.846
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      394,
+      143,
+      601,
+      308
+     ],
+     "conf": 0.718
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.708
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.345
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.489
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.324
+    }
+   ]
+  },
+  {
+   "frame_id": 300,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      278,
+      38,
+      362,
+      242
+     ],
+     "conf": 0.804
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      441,
+      123,
+      640,
+      355
+     ],
+     "conf": 0.648
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58493,
+     "predicate": "watch",
+     "object": 58477,
+     "confidence": 0.547
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.526
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.49
+    }
+   ]
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      446,
+      151,
+      639,
+      357
+     ],
+     "conf": 0.808
+    },
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      269,
+      53,
+      363,
+      258
+     ],
+     "conf": 0.766
+    },
+    {
+     "track_id": 58496,
+     "class": "adult",
+     "bbox": [
+      527,
+      1,
+      617,
+      210
+     ],
+     "conf": 0.655
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58496,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.763
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.711
+    },
+    {
+     "subject": 58496,
+     "predicate": "next_to",
+     "object": 58477,
+     "confidence": 0.648
+    },
+    {
+     "subject": 58477,
+     "predicate": "next_to",
+     "object": 58496,
+     "confidence": 0.35
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.319
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.591
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.331
+    }
+   ]
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      173,
+      46,
+      285,
+      306
+     ],
+     "conf": 0.882
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      426,
+      176,
+      614,
+      330
+     ],
+     "conf": 0.846
+    },
+    {
+     "track_id": 58496,
+     "class": "adult",
+     "bbox": [
+      303,
+      1,
+      431,
+      163
+     ],
+     "conf": 0.805
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58496,
+     "predicate": "next_to",
+     "object": 58477,
+     "confidence": 0.834
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58496,
+     "confidence": 0.797
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58496,
+     "confidence": 0.723
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.492
+    },
+    {
+     "subject": 58496,
+     "predicate": "next_to",
+     "object": 58493,
+     "confidence": 0.457
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.345
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.646
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.338
+    }
+   ]
+  },
+  {
+   "frame_id": 390,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      131,
+      45,
+      232,
+      265
+     ],
+     "conf": 0.824
+    },
+    {
+     "track_id": 58502,
+     "class": "dog",
+     "bbox": [
+      339,
+      187,
+      581,
+      357
+     ],
+     "conf": 0.725
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      265,
+      81,
+      430,
+      237
+     ],
+     "conf": 0.614
+    },
+    {
+     "track_id": 58496,
+     "class": "child",
+     "bbox": [
+      98,
+      2,
+      198,
+      145
+     ],
+     "conf": 0.427
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58496,
+     "confidence": 0.626
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58502,
+     "confidence": 0.526
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.522
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.484
+    },
+    {
+     "subject": 58496,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.482
+    },
+    {
+     "subject": 58502,
+     "predicate": "away",
+     "object": 58477,
+     "confidence": 0.449
+    },
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58502,
+     "confidence": 0.383
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58496,
+     "confidence": 0.368
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.755
+    },
+    {
+     "subject": 58502,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.433
+    },
+    {
+     "subject": 58496,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.377
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.283
+    }
+   ]
+  },
+  {
+   "frame_id": 420,
+   "objects": [
+    {
+     "track_id": 58502,
+     "class": "dog",
+     "bbox": [
+      299,
+      179,
+      476,
+      357
+     ],
+     "conf": 0.837
+    },
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      164,
+      48,
+      242,
+      236
+     ],
+     "conf": 0.81
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      259,
+      97,
+      361,
+      201
+     ],
+     "conf": 0.804
+    },
+    {
+     "track_id": 58496,
+     "class": "adult",
+     "bbox": [
+      29,
+      1,
+      146,
+      177
+     ],
+     "conf": 0.681
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58496,
+     "confidence": 0.816
+    },
+    {
+     "subject": 58502,
+     "predicate": "in_front_of",
+     "object": 58496,
+     "confidence": 0.683
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58496,
+     "confidence": 0.603
+    },
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58502,
+     "confidence": 0.551
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58502,
+     "confidence": 0.548
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.522
+    },
+    {
+     "subject": 58496,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.521
+    },
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.458
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.805
+    },
+    {
+     "subject": 58502,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.731
+    },
+    {
+     "subject": 58496,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.684
+    },
+    {
+     "subject": 58502,
+     "predicate": "behind",
+     "object": 58477,
+     "confidence": 0.567
+    },
+    {
+     "subject": 58502,
+     "predicate": "behind",
+     "object": 58496,
+     "confidence": 0.476
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.307
+    },
+    {
+     "subject": 58493,
+     "predicate": "next_to",
+     "object": 58502,
+     "confidence": 0.306
+    }
+   ]
+  },
+  {
+   "frame_id": 450,
+   "objects": [
+    {
+     "track_id": 58496,
+     "class": "adult",
+     "bbox": [
+      0,
+      1,
+      91,
+      143
+     ],
+     "conf": 0.866
+    },
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      125,
+      2,
+      208,
+      163
+     ],
+     "conf": 0.819
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      241,
+      20,
+      352,
+      128
+     ],
+     "conf": 0.773
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58496,
+     "predicate": "next_to",
+     "object": 58477,
+     "confidence": 0.572
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.493
+    },
+    {
+     "subject": 58496,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.439
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.395
+    },
+    {
+     "subject": 58493,
+     "predicate": "behind",
+     "object": 58496,
+     "confidence": 0.325
+    },
+    {
+     "subject": 58477,
+     "predicate": "towards",
+     "object": 58496,
+     "confidence": 0.286
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.757
+    },
+    {
+     "subject": 58496,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.546
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.358
+    }
+   ]
+  },
+  {
+   "frame_id": 480,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      156,
+      10,
+      229,
+      156
+     ],
+     "conf": 0.86
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      267,
+      36,
+      360,
+      130
+     ],
+     "conf": 0.771
+    },
+    {
+     "track_id": 58496,
+     "class": "adult",
+     "bbox": [
+      0,
+      1,
+      73,
+      143
+     ],
+     "conf": 0.47
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58496,
+     "predicate": "next_to",
+     "object": 58477,
+     "confidence": 0.642
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.42
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.398
+    },
+    {
+     "subject": 58477,
+     "predicate": "towards",
+     "object": 58496,
+     "confidence": 0.315
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.534
+    },
+    {
+     "subject": 58496,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.431
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.324
+    }
+   ]
+  },
+  {
+   "frame_id": 510,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      165,
+      34,
+      219,
+      139
+     ],
+     "conf": 0.778
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      251,
+      50,
+      301,
+      128
+     ],
+     "conf": 0.633
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.562
+    },
+    {
+     "subject": 58493,
+     "predicate": "watch",
+     "object": 58477,
+     "confidence": 0.333
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58493,
+     "predicate": "next_to",
+     "object": 58477,
+     "confidence": 0.361
+    },
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.351
+    }
+   ]
+  },
+  {
+   "frame_id": 540,
+   "objects": [
+    {
+     "track_id": 58515,
+     "class": "dog",
+     "bbox": [
+      336,
+      82,
+      377,
+      157
+     ],
+     "conf": 0.759
+    },
+    {
+     "track_id": 58527,
+     "class": "adult",
+     "bbox": [
+      12,
+      2,
+      91,
+      182
+     ],
+     "conf": 0.622
+    },
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      246,
+      63,
+      304,
+      162
+     ],
+     "conf": 0.512
+    },
+    {
+     "track_id": 58477,
+     "class": "dog",
+     "bbox": [
+      283,
+      81,
+      325,
+      152
+     ],
+     "conf": 0.451
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58477,
+     "confidence": 0.663
+    },
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.649
+    },
+    {
+     "subject": 58515,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.598
+    },
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58515,
+     "confidence": 0.595
+    },
+    {
+     "subject": 58527,
+     "predicate": "next_to",
+     "object": 58493,
+     "confidence": 0.557
+    },
+    {
+     "subject": 58477,
+     "predicate": "in_front_of",
+     "object": 58527,
+     "confidence": 0.548
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58527,
+     "confidence": 0.475
+    },
+    {
+     "subject": 58515,
+     "predicate": "behind",
+     "object": 58477,
+     "confidence": 0.425
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58493,
+     "predicate": "behind",
+     "object": 58477,
+     "confidence": 0.504
+    },
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.44
+    },
+    {
+     "subject": 58515,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.366
+    },
+    {
+     "subject": 58515,
+     "predicate": "behind",
+     "object": 58477,
+     "confidence": 0.335
+    },
+    {
+     "subject": 58477,
+     "predicate": "behind",
+     "object": 58515,
+     "confidence": 0.298
+    }
+   ]
+  },
+  {
+   "frame_id": 570,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      342,
+      94,
+      402,
+      216
+     ],
+     "conf": 0.815
+    },
+    {
+     "track_id": 58527,
+     "class": "adult",
+     "bbox": [
+      108,
+      1,
+      201,
+      211
+     ],
+     "conf": 0.653
+    },
+    {
+     "track_id": 58515,
+     "class": "dog",
+     "bbox": [
+      413,
+      84,
+      446,
+      144
+     ],
+     "conf": 0.586
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58527,
+     "predicate": "next_to",
+     "object": 58515,
+     "confidence": 0.736
+    },
+    {
+     "subject": 58515,
+     "predicate": "next_to",
+     "object": 58527,
+     "confidence": 0.592
+    },
+    {
+     "subject": 58527,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.458
+    },
+    {
+     "subject": 58493,
+     "predicate": "next_to",
+     "object": 58527,
+     "confidence": 0.326
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58515,
+     "predicate": "next_to",
+     "object": 58493,
+     "confidence": 0.533
+    },
+    {
+     "subject": 58527,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.413
+    }
+   ]
+  },
+  {
+   "frame_id": 600,
+   "objects": [
+    {
+     "track_id": 58515,
+     "class": "dog",
+     "bbox": [
+      469,
+      84,
+      502,
+      128
+     ],
+     "conf": 0.831
+    },
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      298,
+      108,
+      347,
+      219
+     ],
+     "conf": 0.675
+    },
+    {
+     "track_id": 58527,
+     "class": "adult",
+     "bbox": [
+      104,
+      4,
+      200,
+      227
+     ],
+     "conf": 0.629
+    },
+    {
+     "track_id": 58550,
+     "class": "dog",
+     "bbox": [
+      282,
+      121,
+      317,
+      174
+     ],
+     "conf": 0.597
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58527,
+     "predicate": "next_to",
+     "object": 58493,
+     "confidence": 0.817
+    },
+    {
+     "subject": 58493,
+     "predicate": "next_to",
+     "object": 58527,
+     "confidence": 0.72
+    },
+    {
+     "subject": 58527,
+     "predicate": "next_to",
+     "object": 58550,
+     "confidence": 0.617
+    },
+    {
+     "subject": 58527,
+     "predicate": "next_to",
+     "object": 58515,
+     "confidence": 0.558
+    },
+    {
+     "subject": 58550,
+     "predicate": "next_to",
+     "object": 58527,
+     "confidence": 0.546
+    },
+    {
+     "subject": 58515,
+     "predicate": "next_to",
+     "object": 58527,
+     "confidence": 0.417
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58515,
+     "predicate": "next_to",
+     "object": 58493,
+     "confidence": 0.596
+    },
+    {
+     "subject": 58515,
+     "predicate": "away",
+     "object": 58550,
+     "confidence": 0.428
+    },
+    {
+     "subject": 58527,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.406
+    }
+   ]
+  },
+  {
+   "frame_id": 630,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      262,
+      105,
+      319,
+      233
+     ],
+     "conf": 0.801
+    },
+    {
+     "track_id": 58527,
+     "class": "adult",
+     "bbox": [
+      105,
+      3,
+      200,
+      226
+     ],
+     "conf": 0.41
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58527,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.571
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58527,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "frame_id": 660,
+   "objects": [
+    {
+     "track_id": 58572,
+     "class": "dog",
+     "bbox": [
+      312,
+      88,
+      340,
+      140
+     ],
+     "conf": 0.798
+    },
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      256,
+      69,
+      307,
+      188
+     ],
+     "conf": 0.789
+    },
+    {
+     "track_id": 58527,
+     "class": "adult",
+     "bbox": [
+      119,
+      2,
+      202,
+      184
+     ],
+     "conf": 0.614
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58527,
+     "predicate": "next_to",
+     "object": 58493,
+     "confidence": 0.858
+    },
+    {
+     "subject": 58493,
+     "predicate": "next_to",
+     "object": 58527,
+     "confidence": 0.57
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58572,
+     "confidence": 0.443
+    },
+    {
+     "subject": 58527,
+     "predicate": "next_to",
+     "object": 58572,
+     "confidence": 0.429
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58527,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.412
+    }
+   ]
+  },
+  {
+   "frame_id": 690,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      193,
+      87,
+      240,
+      206
+     ],
+     "conf": 0.838
+    },
+    {
+     "track_id": 58572,
+     "class": "dog",
+     "bbox": [
+      274,
+      109,
+      307,
+      160
+     ],
+     "conf": 0.527
+    },
+    {
+     "track_id": 58582,
+     "class": "dog",
+     "bbox": [
+      433,
+      80,
+      482,
+      119
+     ],
+     "conf": 0.455
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": [
+    {
+     "subject": 58572,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.377
+    }
+   ]
+  },
+  {
+   "frame_id": 720,
+   "objects": [
+    {
+     "track_id": 58572,
+     "class": "dog",
+     "bbox": [
+      236,
+      88,
+      278,
+      144
+     ],
+     "conf": 0.782
+    },
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      128,
+      62,
+      185,
+      184
+     ],
+     "conf": 0.782
+    },
+    {
+     "track_id": 58595,
+     "class": "dog",
+     "bbox": [
+      368,
+      65,
+      418,
+      111
+     ],
+     "conf": 0.411
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58572,
+     "confidence": 0.485
+    },
+    {
+     "subject": 58572,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.391
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58572,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.399
+    }
+   ]
+  },
+  {
+   "frame_id": 750,
+   "objects": [
+    {
+     "track_id": 58572,
+     "class": "dog",
+     "bbox": [
+      358,
+      88,
+      406,
+      147
+     ],
+     "conf": 0.749
+    },
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      246,
+      71,
+      298,
+      176
+     ],
+     "conf": 0.65
+    },
+    {
+     "track_id": 58584,
+     "class": "adult",
+     "bbox": [
+      44,
+      1,
+      147,
+      209
+     ],
+     "conf": 0.452
+    },
+    {
+     "track_id": 58623,
+     "class": "sheep/goat",
+     "bbox": [
+      460,
+      83,
+      514,
+      131
+     ],
+     "conf": 0.421
+    },
+    {
+     "track_id": 58624,
+     "class": "dog",
+     "bbox": [
+      459,
+      83,
+      514,
+      130
+     ],
+     "conf": 0.331
+    },
+    {
+     "track_id": 58620,
+     "class": "bench",
+     "bbox": [
+      26,
+      68,
+      191,
+      167
+     ],
+     "conf": 0.318
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58584,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.822
+    },
+    {
+     "subject": 58620,
+     "predicate": "behind",
+     "object": 58584,
+     "confidence": 0.655
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58584,
+     "confidence": 0.594
+    },
+    {
+     "subject": 58584,
+     "predicate": "in_front_of",
+     "object": 58572,
+     "confidence": 0.499
+    },
+    {
+     "subject": 58584,
+     "predicate": "in_front_of",
+     "object": 58624,
+     "confidence": 0.481
+    },
+    {
+     "subject": 58623,
+     "predicate": "next_to",
+     "object": 58584,
+     "confidence": 0.472
+    },
+    {
+     "subject": 58572,
+     "predicate": "in_front_of",
+     "object": 58584,
+     "confidence": 0.431
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58572,
+     "confidence": 0.367
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58572,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.443
+    }
+   ]
+  },
+  {
+   "frame_id": 780,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      255,
+      71,
+      304,
+      169
+     ],
+     "conf": 0.793
+    },
+    {
+     "track_id": 58638,
+     "class": "bench",
+     "bbox": [
+      326,
+      44,
+      355,
+      73
+     ],
+     "conf": 0.692
+    },
+    {
+     "track_id": 58584,
+     "class": "bench",
+     "bbox": [
+      7,
+      13,
+      116,
+      212
+     ],
+     "conf": 0.312
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58493,
+     "predicate": "away",
+     "object": 58638,
+     "confidence": 0.858
+    },
+    {
+     "subject": 58638,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.847
+    },
+    {
+     "subject": 58493,
+     "predicate": "towards",
+     "object": 58584,
+     "confidence": 0.545
+    },
+    {
+     "subject": 58584,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.328
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58584,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.515
+    }
+   ]
+  },
+  {
+   "frame_id": 810,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      200,
+      107,
+      248,
+      211
+     ],
+     "conf": 0.814
+    },
+    {
+     "track_id": 58646,
+     "class": "bench",
+     "bbox": [
+      270,
+      83,
+      296,
+      111
+     ],
+     "conf": 0.634
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 870,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      208,
+      45,
+      256,
+      171
+     ],
+     "conf": 0.863
+    },
+    {
+     "track_id": 58683,
+     "class": "bench",
+     "bbox": [
+      258,
+      14,
+      292,
+      49
+     ],
+     "conf": 0.807
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58683,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.374
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 900,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      227,
+      52,
+      279,
+      187
+     ],
+     "conf": 0.813
+    },
+    {
+     "track_id": 58687,
+     "class": "adult",
+     "bbox": [
+      19,
+      1,
+      105,
+      190
+     ],
+     "conf": 0.565
+    },
+    {
+     "track_id": 58683,
+     "class": "bench",
+     "bbox": [
+      325,
+      4,
+      362,
+      41
+     ],
+     "conf": 0.497
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58683,
+     "predicate": "behind",
+     "object": 58687,
+     "confidence": 0.992
+    },
+    {
+     "subject": 58683,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.907
+    },
+    {
+     "subject": 58493,
+     "predicate": "away",
+     "object": 58683,
+     "confidence": 0.533
+    },
+    {
+     "subject": 58687,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.529
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58683,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.538
+    }
+   ]
+  },
+  {
+   "frame_id": 930,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      229,
+      58,
+      293,
+      218
+     ],
+     "conf": 0.786
+    },
+    {
+     "track_id": 58687,
+     "class": "adult",
+     "bbox": [
+      57,
+      1,
+      175,
+      177
+     ],
+     "conf": 0.618
+    },
+    {
+     "track_id": 58697,
+     "class": "dog",
+     "bbox": [
+      370,
+      113,
+      471,
+      197
+     ],
+     "conf": 0.586
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58687,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.722
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58697,
+     "confidence": 0.392
+    },
+    {
+     "subject": 58687,
+     "predicate": "in_front_of",
+     "object": 58697,
+     "confidence": 0.369
+    },
+    {
+     "subject": 58697,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.334
+    },
+    {
+     "subject": 58697,
+     "predicate": "watch",
+     "object": 58687,
+     "confidence": 0.331
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58687,
+     "confidence": 0.316
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58687,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.261
+    }
+   ]
+  },
+  {
+   "frame_id": 960,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      222,
+      83,
+      301,
+      275
+     ],
+     "conf": 0.782
+    },
+    {
+     "track_id": 58697,
+     "class": "dog",
+     "bbox": [
+      390,
+      97,
+      457,
+      206
+     ],
+     "conf": 0.734
+    },
+    {
+     "track_id": 58687,
+     "class": "adult",
+     "bbox": [
+      109,
+      1,
+      216,
+      178
+     ],
+     "conf": 0.663
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58687,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.715
+    },
+    {
+     "subject": 58697,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.49
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58687,
+     "confidence": 0.466
+    },
+    {
+     "subject": 58687,
+     "predicate": "next_to",
+     "object": 58697,
+     "confidence": 0.445
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58697,
+     "confidence": 0.353
+    },
+    {
+     "subject": 58697,
+     "predicate": "in_front_of",
+     "object": 58687,
+     "confidence": 0.349
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58687,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.279
+    }
+   ]
+  },
+  {
+   "frame_id": 990,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      285,
+      50,
+      385,
+      264
+     ],
+     "conf": 0.791
+    },
+    {
+     "track_id": 58697,
+     "class": "dog",
+     "bbox": [
+      477,
+      51,
+      550,
+      163
+     ],
+     "conf": 0.779
+    },
+    {
+     "track_id": 58719,
+     "class": "sheep/goat",
+     "bbox": [
+      585,
+      2,
+      637,
+      58
+     ],
+     "conf": 0.571
+    },
+    {
+     "track_id": 58687,
+     "class": "adult",
+     "bbox": [
+      218,
+      0,
+      319,
+      141
+     ],
+     "conf": 0.533
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58719,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.731
+    },
+    {
+     "subject": 58687,
+     "predicate": "next_to",
+     "object": 58697,
+     "confidence": 0.72
+    },
+    {
+     "subject": 58697,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.693
+    },
+    {
+     "subject": 58719,
+     "predicate": "next_to",
+     "object": 58687,
+     "confidence": 0.693
+    },
+    {
+     "subject": 58493,
+     "predicate": "watch",
+     "object": 58697,
+     "confidence": 0.577
+    },
+    {
+     "subject": 58697,
+     "predicate": "next_to",
+     "object": 58687,
+     "confidence": 0.354
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58697,
+     "confidence": 0.452
+    },
+    {
+     "subject": 58687,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.332
+    }
+   ]
+  },
+  {
+   "frame_id": 1020,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      231,
+      76,
+      366,
+      341
+     ],
+     "conf": 0.833
+    },
+    {
+     "track_id": 58724,
+     "class": "sheep/goat",
+     "bbox": [
+      221,
+      4,
+      327,
+      67
+     ],
+     "conf": 0.823
+    },
+    {
+     "track_id": 58697,
+     "class": "dog",
+     "bbox": [
+      427,
+      49,
+      489,
+      158
+     ],
+     "conf": 0.649
+    },
+    {
+     "track_id": 58687,
+     "class": "adult",
+     "bbox": [
+      148,
+      0,
+      247,
+      134
+     ],
+     "conf": 0.646
+    },
+    {
+     "track_id": 58725,
+     "class": "dog",
+     "bbox": [
+      223,
+      1,
+      324,
+      70
+     ],
+     "conf": 0.54
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58724,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.869
+    },
+    {
+     "subject": 58493,
+     "predicate": "away",
+     "object": 58724,
+     "confidence": 0.731
+    },
+    {
+     "subject": 58687,
+     "predicate": "next_to",
+     "object": 58697,
+     "confidence": 0.549
+    },
+    {
+     "subject": 58697,
+     "predicate": "behind",
+     "object": 58725,
+     "confidence": 0.49
+    },
+    {
+     "subject": 58725,
+     "predicate": "behind",
+     "object": 58697,
+     "confidence": 0.462
+    },
+    {
+     "subject": 58697,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.442
+    },
+    {
+     "subject": 58725,
+     "predicate": "towards",
+     "object": 58687,
+     "confidence": 0.433
+    },
+    {
+     "subject": 58493,
+     "predicate": "watch",
+     "object": 58725,
+     "confidence": 0.417
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58724,
+     "predicate": "behind",
+     "object": 58697,
+     "confidence": 0.5
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58697,
+     "confidence": 0.474
+    },
+    {
+     "subject": 58687,
+     "predicate": "in_front_of",
+     "object": 58697,
+     "confidence": 0.455
+    },
+    {
+     "subject": 58687,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.324
+    }
+   ]
+  },
+  {
+   "frame_id": 1050,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      230,
+      39,
+      361,
+      305
+     ],
+     "conf": 0.815
+    },
+    {
+     "track_id": 58687,
+     "class": "adult",
+     "bbox": [
+      35,
+      1,
+      127,
+      136
+     ],
+     "conf": 0.756
+    },
+    {
+     "track_id": 58697,
+     "class": "dog",
+     "bbox": [
+      344,
+      34,
+      390,
+      117
+     ],
+     "conf": 0.646
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58687,
+     "confidence": 0.897
+    },
+    {
+     "subject": 58687,
+     "predicate": "next_to",
+     "object": 58697,
+     "confidence": 0.591
+    },
+    {
+     "subject": 58687,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.516
+    },
+    {
+     "subject": 58697,
+     "predicate": "in_front_of",
+     "object": 58687,
+     "confidence": 0.48
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58697,
+     "confidence": 0.37
+    },
+    {
+     "subject": 58697,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.276
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58697,
+     "confidence": 0.561
+    },
+    {
+     "subject": 58687,
+     "predicate": "in_front_of",
+     "object": 58697,
+     "confidence": 0.489
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58687,
+     "confidence": 0.477
+    },
+    {
+     "subject": 58687,
+     "predicate": "next_to",
+     "object": 58493,
+     "confidence": 0.294
+    }
+   ]
+  },
+  {
+   "frame_id": 1080,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      201,
+      60,
+      305,
+      295
+     ],
+     "conf": 0.834
+    },
+    {
+     "track_id": 58745,
+     "class": "dog",
+     "bbox": [
+      253,
+      0,
+      300,
+      35
+     ],
+     "conf": 0.822
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1170,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      150,
+      61,
+      246,
+      265
+     ],
+     "conf": 0.8
+    },
+    {
+     "track_id": 58787,
+     "class": "dog",
+     "bbox": [
+      226,
+      51,
+      271,
+      96
+     ],
+     "conf": 0.525
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58787,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.366
+    },
+    {
+     "subject": 58493,
+     "predicate": "watch",
+     "object": 58787,
+     "confidence": 0.324
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1200,
+   "objects": [
+    {
+     "track_id": 58801,
+     "class": "bench",
+     "bbox": [
+      67,
+      44,
+      177,
+      129
+     ],
+     "conf": 0.859
+    },
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      113,
+      70,
+      189,
+      235
+     ],
+     "conf": 0.759
+    },
+    {
+     "track_id": 58790,
+     "class": "dog",
+     "bbox": [
+      279,
+      88,
+      356,
+      182
+     ],
+     "conf": 0.419
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58801,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.759
+    },
+    {
+     "subject": 58790,
+     "predicate": "towards",
+     "object": 58801,
+     "confidence": 0.459
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58790,
+     "confidence": 0.451
+    },
+    {
+     "subject": 58790,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.396
+    },
+    {
+     "subject": 58493,
+     "predicate": "towards",
+     "object": 58801,
+     "confidence": 0.368
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1230,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      213,
+      32,
+      295,
+      177
+     ],
+     "conf": 0.855
+    },
+    {
+     "track_id": 58801,
+     "class": "bench",
+     "bbox": [
+      140,
+      2,
+      232,
+      79
+     ],
+     "conf": 0.782
+    },
+    {
+     "track_id": 58790,
+     "class": "dog",
+     "bbox": [
+      299,
+      27,
+      412,
+      138
+     ],
+     "conf": 0.436
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58493,
+     "predicate": "away",
+     "object": 58801,
+     "confidence": 0.676
+    },
+    {
+     "subject": 58801,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.604
+    },
+    {
+     "subject": 58790,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.576
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58790,
+     "confidence": 0.336
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58801,
+     "predicate": "behind",
+     "object": 58790,
+     "confidence": 0.582
+    },
+    {
+     "subject": 58801,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.551
+    },
+    {
+     "subject": 58790,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.515
+    },
+    {
+     "subject": 58493,
+     "predicate": "behind",
+     "object": 58801,
+     "confidence": 0.484
+    }
+   ]
+  },
+  {
+   "frame_id": 1260,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      190,
+      65,
+      346,
+      272
+     ],
+     "conf": 0.847
+    },
+    {
+     "track_id": 58818,
+     "class": "dog",
+     "bbox": [
+      426,
+      43,
+      481,
+      118
+     ],
+     "conf": 0.738
+    },
+    {
+     "track_id": 58801,
+     "class": "bench",
+     "bbox": [
+      153,
+      25,
+      265,
+      116
+     ],
+     "conf": 0.642
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58493,
+     "predicate": "away",
+     "object": 58801,
+     "confidence": 0.597
+    },
+    {
+     "subject": 58801,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.574
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58818,
+     "confidence": 0.475
+    },
+    {
+     "subject": 58818,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.448
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58493,
+     "predicate": "behind",
+     "object": 58801,
+     "confidence": 0.784
+    },
+    {
+     "subject": 58801,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.476
+    }
+   ]
+  },
+  {
+   "frame_id": 1290,
+   "objects": [
+    {
+     "track_id": 58493,
+     "class": "child",
+     "bbox": [
+      204,
+      89,
+      327,
+      357
+     ],
+     "conf": 0.793
+    },
+    {
+     "track_id": 58826,
+     "class": "dog",
+     "bbox": [
+      92,
+      87,
+      205,
+      185
+     ],
+     "conf": 0.793
+    },
+    {
+     "track_id": 58801,
+     "class": "bench",
+     "bbox": [
+      207,
+      31,
+      347,
+      141
+     ],
+     "conf": 0.778
+    },
+    {
+     "track_id": 58818,
+     "class": "dog",
+     "bbox": [
+      525,
+      61,
+      603,
+      140
+     ],
+     "conf": 0.769
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58493,
+     "predicate": "towards",
+     "object": 58801,
+     "confidence": 0.655
+    },
+    {
+     "subject": 58826,
+     "predicate": "in_front_of",
+     "object": 58493,
+     "confidence": 0.613
+    },
+    {
+     "subject": 58493,
+     "predicate": "watch",
+     "object": 58826,
+     "confidence": 0.588
+    },
+    {
+     "subject": 58801,
+     "predicate": "behind",
+     "object": 58818,
+     "confidence": 0.526
+    },
+    {
+     "subject": 58818,
+     "predicate": "towards",
+     "object": 58801,
+     "confidence": 0.509
+    },
+    {
+     "subject": 58801,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.496
+    },
+    {
+     "subject": 58818,
+     "predicate": "away",
+     "object": 58826,
+     "confidence": 0.492
+    },
+    {
+     "subject": 58826,
+     "predicate": "behind",
+     "object": 58818,
+     "confidence": 0.391
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58493,
+     "predicate": "behind",
+     "object": 58801,
+     "confidence": 0.757
+    },
+    {
+     "subject": 58801,
+     "predicate": "behind",
+     "object": 58818,
+     "confidence": 0.562
+    },
+    {
+     "subject": 58801,
+     "predicate": "behind",
+     "object": 58493,
+     "confidence": 0.495
+    },
+    {
+     "subject": 58801,
+     "predicate": "behind",
+     "object": 58826,
+     "confidence": 0.446
+    },
+    {
+     "subject": 58493,
+     "predicate": "in_front_of",
+     "object": 58826,
+     "confidence": 0.389
+    },
+    {
+     "subject": 58493,
+     "predicate": "behind",
+     "object": 58818,
+     "confidence": 0.378
+    }
+   ]
+  },
+  {
+   "frame_id": 1320,
+   "objects": [
+    {
+     "track_id": 58848,
+     "class": "dog",
+     "bbox": [
+      356,
+      92,
+      428,
+      173
+     ],
+     "conf": 0.719
+    },
+    {
+     "track_id": 58838,
+     "class": "bench",
+     "bbox": [
+      0,
+      59,
+      173,
+      259
+     ],
+     "conf": 0.643
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58848,
+     "predicate": "away",
+     "object": 58838,
+     "confidence": 0.387
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1410,
+   "objects": [
+    {
+     "track_id": 58873,
+     "class": "child",
+     "bbox": [
+      25,
+      108,
+      65,
+      255
+     ],
+     "conf": 0.803
+    },
+    {
+     "track_id": 58863,
+     "class": "dog",
+     "bbox": [
+      231,
+      126,
+      329,
+      208
+     ],
+     "conf": 0.362
+    },
+    {
+     "track_id": 58859,
+     "class": "bench",
+     "bbox": [
+      21,
+      230,
+      216,
+      356
+     ],
+     "conf": 0.309
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58873,
+     "predicate": "towards",
+     "object": 58859,
+     "confidence": 0.965
+    },
+    {
+     "subject": 58863,
+     "predicate": "towards",
+     "object": 58859,
+     "confidence": 0.742
+    },
+    {
+     "subject": 58863,
+     "predicate": "in_front_of",
+     "object": 58873,
+     "confidence": 0.562
+    },
+    {
+     "subject": 58859,
+     "predicate": "in_front_of",
+     "object": 58873,
+     "confidence": 0.412
+    },
+    {
+     "subject": 58873,
+     "predicate": "in_front_of",
+     "object": 58863,
+     "confidence": 0.349
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1500,
+   "objects": [
+    {
+     "track_id": 58892,
+     "class": "child",
+     "bbox": [
+      167,
+      53,
+      234,
+      186
+     ],
+     "conf": 0.817
+    },
+    {
+     "track_id": 58901,
+     "class": "cattle/cow",
+     "bbox": [
+      373,
+      85,
+      427,
+      154
+     ],
+     "conf": 0.371
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58892,
+     "predicate": "away",
+     "object": 58901,
+     "confidence": 0.841
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58901,
+     "predicate": "in_front_of",
+     "object": 58892,
+     "confidence": 0.256
+    }
+   ]
+  },
+  {
+   "frame_id": 1620,
+   "objects": [
+    {
+     "track_id": 58892,
+     "class": "child",
+     "bbox": [
+      43,
+      39,
+      127,
+      226
+     ],
+     "conf": 0.83
+    },
+    {
+     "track_id": 58929,
+     "class": "dog",
+     "bbox": [
+      214,
+      62,
+      353,
+      185
+     ],
+     "conf": 0.445
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58929,
+     "predicate": "in_front_of",
+     "object": 58892,
+     "confidence": 0.76
+    },
+    {
+     "subject": 58892,
+     "predicate": "watch",
+     "object": 58929,
+     "confidence": 0.378
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1650,
+   "objects": [
+    {
+     "track_id": 58892,
+     "class": "child",
+     "bbox": [
+      19,
+      92,
+      95,
+      274
+     ],
+     "conf": 0.838
+    },
+    {
+     "track_id": 58936,
+     "class": "dog",
+     "bbox": [
+      388,
+      120,
+      469,
+      234
+     ],
+     "conf": 0.704
+    },
+    {
+     "track_id": 58929,
+     "class": "dog",
+     "bbox": [
+      274,
+      110,
+      455,
+      249
+     ],
+     "conf": 0.656
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58929,
+     "predicate": "in_front_of",
+     "object": 58892,
+     "confidence": 0.748
+    },
+    {
+     "subject": 58892,
+     "predicate": "watch",
+     "object": 58936,
+     "confidence": 0.658
+    },
+    {
+     "subject": 58929,
+     "predicate": "away",
+     "object": 58936,
+     "confidence": 0.64
+    },
+    {
+     "subject": 58936,
+     "predicate": "in_front_of",
+     "object": 58892,
+     "confidence": 0.549
+    },
+    {
+     "subject": 58892,
+     "predicate": "watch",
+     "object": 58929,
+     "confidence": 0.486
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1680,
+   "objects": [
+    {
+     "track_id": 58892,
+     "class": "child",
+     "bbox": [
+      111,
+      101,
+      207,
+      272
+     ],
+     "conf": 0.836
+    },
+    {
+     "track_id": 58949,
+     "class": "sheep/goat",
+     "bbox": [
+      181,
+      120,
+      320,
+      220
+     ],
+     "conf": 0.432
+    },
+    {
+     "track_id": 58929,
+     "class": "cattle/cow",
+     "bbox": [
+      509,
+      202,
+      640,
+      330
+     ],
+     "conf": 0.328
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58949,
+     "predicate": "behind",
+     "object": 58892,
+     "confidence": 0.824
+    },
+    {
+     "subject": 58892,
+     "predicate": "towards",
+     "object": 58949,
+     "confidence": 0.488
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58949,
+     "predicate": "behind",
+     "object": 58892,
+     "confidence": 0.32
+    },
+    {
+     "subject": 58892,
+     "predicate": "behind",
+     "object": 58949,
+     "confidence": 0.281
+    }
+   ]
+  },
+  {
+   "frame_id": 1770,
+   "objects": [
+    {
+     "track_id": 58965,
+     "class": "child",
+     "bbox": [
+      260,
+      127,
+      359,
+      272
+     ],
+     "conf": 0.807
+    },
+    {
+     "track_id": 58983,
+     "class": "adult",
+     "bbox": [
+      28,
+      1,
+      98,
+      168
+     ],
+     "conf": 0.589
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58965,
+     "predicate": "in_front_of",
+     "object": 58983,
+     "confidence": 0.414
+    },
+    {
+     "subject": 58983,
+     "predicate": "away",
+     "object": 58965,
+     "confidence": 0.359
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1800,
+   "objects": [
+    {
+     "track_id": 58983,
+     "class": "adult",
+     "bbox": [
+      17,
+      1,
+      140,
+      230
+     ],
+     "conf": 0.823
+    },
+    {
+     "track_id": 58965,
+     "class": "child",
+     "bbox": [
+      226,
+      124,
+      346,
+      306
+     ],
+     "conf": 0.76
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58983,
+     "predicate": "towards",
+     "object": 58965,
+     "confidence": 0.455
+    },
+    {
+     "subject": 58965,
+     "predicate": "next_to",
+     "object": 58983,
+     "confidence": 0.44
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58965,
+     "predicate": "in_front_of",
+     "object": 58983,
+     "confidence": 0.395
+    }
+   ]
+  },
+  {
+   "frame_id": 1830,
+   "objects": [
+    {
+     "track_id": 58965,
+     "class": "child",
+     "bbox": [
+      247,
+      103,
+      358,
+      334
+     ],
+     "conf": 0.879
+    },
+    {
+     "track_id": 58983,
+     "class": "adult",
+     "bbox": [
+      11,
+      1,
+      102,
+      218
+     ],
+     "conf": 0.716
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 58983,
+     "predicate": "next_to",
+     "object": 58965,
+     "confidence": 0.499
+    },
+    {
+     "subject": 58965,
+     "predicate": "in_front_of",
+     "object": 58983,
+     "confidence": 0.421
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 58965,
+     "predicate": "in_front_of",
+     "object": 58983,
+     "confidence": 0.623
+    }
+   ]
+  },
+  {
+   "frame_id": 1890,
+   "objects": [
+    {
+     "track_id": 59001,
+     "class": "dog",
+     "bbox": [
+      434,
+      87,
+      521,
+      172
+     ],
+     "conf": 0.83
+    },
+    {
+     "track_id": 59000,
+     "class": "dog",
+     "bbox": [
+      97,
+      113,
+      204,
+      258
+     ],
+     "conf": 0.436
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59001,
+     "predicate": "behind",
+     "object": 59000,
+     "confidence": 0.491
+    },
+    {
+     "subject": 59000,
+     "predicate": "behind",
+     "object": 59001,
+     "confidence": 0.436
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1920,
+   "objects": [
+    {
+     "track_id": 59000,
+     "class": "dog",
+     "bbox": [
+      209,
+      131,
+      348,
+      299
+     ],
+     "conf": 0.697
+    },
+    {
+     "track_id": 59005,
+     "class": "dog",
+     "bbox": [
+      406,
+      123,
+      568,
+      246
+     ],
+     "conf": 0.379
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59000,
+     "predicate": "behind",
+     "object": 59005,
+     "confidence": 0.682
+    },
+    {
+     "subject": 59005,
+     "predicate": "behind",
+     "object": 59000,
+     "confidence": 0.395
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1950,
+   "objects": [
+    {
+     "track_id": 59000,
+     "class": "dog",
+     "bbox": [
+      242,
+      111,
+      431,
+      303
+     ],
+     "conf": 0.822
+    },
+    {
+     "track_id": 59005,
+     "class": "dog",
+     "bbox": [
+      433,
+      134,
+      640,
+      288
+     ],
+     "conf": 0.686
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59000,
+     "predicate": "in_front_of",
+     "object": 59005,
+     "confidence": 0.525
+    },
+    {
+     "subject": 59005,
+     "predicate": "watch",
+     "object": 59000,
+     "confidence": 0.365
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 2010,
+   "objects": [
+    {
+     "track_id": 59005,
+     "class": "dog",
+     "bbox": [
+      121,
+      235,
+      266,
+      357
+     ],
+     "conf": 0.77
+    },
+    {
+     "track_id": 59028,
+     "class": "dog",
+     "bbox": [
+      1,
+      166,
+      210,
+      319
+     ],
+     "conf": 0.704
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59028,
+     "predicate": "in_front_of",
+     "object": 59005,
+     "confidence": 0.414
+    },
+    {
+     "subject": 59005,
+     "predicate": "in_front_of",
+     "object": 59028,
+     "confidence": 0.282
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 2040,
+   "objects": [
+    {
+     "track_id": 59048,
+     "class": "child",
+     "bbox": [
+      40,
+      66,
+      92,
+      277
+     ],
+     "conf": 0.852
+    },
+    {
+     "track_id": 59040,
+     "class": "adult",
+     "bbox": [
+      254,
+      0,
+      481,
+      333
+     ],
+     "conf": 0.785
+    },
+    {
+     "track_id": 59046,
+     "class": "dog",
+     "bbox": [
+      163,
+      248,
+      304,
+      358
+     ],
+     "conf": 0.553
+    },
+    {
+     "track_id": 59028,
+     "class": "dog",
+     "bbox": [
+      95,
+      117,
+      356,
+      318
+     ],
+     "conf": 0.509
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59040,
+     "predicate": "towards",
+     "object": 59048,
+     "confidence": 0.773
+    },
+    {
+     "subject": 59028,
+     "predicate": "in_front_of",
+     "object": 59040,
+     "confidence": 0.697
+    },
+    {
+     "subject": 59048,
+     "predicate": "watch",
+     "object": 59046,
+     "confidence": 0.665
+    },
+    {
+     "subject": 59048,
+     "predicate": "watch",
+     "object": 59028,
+     "confidence": 0.594
+    },
+    {
+     "subject": 59040,
+     "predicate": "next_to",
+     "object": 59028,
+     "confidence": 0.587
+    },
+    {
+     "subject": 59040,
+     "predicate": "next_to",
+     "object": 59046,
+     "confidence": 0.543
+    },
+    {
+     "subject": 59028,
+     "predicate": "in_front_of",
+     "object": 59048,
+     "confidence": 0.504
+    },
+    {
+     "subject": 59046,
+     "predicate": "behind",
+     "object": 59028,
+     "confidence": 0.5
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 59028,
+     "predicate": "watch",
+     "object": 59040,
+     "confidence": 0.488
+    },
+    {
+     "subject": 59046,
+     "predicate": "in_front_of",
+     "object": 59048,
+     "confidence": 0.431
+    }
+   ]
+  },
+  {
+   "frame_id": 2070,
+   "objects": [
+    {
+     "track_id": 59048,
+     "class": "child",
+     "bbox": [
+      183,
+      48,
+      277,
+      245
+     ],
+     "conf": 0.826
+    },
+    {
+     "track_id": 59057,
+     "class": "adult",
+     "bbox": [
+      294,
+      69,
+      554,
+      356
+     ],
+     "conf": 0.779
+    },
+    {
+     "track_id": 59046,
+     "class": "dog",
+     "bbox": [
+      193,
+      213,
+      353,
+      357
+     ],
+     "conf": 0.706
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59048,
+     "predicate": "behind",
+     "object": 59057,
+     "confidence": 0.665
+    },
+    {
+     "subject": 59046,
+     "predicate": "in_front_of",
+     "object": 59057,
+     "confidence": 0.397
+    },
+    {
+     "subject": 59046,
+     "predicate": "towards",
+     "object": 59048,
+     "confidence": 0.331
+    },
+    {
+     "subject": 59048,
+     "predicate": "watch",
+     "object": 59046,
+     "confidence": 0.33
+    },
+    {
+     "subject": 59057,
+     "predicate": "next_to",
+     "object": 59046,
+     "confidence": 0.298
+    },
+    {
+     "subject": 59057,
+     "predicate": "towards",
+     "object": 59048,
+     "confidence": 0.289
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 59046,
+     "predicate": "in_front_of",
+     "object": 59048,
+     "confidence": 0.659
+    },
+    {
+     "subject": 59046,
+     "predicate": "watch",
+     "object": 59057,
+     "confidence": 0.303
+    }
+   ]
+  },
+  {
+   "frame_id": 2100,
+   "objects": [
+    {
+     "track_id": 59040,
+     "class": "adult",
+     "bbox": [
+      353,
+      82,
+      568,
+      336
+     ],
+     "conf": 0.786
+    },
+    {
+     "track_id": 59046,
+     "class": "dog",
+     "bbox": [
+      291,
+      187,
+      417,
+      305
+     ],
+     "conf": 0.562
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59046,
+     "predicate": "in_front_of",
+     "object": 59040,
+     "confidence": 0.401
+    },
+    {
+     "subject": 59040,
+     "predicate": "in_front_of",
+     "object": 59046,
+     "confidence": 0.342
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 59046,
+     "predicate": "watch",
+     "object": 59040,
+     "confidence": 0.302
+    }
+   ]
+  },
+  {
+   "frame_id": 2130,
+   "objects": [
+    {
+     "track_id": 59061,
+     "class": "child",
+     "bbox": [
+      256,
+      117,
+      327,
+      260
+     ],
+     "conf": 0.761
+    },
+    {
+     "track_id": 59083,
+     "class": "dog",
+     "bbox": [
+      560,
+      247,
+      620,
+      357
+     ],
+     "conf": 0.621
+    },
+    {
+     "track_id": 59085,
+     "class": "dog",
+     "bbox": [
+      427,
+      210,
+      502,
+      307
+     ],
+     "conf": 0.619
+    },
+    {
+     "track_id": 59040,
+     "class": "adult",
+     "bbox": [
+      266,
+      3,
+      424,
+      328
+     ],
+     "conf": 0.491
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59040,
+     "predicate": "in_front_of",
+     "object": 59085,
+     "confidence": 0.7
+    },
+    {
+     "subject": 59061,
+     "predicate": "in_front_of",
+     "object": 59085,
+     "confidence": 0.566
+    },
+    {
+     "subject": 59040,
+     "predicate": "in_front_of",
+     "object": 59061,
+     "confidence": 0.524
+    },
+    {
+     "subject": 59085,
+     "predicate": "in_front_of",
+     "object": 59061,
+     "confidence": 0.514
+    },
+    {
+     "subject": 59040,
+     "predicate": "next_to",
+     "object": 59083,
+     "confidence": 0.481
+    },
+    {
+     "subject": 59083,
+     "predicate": "in_front_of",
+     "object": 59085,
+     "confidence": 0.462
+    },
+    {
+     "subject": 59061,
+     "predicate": "towards",
+     "object": 59040,
+     "confidence": 0.358
+    },
+    {
+     "subject": 59083,
+     "predicate": "in_front_of",
+     "object": 59061,
+     "confidence": 0.354
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 2160,
+   "objects": [
+    {
+     "track_id": 59097,
+     "class": "child",
+     "bbox": [
+      254,
+      78,
+      324,
+      245
+     ],
+     "conf": 0.855
+    },
+    {
+     "track_id": 59083,
+     "class": "dog",
+     "bbox": [
+      503,
+      153,
+      640,
+      357
+     ],
+     "conf": 0.81
+    },
+    {
+     "track_id": 59085,
+     "class": "dog",
+     "bbox": [
+      309,
+      188,
+      430,
+      356
+     ],
+     "conf": 0.59
+    },
+    {
+     "track_id": 59040,
+     "class": "child",
+     "bbox": [
+      138,
+      1,
+      267,
+      284
+     ],
+     "conf": 0.484
+    },
+    {
+     "track_id": 59101,
+     "class": "adult",
+     "bbox": [
+      144,
+      1,
+      264,
+      285
+     ],
+     "conf": 0.382
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59101,
+     "confidence": 0.956
+    },
+    {
+     "subject": 59083,
+     "predicate": "in_front_of",
+     "object": 59040,
+     "confidence": 0.866
+    },
+    {
+     "subject": 59083,
+     "predicate": "in_front_of",
+     "object": 59101,
+     "confidence": 0.826
+    },
+    {
+     "subject": 59040,
+     "predicate": "in_front_of",
+     "object": 59101,
+     "confidence": 0.81
+    },
+    {
+     "subject": 59083,
+     "predicate": "in_front_of",
+     "object": 59097,
+     "confidence": 0.809
+    },
+    {
+     "subject": 59040,
+     "predicate": "in_front_of",
+     "object": 59097,
+     "confidence": 0.738
+    },
+    {
+     "subject": 59101,
+     "predicate": "in_front_of",
+     "object": 59040,
+     "confidence": 0.725
+    },
+    {
+     "subject": 59083,
+     "predicate": "behind",
+     "object": 59085,
+     "confidence": 0.708
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 59097,
+     "predicate": "behind",
+     "object": 59085,
+     "confidence": 0.47
+    },
+    {
+     "subject": 59085,
+     "predicate": "away",
+     "object": 59101,
+     "confidence": 0.278
+    }
+   ]
+  },
+  {
+   "frame_id": 2190,
+   "objects": [
+    {
+     "track_id": 59040,
+     "class": "adult",
+     "bbox": [
+      0,
+      0,
+      161,
+      344
+     ],
+     "conf": 0.834
+    },
+    {
+     "track_id": 59097,
+     "class": "child",
+     "bbox": [
+      252,
+      104,
+      368,
+      298
+     ],
+     "conf": 0.833
+    },
+    {
+     "track_id": 59085,
+     "class": "dog",
+     "bbox": [
+      147,
+      203,
+      324,
+      358
+     ],
+     "conf": 0.571
+    },
+    {
+     "track_id": 59083,
+     "class": "dog",
+     "bbox": [
+      555,
+      242,
+      620,
+      357
+     ],
+     "conf": 0.49
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59040,
+     "confidence": 0.739
+    },
+    {
+     "subject": 59085,
+     "predicate": "watch",
+     "object": 59040,
+     "confidence": 0.663
+    },
+    {
+     "subject": 59040,
+     "predicate": "in_front_of",
+     "object": 59085,
+     "confidence": 0.626
+    },
+    {
+     "subject": 59083,
+     "predicate": "behind",
+     "object": 59085,
+     "confidence": 0.547
+    },
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59085,
+     "confidence": 0.504
+    },
+    {
+     "subject": 59040,
+     "predicate": "behind",
+     "object": 59097,
+     "confidence": 0.476
+    },
+    {
+     "subject": 59083,
+     "predicate": "behind",
+     "object": 59097,
+     "confidence": 0.374
+    },
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59083,
+     "confidence": 0.358
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 59097,
+     "predicate": "behind",
+     "object": 59085,
+     "confidence": 0.722
+    },
+    {
+     "subject": 59040,
+     "predicate": "behind",
+     "object": 59085,
+     "confidence": 0.433
+    },
+    {
+     "subject": 59085,
+     "predicate": "away",
+     "object": 59040,
+     "confidence": 0.353
+    },
+    {
+     "subject": 59085,
+     "predicate": "away",
+     "object": 59083,
+     "confidence": 0.283
+    }
+   ]
+  },
+  {
+   "frame_id": 2220,
+   "objects": [
+    {
+     "track_id": 59097,
+     "class": "child",
+     "bbox": [
+      252,
+      116,
+      374,
+      337
+     ],
+     "conf": 0.867
+    },
+    {
+     "track_id": 59040,
+     "class": "adult",
+     "bbox": [
+      4,
+      0,
+      162,
+      356
+     ],
+     "conf": 0.834
+    },
+    {
+     "track_id": 59085,
+     "class": "child",
+     "bbox": [
+      103,
+      237,
+      222,
+      357
+     ],
+     "conf": 0.46
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59085,
+     "predicate": "in_front_of",
+     "object": 59040,
+     "confidence": 0.822
+    },
+    {
+     "subject": 59040,
+     "predicate": "towards",
+     "object": 59097,
+     "confidence": 0.749
+    },
+    {
+     "subject": 59040,
+     "predicate": "behind",
+     "object": 59085,
+     "confidence": 0.698
+    },
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59040,
+     "confidence": 0.653
+    },
+    {
+     "subject": 59085,
+     "predicate": "next_to",
+     "object": 59097,
+     "confidence": 0.41
+    },
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59085,
+     "confidence": 0.382
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 59097,
+     "predicate": "behind",
+     "object": 59085,
+     "confidence": 0.716
+    },
+    {
+     "subject": 59040,
+     "predicate": "behind",
+     "object": 59085,
+     "confidence": 0.475
+    },
+    {
+     "subject": 59085,
+     "predicate": "next_to",
+     "object": 59097,
+     "confidence": 0.303
+    },
+    {
+     "subject": 59085,
+     "predicate": "away",
+     "object": 59040,
+     "confidence": 0.295
+    }
+   ]
+  },
+  {
+   "frame_id": 2250,
+   "objects": [
+    {
+     "track_id": 59097,
+     "class": "child",
+     "bbox": [
+      256,
+      104,
+      423,
+      358
+     ],
+     "conf": 0.903
+    },
+    {
+     "track_id": 59040,
+     "class": "adult",
+     "bbox": [
+      7,
+      0,
+      174,
+      359
+     ],
+     "conf": 0.722
+    },
+    {
+     "track_id": 59118,
+     "class": "child",
+     "bbox": [
+      1,
+      1,
+      181,
+      358
+     ],
+     "conf": 0.643
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59118,
+     "confidence": 0.683
+    },
+    {
+     "subject": 59118,
+     "predicate": "in_front_of",
+     "object": 59040,
+     "confidence": 0.358
+    },
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59040,
+     "confidence": 0.352
+    },
+    {
+     "subject": 59118,
+     "predicate": "behind",
+     "object": 59097,
+     "confidence": 0.321
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 59040,
+     "predicate": "behind",
+     "object": 59097,
+     "confidence": 0.385
+    }
+   ]
+  },
+  {
+   "frame_id": 2280,
+   "objects": [
+    {
+     "track_id": 59097,
+     "class": "child",
+     "bbox": [
+      235,
+      54,
+      441,
+      358
+     ],
+     "conf": 0.923
+    },
+    {
+     "track_id": 59040,
+     "class": "child",
+     "bbox": [
+      0,
+      1,
+      170,
+      351
+     ],
+     "conf": 0.833
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59097,
+     "predicate": "next_to",
+     "object": 59040,
+     "confidence": 0.561
+    },
+    {
+     "subject": 59040,
+     "predicate": "next_to",
+     "object": 59097,
+     "confidence": 0.383
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 59040,
+     "predicate": "behind",
+     "object": 59097,
+     "confidence": 0.493
+    }
+   ]
+  },
+  {
+   "frame_id": 2310,
+   "objects": [
+    {
+     "track_id": 59097,
+     "class": "child",
+     "bbox": [
+      157,
+      10,
+      388,
+      358
+     ],
+     "conf": 0.896
+    },
+    {
+     "track_id": 59040,
+     "class": "adult",
+     "bbox": [
+      0,
+      0,
+      167,
+      357
+     ],
+     "conf": 0.828
+    },
+    {
+     "track_id": 59127,
+     "class": "dog",
+     "bbox": [
+      303,
+      158,
+      526,
+      355
+     ],
+     "conf": 0.726
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59040,
+     "confidence": 0.87
+    },
+    {
+     "subject": 59040,
+     "predicate": "towards",
+     "object": 59097,
+     "confidence": 0.46
+    },
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59127,
+     "confidence": 0.458
+    },
+    {
+     "subject": 59127,
+     "predicate": "in_front_of",
+     "object": 59097,
+     "confidence": 0.423
+    },
+    {
+     "subject": 59040,
+     "predicate": "next_to",
+     "object": 59127,
+     "confidence": 0.419
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 59040,
+     "predicate": "behind",
+     "object": 59097,
+     "confidence": 0.441
+    }
+   ]
+  },
+  {
+   "frame_id": 2340,
+   "objects": [
+    {
+     "track_id": 59097,
+     "class": "child",
+     "bbox": [
+      213,
+      0,
+      415,
+      355
+     ],
+     "conf": 0.919
+    },
+    {
+     "track_id": 59040,
+     "class": "adult",
+     "bbox": [
+      0,
+      0,
+      148,
+      358
+     ],
+     "conf": 0.843
+    },
+    {
+     "track_id": 59132,
+     "class": "dog",
+     "bbox": [
+      356,
+      115,
+      640,
+      357
+     ],
+     "conf": 0.785
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59040,
+     "confidence": 0.679
+    },
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59132,
+     "confidence": 0.506
+    },
+    {
+     "subject": 59132,
+     "predicate": "in_front_of",
+     "object": 59040,
+     "confidence": 0.485
+    },
+    {
+     "subject": 59132,
+     "predicate": "in_front_of",
+     "object": 59097,
+     "confidence": 0.441
+    },
+    {
+     "subject": 59040,
+     "predicate": "in_front_of",
+     "object": 59132,
+     "confidence": 0.416
+    },
+    {
+     "subject": 59040,
+     "predicate": "next_to",
+     "object": 59097,
+     "confidence": 0.37
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 59040,
+     "predicate": "behind",
+     "object": 59097,
+     "confidence": 0.614
+    },
+    {
+     "subject": 59132,
+     "predicate": "in_front_of",
+     "object": 59040,
+     "confidence": 0.373
+    }
+   ]
+  },
+  {
+   "frame_id": 2370,
+   "objects": [
+    {
+     "track_id": 59097,
+     "class": "child",
+     "bbox": [
+      228,
+      11,
+      410,
+      357
+     ],
+     "conf": 0.917
+    },
+    {
+     "track_id": 59132,
+     "class": "dog",
+     "bbox": [
+      382,
+      111,
+      640,
+      357
+     ],
+     "conf": 0.743
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59132,
+     "confidence": 0.739
+    },
+    {
+     "subject": 59132,
+     "predicate": "behind",
+     "object": 59097,
+     "confidence": 0.269
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 59132,
+     "predicate": "behind",
+     "object": 59097,
+     "confidence": 0.464
+    }
+   ]
+  },
+  {
+   "frame_id": 2400,
+   "objects": [
+    {
+     "track_id": 59097,
+     "class": "child",
+     "bbox": [
+      228,
+      40,
+      408,
+      358
+     ],
+     "conf": 0.921
+    },
+    {
+     "track_id": 59147,
+     "class": "dog",
+     "bbox": [
+      410,
+      260,
+      500,
+      358
+     ],
+     "conf": 0.393
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59147,
+     "confidence": 0.438
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 2430,
+   "objects": [
+    {
+     "track_id": 59097,
+     "class": "child",
+     "bbox": [
+      225,
+      40,
+      408,
+      358
+     ],
+     "conf": 0.929
+    },
+    {
+     "track_id": 59151,
+     "class": "dog",
+     "bbox": [
+      377,
+      150,
+      527,
+      358
+     ],
+     "conf": 0.544
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59151,
+     "confidence": 0.628
+    },
+    {
+     "subject": 59151,
+     "predicate": "in_front_of",
+     "object": 59097,
+     "confidence": 0.456
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 2460,
+   "objects": [
+    {
+     "track_id": 59097,
+     "class": "child",
+     "bbox": [
+      239,
+      35,
+      417,
+      359
+     ],
+     "conf": 0.921
+    },
+    {
+     "track_id": 59151,
+     "class": "dog",
+     "bbox": [
+      429,
+      155,
+      588,
+      357
+     ],
+     "conf": 0.479
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59097,
+     "predicate": "in_front_of",
+     "object": 59151,
+     "confidence": 0.455
+    },
+    {
+     "subject": 59151,
+     "predicate": "in_front_of",
+     "object": 59097,
+     "confidence": 0.277
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 2610,
+   "objects": [
+    {
+     "track_id": 59187,
+     "class": "dog",
+     "bbox": [
+      341,
+      3,
+      599,
+      357
+     ],
+     "conf": 0.626
+    },
+    {
+     "track_id": 59178,
+     "class": "dog",
+     "bbox": [
+      2,
+      2,
+      249,
+      356
+     ],
+     "conf": 0.464
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 59187,
+     "predicate": "behind",
+     "object": 59178,
+     "confidence": 0.411
+    },
+    {
+     "subject": 59178,
+     "predicate": "behind",
+     "object": 59187,
+     "confidence": 0.342
+    }
+   ],
+   "temporal_gru": []
+  }
+ ]
+}

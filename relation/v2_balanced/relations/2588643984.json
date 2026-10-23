@@ -1,0 +1,376 @@
+{
+ "video_id": "2588643984",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 19207,
+     "class": "adult",
+     "bbox": [
+      489,
+      74,
+      610,
+      413
+     ],
+     "conf": 0.82
+    },
+    {
+     "track_id": 19205,
+     "class": "bicycle",
+     "bbox": [
+      389,
+      237,
+      624,
+      431
+     ],
+     "conf": 0.412
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19205,
+     "predicate": "beneath",
+     "object": 19207,
+     "confidence": 0.969
+    },
+    {
+     "subject": 19207,
+     "predicate": "lean_on",
+     "object": 19205,
+     "confidence": 0.57
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19205,
+     "predicate": "in_front_of",
+     "object": 19207,
+     "confidence": 0.591
+    }
+   ]
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 19207,
+     "class": "adult",
+     "bbox": [
+      503,
+      75,
+      625,
+      409
+     ],
+     "conf": 0.817
+    },
+    {
+     "track_id": 19205,
+     "class": "bicycle",
+     "bbox": [
+      392,
+      237,
+      640,
+      444
+     ],
+     "conf": 0.483
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19205,
+     "predicate": "beneath",
+     "object": 19207,
+     "confidence": 0.96
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19205,
+     "predicate": "in_front_of",
+     "object": 19207,
+     "confidence": 0.819
+    },
+    {
+     "subject": 19207,
+     "predicate": "behind",
+     "object": 19205,
+     "confidence": 0.718
+    }
+   ]
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 19237,
+     "class": "adult",
+     "bbox": [
+      390,
+      175,
+      435,
+      263
+     ],
+     "conf": 0.662
+    },
+    {
+     "track_id": 19240,
+     "class": "bicycle",
+     "bbox": [
+      383,
+      210,
+      434,
+      294
+     ],
+     "conf": 0.58
+    },
+    {
+     "track_id": 19205,
+     "class": "bicycle",
+     "bbox": [
+      477,
+      220,
+      640,
+      411
+     ],
+     "conf": 0.434
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19240,
+     "predicate": "beneath",
+     "object": 19237,
+     "confidence": 0.909
+    },
+    {
+     "subject": 19205,
+     "predicate": "beneath",
+     "object": 19237,
+     "confidence": 0.882
+    },
+    {
+     "subject": 19237,
+     "predicate": "next_to",
+     "object": 19240,
+     "confidence": 0.757
+    },
+    {
+     "subject": 19240,
+     "predicate": "next_to",
+     "object": 19205,
+     "confidence": 0.585
+    },
+    {
+     "subject": 19205,
+     "predicate": "next_to",
+     "object": 19240,
+     "confidence": 0.469
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19240,
+     "predicate": "beneath",
+     "object": 19237,
+     "confidence": 0.836
+    },
+    {
+     "subject": 19237,
+     "predicate": "beneath",
+     "object": 19240,
+     "confidence": 0.75
+    },
+    {
+     "subject": 19205,
+     "predicate": "beneath",
+     "object": 19240,
+     "confidence": 0.739
+    },
+    {
+     "subject": 19205,
+     "predicate": "beneath",
+     "object": 19237,
+     "confidence": 0.604
+    }
+   ]
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 19237,
+     "class": "adult",
+     "bbox": [
+      383,
+      97,
+      526,
+      334
+     ],
+     "conf": 0.763
+    },
+    {
+     "track_id": 19240,
+     "class": "bicycle",
+     "bbox": [
+      342,
+      171,
+      518,
+      362
+     ],
+     "conf": 0.732
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19240,
+     "predicate": "beneath",
+     "object": 19237,
+     "confidence": 0.993
+    },
+    {
+     "subject": 19237,
+     "predicate": "lean_on",
+     "object": 19240,
+     "confidence": 0.977
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19240,
+     "predicate": "beneath",
+     "object": 19237,
+     "confidence": 0.998
+    },
+    {
+     "subject": 19237,
+     "predicate": "beneath",
+     "object": 19240,
+     "confidence": 0.799
+    }
+   ]
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 19240,
+     "class": "adult",
+     "bbox": [
+      297,
+      124,
+      487,
+      348
+     ],
+     "conf": 0.76
+    },
+    {
+     "track_id": 19266,
+     "class": "bicycle",
+     "bbox": [
+      269,
+      203,
+      529,
+      368
+     ],
+     "conf": 0.66
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19266,
+     "predicate": "beneath",
+     "object": 19240,
+     "confidence": 0.841
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19266,
+     "predicate": "beneath",
+     "object": 19240,
+     "confidence": 0.337
+    }
+   ]
+  },
+  {
+   "frame_id": 210,
+   "objects": [
+    {
+     "track_id": 19240,
+     "class": "adult",
+     "bbox": [
+      330,
+      219,
+      369,
+      281
+     ],
+     "conf": 0.693
+    },
+    {
+     "track_id": 19303,
+     "class": "adult",
+     "bbox": [
+      232,
+      216,
+      257,
+      270
+     ],
+     "conf": 0.544
+    },
+    {
+     "track_id": 19309,
+     "class": "bicycle",
+     "bbox": [
+      331,
+      246,
+      379,
+      298
+     ],
+     "conf": 0.509
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19309,
+     "predicate": "beneath",
+     "object": 19240,
+     "confidence": 0.797
+    },
+    {
+     "subject": 19309,
+     "predicate": "in_front_of",
+     "object": 19303,
+     "confidence": 0.4
+    },
+    {
+     "subject": 19240,
+     "predicate": "in_front_of",
+     "object": 19303,
+     "confidence": 0.346
+    },
+    {
+     "subject": 19303,
+     "predicate": "away",
+     "object": 19240,
+     "confidence": 0.318
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19309,
+     "predicate": "beneath",
+     "object": 19240,
+     "confidence": 0.502
+    },
+    {
+     "subject": 19303,
+     "predicate": "behind",
+     "object": 19240,
+     "confidence": 0.318
+    }
+   ]
+  }
+ ]
+}

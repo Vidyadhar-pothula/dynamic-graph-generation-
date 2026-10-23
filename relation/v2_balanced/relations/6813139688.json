@@ -1,0 +1,1859 @@
+{
+ "video_id": "6813139688",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      270,
+      0,
+      637,
+      167
+     ],
+     "conf": 0.897
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      190,
+      41,
+      372,
+      480
+     ],
+     "conf": 0.87
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.967
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.939
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.398
+    }
+   ]
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      231,
+      0,
+      622,
+      174
+     ],
+     "conf": 0.953
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      159,
+      53,
+      348,
+      479
+     ],
+     "conf": 0.848
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.658
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.522
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.794
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.355
+    }
+   ]
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      219,
+      0,
+      633,
+      200
+     ],
+     "conf": 0.882
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      156,
+      58,
+      373,
+      479
+     ],
+     "conf": 0.874
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.891
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.806
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.897
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.465
+    }
+   ]
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      180,
+      55,
+      370,
+      479
+     ],
+     "conf": 0.863
+    },
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      220,
+      0,
+      615,
+      195
+     ],
+     "conf": 0.849
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.802
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.754
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.94
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.286
+    }
+   ]
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      276,
+      0,
+      636,
+      163
+     ],
+     "conf": 0.914
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      185,
+      49,
+      369,
+      480
+     ],
+     "conf": 0.865
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.973
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.875
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.946
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.438
+    }
+   ]
+  },
+  {
+   "frame_id": 180,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      252,
+      0,
+      640,
+      179
+     ],
+     "conf": 0.93
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      198,
+      51,
+      373,
+      480
+     ],
+     "conf": 0.804
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.956
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.817
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.955
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.608
+    }
+   ]
+  },
+  {
+   "frame_id": 210,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      275,
+      0,
+      640,
+      161
+     ],
+     "conf": 0.929
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      209,
+      24,
+      390,
+      480
+     ],
+     "conf": 0.869
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.99
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.951
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.961
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.72
+    }
+   ]
+  },
+  {
+   "frame_id": 240,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      238,
+      0,
+      636,
+      188
+     ],
+     "conf": 0.951
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      177,
+      71,
+      348,
+      480
+     ],
+     "conf": 0.851
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.927
+    },
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.534
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.976
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.784
+    }
+   ]
+  },
+  {
+   "frame_id": 270,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      253,
+      0,
+      635,
+      194
+     ],
+     "conf": 0.941
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      191,
+      72,
+      359,
+      480
+     ],
+     "conf": 0.844
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.943
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.838
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.976
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.612
+    }
+   ]
+  },
+  {
+   "frame_id": 300,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      254,
+      0,
+      639,
+      193
+     ],
+     "conf": 0.929
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      161,
+      70,
+      370,
+      480
+     ],
+     "conf": 0.858
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.926
+    },
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.705
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.98
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.518
+    }
+   ]
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      265,
+      0,
+      629,
+      192
+     ],
+     "conf": 0.838
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      164,
+      66,
+      343,
+      480
+     ],
+     "conf": 0.818
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.919
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.793
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.984
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.49
+    }
+   ]
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      257,
+      0,
+      640,
+      197
+     ],
+     "conf": 0.916
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      139,
+      64,
+      338,
+      480
+     ],
+     "conf": 0.835
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.777
+    },
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.647
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.983
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.524
+    }
+   ]
+  },
+  {
+   "frame_id": 390,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      260,
+      0,
+      630,
+      200
+     ],
+     "conf": 0.916
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      157,
+      75,
+      350,
+      480
+     ],
+     "conf": 0.826
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "in_front_of",
+     "object": 37651,
+     "confidence": 0.808
+    },
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.734
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.978
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.527
+    }
+   ]
+  },
+  {
+   "frame_id": 420,
+   "objects": [
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      168,
+      77,
+      368,
+      480
+     ],
+     "conf": 0.869
+    },
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      249,
+      0,
+      640,
+      205
+     ],
+     "conf": 0.661
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.839
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.457
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.969
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.714
+    }
+   ]
+  },
+  {
+   "frame_id": 450,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      268,
+      0,
+      640,
+      200
+     ],
+     "conf": 0.942
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      184,
+      74,
+      367,
+      480
+     ],
+     "conf": 0.836
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.971
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.971
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.983
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.907
+    }
+   ]
+  },
+  {
+   "frame_id": 480,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      243,
+      0,
+      618,
+      188
+     ],
+     "conf": 0.919
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      173,
+      55,
+      364,
+      479
+     ],
+     "conf": 0.85
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.8
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.775
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.988
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.89
+    }
+   ]
+  },
+  {
+   "frame_id": 510,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      230,
+      0,
+      632,
+      182
+     ],
+     "conf": 0.929
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      189,
+      58,
+      372,
+      480
+     ],
+     "conf": 0.805
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.959
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.917
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.971
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.82
+    }
+   ]
+  },
+  {
+   "frame_id": 540,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      232,
+      0,
+      620,
+      184
+     ],
+     "conf": 0.922
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      183,
+      68,
+      369,
+      480
+     ],
+     "conf": 0.847
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.947
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.665
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.958
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.759
+    }
+   ]
+  },
+  {
+   "frame_id": 570,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      246,
+      0,
+      638,
+      184
+     ],
+     "conf": 0.91
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      232,
+      86,
+      399,
+      480
+     ],
+     "conf": 0.699
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.861
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.617
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.988
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.514
+    }
+   ]
+  },
+  {
+   "frame_id": 600,
+   "objects": [
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      148,
+      0,
+      332,
+      470
+     ],
+     "conf": 0.821
+    },
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      251,
+      0,
+      609,
+      119
+     ],
+     "conf": 0.718
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.855
+    },
+    {
+     "subject": 37652,
+     "predicate": "in_front_of",
+     "object": 37651,
+     "confidence": 0.62
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.988
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.297
+    }
+   ]
+  },
+  {
+   "frame_id": 630,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      277,
+      0,
+      640,
+      125
+     ],
+     "conf": 0.933
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      33,
+      1,
+      219,
+      479
+     ],
+     "conf": 0.874
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.991
+    },
+    {
+     "subject": 37652,
+     "predicate": "in_front_of",
+     "object": 37651,
+     "confidence": 0.898
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.992
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.491
+    }
+   ]
+  },
+  {
+   "frame_id": 660,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      369,
+      0,
+      640,
+      128
+     ],
+     "conf": 0.946
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      166,
+      0,
+      402,
+      479
+     ],
+     "conf": 0.86
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.861
+    },
+    {
+     "subject": 37652,
+     "predicate": "in_front_of",
+     "object": 37651,
+     "confidence": 0.72
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.998
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.44
+    }
+   ]
+  },
+  {
+   "frame_id": 690,
+   "objects": [
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      273,
+      27,
+      502,
+      479
+     ],
+     "conf": 0.895
+    },
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      110,
+      0,
+      472,
+      134
+     ],
+     "conf": 0.784
+    },
+    {
+     "track_id": 37727,
+     "class": "stool",
+     "bbox": [
+      127,
+      351,
+      299,
+      422
+     ],
+     "conf": 0.395
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.968
+    },
+    {
+     "subject": 37652,
+     "predicate": "in_front_of",
+     "object": 37651,
+     "confidence": 0.958
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.998
+    },
+    {
+     "subject": 37652,
+     "predicate": "hold",
+     "object": 37727,
+     "confidence": 0.53
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.388
+    }
+   ]
+  },
+  {
+   "frame_id": 720,
+   "objects": [
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      61,
+      1,
+      300,
+      479
+     ],
+     "conf": 0.828
+    },
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      112,
+      0,
+      525,
+      123
+     ],
+     "conf": 0.527
+    },
+    {
+     "track_id": 37750,
+     "class": "child",
+     "bbox": [
+      559,
+      159,
+      640,
+      467
+     ],
+     "conf": 0.453
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37750,
+     "confidence": 0.828
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.669
+    },
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.614
+    },
+    {
+     "subject": 37750,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.612
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.998
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.542
+    }
+   ]
+  },
+  {
+   "frame_id": 750,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      267,
+      0,
+      616,
+      124
+     ],
+     "conf": 0.897
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      93,
+      61,
+      309,
+      478
+     ],
+     "conf": 0.405
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.784
+    },
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.628
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.996
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.714
+    }
+   ]
+  },
+  {
+   "frame_id": 780,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      254,
+      0,
+      632,
+      129
+     ],
+     "conf": 0.881
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      13,
+      1,
+      216,
+      479
+     ],
+     "conf": 0.827
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.798
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.419
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.996
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.665
+    }
+   ]
+  },
+  {
+   "frame_id": 810,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      324,
+      0,
+      640,
+      121
+     ],
+     "conf": 0.911
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      57,
+      0,
+      237,
+      478
+     ],
+     "conf": 0.731
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.679
+    },
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.583
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.993
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.515
+    }
+   ]
+  },
+  {
+   "frame_id": 840,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      423,
+      0,
+      640,
+      127
+     ],
+     "conf": 0.919
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      225,
+      15,
+      390,
+      452
+     ],
+     "conf": 0.806
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.93
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.652
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.989
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.431
+    }
+   ]
+  },
+  {
+   "frame_id": 870,
+   "objects": [
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      148,
+      28,
+      286,
+      442
+     ],
+     "conf": 0.828
+    },
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      320,
+      0,
+      640,
+      150
+     ],
+     "conf": 0.809
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.842
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.764
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.99
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.531
+    }
+   ]
+  },
+  {
+   "frame_id": 900,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      335,
+      0,
+      640,
+      158
+     ],
+     "conf": 0.947
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      164,
+      49,
+      316,
+      452
+     ],
+     "conf": 0.508
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.812
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.689
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.974
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.492
+    }
+   ]
+  },
+  {
+   "frame_id": 930,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      345,
+      0,
+      640,
+      162
+     ],
+     "conf": 0.953
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      133,
+      43,
+      301,
+      465
+     ],
+     "conf": 0.801
+    },
+    {
+     "track_id": 37775,
+     "class": "piano",
+     "bbox": [
+      270,
+      120,
+      640,
+      468
+     ],
+     "conf": 0.403
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.948
+    },
+    {
+     "subject": 37775,
+     "predicate": "in_front_of",
+     "object": 37651,
+     "confidence": 0.815
+    },
+    {
+     "subject": 37652,
+     "predicate": "in_front_of",
+     "object": 37651,
+     "confidence": 0.667
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37775,
+     "confidence": 0.616
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.992
+    },
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.493
+    }
+   ]
+  },
+  {
+   "frame_id": 960,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      309,
+      0,
+      605,
+      137
+     ],
+     "conf": 0.916
+    },
+    {
+     "track_id": 37652,
+     "class": "child",
+     "bbox": [
+      239,
+      1,
+      433,
+      478
+     ],
+     "conf": 0.808
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37652,
+     "predicate": "watch",
+     "object": 37651,
+     "confidence": 0.558
+    },
+    {
+     "subject": 37651,
+     "predicate": "in_front_of",
+     "object": 37652,
+     "confidence": 0.389
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 37651,
+     "predicate": "behind",
+     "object": 37652,
+     "confidence": 0.984
+    },
+    {
+     "subject": 37652,
+     "predicate": "next_to",
+     "object": 37651,
+     "confidence": 0.619
+    }
+   ]
+  },
+  {
+   "frame_id": 990,
+   "objects": [
+    {
+     "track_id": 37651,
+     "class": "screen/monitor",
+     "bbox": [
+      281,
+      0,
+      631,
+      150
+     ],
+     "conf": 0.937
+    },
+    {
+     "track_id": 37791,
+     "class": "piano",
+     "bbox": [
+      190,
+      98,
+      640,
+      436
+     ],
+     "conf": 0.723
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 37791,
+     "predicate": "in_front_of",
+     "object": 37651,
+     "confidence": 0.9
+    }
+   ],
+   "temporal_gru": []
+  }
+ ]
+}

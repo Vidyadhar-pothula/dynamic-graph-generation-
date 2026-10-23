@@ -1,0 +1,1630 @@
+{
+ "video_id": "5222219490",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 0,
+   "objects": [
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      190,
+      240,
+      371,
+      480
+     ],
+     "conf": 0.774
+    },
+    {
+     "track_id": 47496,
+     "class": "child",
+     "bbox": [
+      328,
+      90,
+      469,
+      400
+     ],
+     "conf": 0.586
+    }
+   ],
+   "relation_model": [],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      328,
+      55,
+      496,
+      363
+     ],
+     "conf": 0.819
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      128,
+      267,
+      459,
+      479
+     ],
+     "conf": 0.805
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      2,
+      22,
+      123,
+      480
+     ],
+     "conf": 0.405
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.859
+    },
+    {
+     "subject": 47523,
+     "predicate": "next_to",
+     "object": 46645,
+     "confidence": 0.817
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.615
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.51
+    },
+    {
+     "subject": 47524,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.43
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      331,
+      65,
+      499,
+      366
+     ],
+     "conf": 0.857
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      144,
+      271,
+      463,
+      479
+     ],
+     "conf": 0.81
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      27,
+      10,
+      183,
+      480
+     ],
+     "conf": 0.441
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.486
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.777
+    }
+   ]
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      336,
+      50,
+      504,
+      364
+     ],
+     "conf": 0.812
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      128,
+      260,
+      465,
+      479
+     ],
+     "conf": 0.804
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      0,
+      1,
+      136,
+      479
+     ],
+     "conf": 0.569
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.935
+    },
+    {
+     "subject": 47523,
+     "predicate": "next_to",
+     "object": 46645,
+     "confidence": 0.695
+    },
+    {
+     "subject": 47524,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.453
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.33
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.868
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.634
+    },
+    {
+     "subject": 47523,
+     "predicate": "behind",
+     "object": 46645,
+     "confidence": 0.52
+    }
+   ]
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      319,
+      54,
+      470,
+      345
+     ],
+     "conf": 0.828
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      128,
+      256,
+      471,
+      479
+     ],
+     "conf": 0.815
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      4,
+      13,
+      121,
+      479
+     ],
+     "conf": 0.473
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.559
+    },
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 46645,
+     "confidence": 0.504
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.913
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.813
+    },
+    {
+     "subject": 47523,
+     "predicate": "behind",
+     "object": 46645,
+     "confidence": 0.587
+    }
+   ]
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      298,
+      43,
+      464,
+      353
+     ],
+     "conf": 0.821
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      142,
+      256,
+      468,
+      480
+     ],
+     "conf": 0.692
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      0,
+      3,
+      133,
+      479
+     ],
+     "conf": 0.554
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.804
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 47523,
+     "confidence": 0.637
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.961
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.909
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 46645,
+     "confidence": 0.483
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 47523,
+     "confidence": 0.476
+    },
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.381
+    }
+   ]
+  },
+  {
+   "frame_id": 180,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      317,
+      42,
+      469,
+      346
+     ],
+     "conf": 0.808
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      131,
+      221,
+      478,
+      480
+     ],
+     "conf": 0.631
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      0,
+      2,
+      129,
+      479
+     ],
+     "conf": 0.616
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.731
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.513
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 47523,
+     "confidence": 0.401
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.981
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.944
+    },
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.77
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 46645,
+     "confidence": 0.527
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 47523,
+     "confidence": 0.461
+    }
+   ]
+  },
+  {
+   "frame_id": 210,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      325,
+      110,
+      493,
+      354
+     ],
+     "conf": 0.853
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      153,
+      272,
+      460,
+      480
+     ],
+     "conf": 0.759
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      0,
+      6,
+      121,
+      479
+     ],
+     "conf": 0.631
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.63
+    },
+    {
+     "subject": 47523,
+     "predicate": "next_to",
+     "object": 46645,
+     "confidence": 0.571
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.441
+    },
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 47523,
+     "confidence": 0.437
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.99
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.96
+    },
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.891
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 46645,
+     "confidence": 0.743
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.605
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 47523,
+     "confidence": 0.463
+    }
+   ]
+  },
+  {
+   "frame_id": 240,
+   "objects": [
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      144,
+      262,
+      465,
+      480
+     ],
+     "conf": 0.872
+    },
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      315,
+      115,
+      496,
+      358
+     ],
+     "conf": 0.845
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      0,
+      5,
+      118,
+      479
+     ],
+     "conf": 0.54
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.708
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 47523,
+     "confidence": 0.349
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.992
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.973
+    },
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.95
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 46645,
+     "confidence": 0.774
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.726
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 47523,
+     "confidence": 0.451
+    }
+   ]
+  },
+  {
+   "frame_id": 270,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      311,
+      115,
+      495,
+      356
+     ],
+     "conf": 0.858
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      139,
+      262,
+      472,
+      479
+     ],
+     "conf": 0.813
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      0,
+      5,
+      103,
+      479
+     ],
+     "conf": 0.575
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 47523,
+     "predicate": "watch",
+     "object": 47524,
+     "confidence": 0.372
+    },
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 47523,
+     "confidence": 0.33
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.995
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.984
+    },
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.968
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.776
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 46645,
+     "confidence": 0.718
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 47523,
+     "confidence": 0.339
+    }
+   ]
+  },
+  {
+   "frame_id": 300,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      314,
+      113,
+      496,
+      353
+     ],
+     "conf": 0.847
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      144,
+      271,
+      465,
+      479
+     ],
+     "conf": 0.602
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      2,
+      7,
+      112,
+      480
+     ],
+     "conf": 0.586
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 47524,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.444
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.334
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.996
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.988
+    },
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.959
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.795
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 46645,
+     "confidence": 0.661
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 47523,
+     "confidence": 0.281
+    }
+   ]
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      311,
+      90,
+      500,
+      347
+     ],
+     "conf": 0.827
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      141,
+      260,
+      466,
+      480
+     ],
+     "conf": 0.749
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      22,
+      7,
+      188,
+      479
+     ],
+     "conf": 0.626
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 47523,
+     "predicate": "next_to",
+     "object": 47524,
+     "confidence": 0.5
+    },
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 47523,
+     "confidence": 0.492
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.99
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.986
+    },
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.94
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.777
+    },
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 46645,
+     "confidence": 0.581
+    }
+   ]
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      311,
+      61,
+      485,
+      375
+     ],
+     "conf": 0.821
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      131,
+      265,
+      458,
+      479
+     ],
+     "conf": 0.782
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      0,
+      5,
+      127,
+      480
+     ],
+     "conf": 0.627
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 47523,
+     "confidence": 0.673
+    },
+    {
+     "subject": 47523,
+     "predicate": "next_to",
+     "object": 47524,
+     "confidence": 0.602
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.987
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.982
+    },
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.903
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 46645,
+     "confidence": 0.839
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.831
+    },
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 47523,
+     "confidence": 0.327
+    }
+   ]
+  },
+  {
+   "frame_id": 390,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      271,
+      93,
+      463,
+      358
+     ],
+     "conf": 0.898
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      126,
+      254,
+      463,
+      480
+     ],
+     "conf": 0.772
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      7,
+      5,
+      181,
+      478
+     ],
+     "conf": 0.504
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 47523,
+     "confidence": 0.755
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.535
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.479
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.96
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.956
+    },
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.856
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.839
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 46645,
+     "confidence": 0.734
+    },
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 47523,
+     "confidence": 0.525
+    }
+   ]
+  },
+  {
+   "frame_id": 420,
+   "objects": [
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      5,
+      2,
+      219,
+      479
+     ],
+     "conf": 0.818
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      128,
+      263,
+      482,
+      479
+     ],
+     "conf": 0.807
+    },
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      290,
+      86,
+      491,
+      367
+     ],
+     "conf": 0.768
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.846
+    },
+    {
+     "subject": 47523,
+     "predicate": "next_to",
+     "object": 46645,
+     "confidence": 0.598
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.541
+    },
+    {
+     "subject": 47524,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.425
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.981
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.926
+    },
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.876
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.793
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 46645,
+     "confidence": 0.746
+    },
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 47523,
+     "confidence": 0.671
+    }
+   ]
+  },
+  {
+   "frame_id": 450,
+   "objects": [
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      0,
+      2,
+      210,
+      479
+     ],
+     "conf": 0.809
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      124,
+      284,
+      451,
+      479
+     ],
+     "conf": 0.768
+    },
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      305,
+      74,
+      480,
+      382
+     ],
+     "conf": 0.758
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 47523,
+     "predicate": "next_to",
+     "object": 46645,
+     "confidence": 0.958
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.953
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.919
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 47523,
+     "confidence": 0.853
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.836
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.96
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.956
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.913
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.798
+    },
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 47523,
+     "confidence": 0.665
+    },
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 46645,
+     "confidence": 0.383
+    }
+   ]
+  },
+  {
+   "frame_id": 480,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      287,
+      68,
+      451,
+      381
+     ],
+     "conf": 0.87
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      0,
+      5,
+      201,
+      479
+     ],
+     "conf": 0.795
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      116,
+      279,
+      449,
+      479
+     ],
+     "conf": 0.749
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.917
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.81
+    },
+    {
+     "subject": 47523,
+     "predicate": "next_to",
+     "object": 46645,
+     "confidence": 0.768
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.681
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 47523,
+     "confidence": 0.404
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.972
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.93
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.928
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.836
+    },
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 47523,
+     "confidence": 0.674
+    },
+    {
+     "subject": 47524,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.605
+    }
+   ]
+  },
+  {
+   "frame_id": 510,
+   "objects": [
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      145,
+      282,
+      476,
+      479
+     ],
+     "conf": 0.81
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      0,
+      7,
+      212,
+      478
+     ],
+     "conf": 0.807
+    },
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      325,
+      60,
+      481,
+      378
+     ],
+     "conf": 0.792
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.945
+    },
+    {
+     "subject": 47524,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.454
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.979
+    },
+    {
+     "subject": 47524,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.828
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.785
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.775
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.746
+    },
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 47523,
+     "confidence": 0.593
+    }
+   ]
+  },
+  {
+   "frame_id": 540,
+   "objects": [
+    {
+     "track_id": 47523,
+     "class": "child",
+     "bbox": [
+      320,
+      59,
+      476,
+      371
+     ],
+     "conf": 0.771
+    },
+    {
+     "track_id": 47524,
+     "class": "adult",
+     "bbox": [
+      0,
+      2,
+      227,
+      479
+     ],
+     "conf": 0.769
+    },
+    {
+     "track_id": 46645,
+     "class": "table",
+     "bbox": [
+      158,
+      292,
+      468,
+      480
+     ],
+     "conf": 0.744
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.867
+    },
+    {
+     "subject": 47524,
+     "predicate": "behind",
+     "object": 47523,
+     "confidence": 0.659
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 47523,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.974
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47523,
+     "confidence": 0.959
+    },
+    {
+     "subject": 46645,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.858
+    },
+    {
+     "subject": 47524,
+     "predicate": "lean_on",
+     "object": 46645,
+     "confidence": 0.765
+    },
+    {
+     "subject": 47523,
+     "predicate": "in_front_of",
+     "object": 47524,
+     "confidence": 0.719
+    },
+    {
+     "subject": 47524,
+     "predicate": "next_to",
+     "object": 47523,
+     "confidence": 0.678
+    }
+   ]
+  }
+ ]
+}

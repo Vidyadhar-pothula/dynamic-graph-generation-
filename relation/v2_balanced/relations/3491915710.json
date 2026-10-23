@@ -1,0 +1,1508 @@
+{
+ "video_id": "3491915710",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 19559,
+     "class": "car",
+     "bbox": [
+      0,
+      41,
+      106,
+      124
+     ],
+     "conf": 0.867
+    },
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      311,
+      117,
+      402,
+      296
+     ],
+     "conf": 0.842
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      313,
+      186,
+      405,
+      318
+     ],
+     "conf": 0.717
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.975
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19559,
+     "confidence": 0.883
+    },
+    {
+     "subject": 19559,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.776
+    },
+    {
+     "subject": 19560,
+     "predicate": "behind",
+     "object": 19559,
+     "confidence": 0.612
+    },
+    {
+     "subject": 19559,
+     "predicate": "next_to",
+     "object": 19561,
+     "confidence": 0.493
+    },
+    {
+     "subject": 19561,
+     "predicate": "above",
+     "object": 19560,
+     "confidence": 0.47
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19561,
+     "predicate": "watch",
+     "object": 19559,
+     "confidence": 0.272
+    },
+    {
+     "subject": 19560,
+     "predicate": "watch",
+     "object": 19559,
+     "confidence": 0.269
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.265
+    }
+   ]
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      291,
+      187,
+      369,
+      348
+     ],
+     "conf": 0.805
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      296,
+      255,
+      368,
+      363
+     ],
+     "conf": 0.711
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.925
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.743
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "behind",
+     "object": 19561,
+     "confidence": 0.505
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.489
+    }
+   ]
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      233,
+      165,
+      301,
+      308
+     ],
+     "conf": 0.788
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      238,
+      228,
+      303,
+      327
+     ],
+     "conf": 0.621
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.892
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.727
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "behind",
+     "object": 19561,
+     "confidence": 0.464
+    },
+    {
+     "subject": 19561,
+     "predicate": "hold_hand_of",
+     "object": 19560,
+     "confidence": 0.445
+    }
+   ]
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      209,
+      178,
+      284,
+      329
+     ],
+     "conf": 0.766
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      217,
+      236,
+      285,
+      332
+     ],
+     "conf": 0.66
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.927
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.713
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.556
+    },
+    {
+     "subject": 19561,
+     "predicate": "hold_hand_of",
+     "object": 19560,
+     "confidence": 0.38
+    }
+   ]
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      286,
+      179,
+      358,
+      323
+     ],
+     "conf": 0.844
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      289,
+      235,
+      359,
+      328
+     ],
+     "conf": 0.681
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.952
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.594
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.537
+    },
+    {
+     "subject": 19561,
+     "predicate": "hold_hand_of",
+     "object": 19560,
+     "confidence": 0.468
+    }
+   ]
+  },
+  {
+   "frame_id": 180,
+   "objects": [
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      270,
+      244,
+      345,
+      332
+     ],
+     "conf": 0.764
+    },
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      292,
+      189,
+      357,
+      329
+     ],
+     "conf": 0.674
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.987
+    },
+    {
+     "subject": 19561,
+     "predicate": "lean_on",
+     "object": 19560,
+     "confidence": 0.313
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.84
+    },
+    {
+     "subject": 19561,
+     "predicate": "hold_hand_of",
+     "object": 19560,
+     "confidence": 0.474
+    }
+   ]
+  },
+  {
+   "frame_id": 210,
+   "objects": [
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      324,
+      224,
+      440,
+      321
+     ],
+     "conf": 0.863
+    },
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      348,
+      179,
+      411,
+      316
+     ],
+     "conf": 0.855
+    },
+    {
+     "track_id": 19595,
+     "class": "car",
+     "bbox": [
+      8,
+      140,
+      63,
+      198
+     ],
+     "conf": 0.802
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.956
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.832
+    },
+    {
+     "subject": 19560,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.617
+    },
+    {
+     "subject": 19561,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.486
+    },
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.441
+    },
+    {
+     "subject": 19595,
+     "predicate": "in_front_of",
+     "object": 19561,
+     "confidence": 0.337
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.917
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.669
+    },
+    {
+     "subject": 19560,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.627
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.452
+    }
+   ]
+  },
+  {
+   "frame_id": 240,
+   "objects": [
+    {
+     "track_id": 19595,
+     "class": "car",
+     "bbox": [
+      14,
+      105,
+      139,
+      187
+     ],
+     "conf": 0.882
+    },
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      350,
+      169,
+      431,
+      306
+     ],
+     "conf": 0.863
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      337,
+      221,
+      440,
+      316
+     ],
+     "conf": 0.753
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.976
+    },
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.952
+    },
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19561,
+     "confidence": 0.765
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.683
+    },
+    {
+     "subject": 19561,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.603
+    },
+    {
+     "subject": 19560,
+     "predicate": "next_to",
+     "object": 19595,
+     "confidence": 0.533
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.98
+    },
+    {
+     "subject": 19560,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.879
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.799
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.588
+    },
+    {
+     "subject": 19595,
+     "predicate": "behind",
+     "object": 19561,
+     "confidence": 0.458
+    }
+   ]
+  },
+  {
+   "frame_id": 270,
+   "objects": [
+    {
+     "track_id": 19595,
+     "class": "car",
+     "bbox": [
+      6,
+      96,
+      222,
+      176
+     ],
+     "conf": 0.888
+    },
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      351,
+      160,
+      426,
+      307
+     ],
+     "conf": 0.854
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      348,
+      217,
+      424,
+      317
+     ],
+     "conf": 0.528
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.957
+    },
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19561,
+     "confidence": 0.946
+    },
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.893
+    },
+    {
+     "subject": 19561,
+     "predicate": "next_to",
+     "object": 19595,
+     "confidence": 0.521
+    },
+    {
+     "subject": 19560,
+     "predicate": "next_to",
+     "object": 19595,
+     "confidence": 0.461
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.272
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.989
+    },
+    {
+     "subject": 19560,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.889
+    },
+    {
+     "subject": 19595,
+     "predicate": "behind",
+     "object": 19561,
+     "confidence": 0.773
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.62
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.594
+    }
+   ]
+  },
+  {
+   "frame_id": 300,
+   "objects": [
+    {
+     "track_id": 19595,
+     "class": "car",
+     "bbox": [
+      32,
+      105,
+      283,
+      188
+     ],
+     "conf": 0.908
+    },
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      383,
+      177,
+      453,
+      315
+     ],
+     "conf": 0.817
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      379,
+      231,
+      457,
+      342
+     ],
+     "conf": 0.754
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.981
+    },
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.978
+    },
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19561,
+     "confidence": 0.909
+    },
+    {
+     "subject": 19560,
+     "predicate": "next_to",
+     "object": 19595,
+     "confidence": 0.599
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.441
+    },
+    {
+     "subject": 19561,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.257
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.998
+    },
+    {
+     "subject": 19595,
+     "predicate": "behind",
+     "object": 19561,
+     "confidence": 0.837
+    },
+    {
+     "subject": 19560,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.8
+    },
+    {
+     "subject": 19561,
+     "predicate": "watch",
+     "object": 19595,
+     "confidence": 0.652
+    },
+    {
+     "subject": 19595,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.537
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.414
+    }
+   ]
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 19595,
+     "class": "car",
+     "bbox": [
+      62,
+      99,
+      310,
+      180
+     ],
+     "conf": 0.897
+    },
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      346,
+      174,
+      422,
+      326
+     ],
+     "conf": 0.869
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      341,
+      242,
+      424,
+      357
+     ],
+     "conf": 0.73
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19561,
+     "confidence": 0.969
+    },
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.965
+    },
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.946
+    },
+    {
+     "subject": 19561,
+     "predicate": "next_to",
+     "object": 19595,
+     "confidence": 0.646
+    },
+    {
+     "subject": 19560,
+     "predicate": "next_to",
+     "object": 19595,
+     "confidence": 0.597
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.304
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.999
+    },
+    {
+     "subject": 19595,
+     "predicate": "behind",
+     "object": 19561,
+     "confidence": 0.9
+    },
+    {
+     "subject": 19561,
+     "predicate": "watch",
+     "object": 19595,
+     "confidence": 0.846
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.528
+    },
+    {
+     "subject": 19595,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.517
+    },
+    {
+     "subject": 19560,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.48
+    }
+   ]
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 19595,
+     "class": "car",
+     "bbox": [
+      138,
+      76,
+      388,
+      157
+     ],
+     "conf": 0.906
+    },
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      304,
+      160,
+      407,
+      357
+     ],
+     "conf": 0.87
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      307,
+      229,
+      403,
+      367
+     ],
+     "conf": 0.706
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.975
+    },
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19561,
+     "confidence": 0.97
+    },
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.967
+    },
+    {
+     "subject": 19560,
+     "predicate": "next_to",
+     "object": 19595,
+     "confidence": 0.737
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.456
+    },
+    {
+     "subject": 19561,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.389
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.999
+    },
+    {
+     "subject": 19561,
+     "predicate": "watch",
+     "object": 19595,
+     "confidence": 0.961
+    },
+    {
+     "subject": 19595,
+     "predicate": "behind",
+     "object": 19561,
+     "confidence": 0.901
+    },
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19595,
+     "confidence": 0.818
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.529
+    },
+    {
+     "subject": 19595,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.488
+    }
+   ]
+  },
+  {
+   "frame_id": 390,
+   "objects": [
+    {
+     "track_id": 19595,
+     "class": "car",
+     "bbox": [
+      262,
+      34,
+      510,
+      115
+     ],
+     "conf": 0.909
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      302,
+      207,
+      418,
+      374
+     ],
+     "conf": 0.823
+    },
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      304,
+      120,
+      414,
+      344
+     ],
+     "conf": 0.805
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.992
+    },
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.986
+    },
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19561,
+     "confidence": 0.953
+    },
+    {
+     "subject": 19560,
+     "predicate": "next_to",
+     "object": 19595,
+     "confidence": 0.721
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.448
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.999
+    },
+    {
+     "subject": 19561,
+     "predicate": "watch",
+     "object": 19595,
+     "confidence": 0.98
+    },
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19595,
+     "confidence": 0.922
+    },
+    {
+     "subject": 19595,
+     "predicate": "behind",
+     "object": 19561,
+     "confidence": 0.887
+    },
+    {
+     "subject": 19595,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.475
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.411
+    }
+   ]
+  },
+  {
+   "frame_id": 420,
+   "objects": [
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      371,
+      223,
+      511,
+      434
+     ],
+     "conf": 0.884
+    },
+    {
+     "track_id": 19595,
+     "class": "car",
+     "bbox": [
+      463,
+      15,
+      640,
+      92
+     ],
+     "conf": 0.872
+    },
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      371,
+      116,
+      511,
+      391
+     ],
+     "conf": 0.842
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.959
+    },
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.929
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.874
+    },
+    {
+     "subject": 19560,
+     "predicate": "behind",
+     "object": 19595,
+     "confidence": 0.707
+    },
+    {
+     "subject": 19595,
+     "predicate": "next_to",
+     "object": 19561,
+     "confidence": 0.512
+    },
+    {
+     "subject": 19561,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.435
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.999
+    },
+    {
+     "subject": 19561,
+     "predicate": "watch",
+     "object": 19595,
+     "confidence": 0.981
+    },
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19595,
+     "confidence": 0.918
+    },
+    {
+     "subject": 19595,
+     "predicate": "behind",
+     "object": 19561,
+     "confidence": 0.89
+    },
+    {
+     "subject": 19595,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.447
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.405
+    }
+   ]
+  },
+  {
+   "frame_id": 450,
+   "objects": [
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      418,
+      49,
+      606,
+      421
+     ],
+     "conf": 0.915
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      415,
+      195,
+      599,
+      469
+     ],
+     "conf": 0.888
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.968
+    },
+    {
+     "subject": 19561,
+     "predicate": "next_to",
+     "object": 19560,
+     "confidence": 0.266
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.999
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.358
+    }
+   ]
+  },
+  {
+   "frame_id": 480,
+   "objects": [
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      262,
+      204,
+      469,
+      480
+     ],
+     "conf": 0.931
+    },
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      268,
+      6,
+      481,
+      413
+     ],
+     "conf": 0.861
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.979
+    },
+    {
+     "subject": 19561,
+     "predicate": "lean_on",
+     "object": 19560,
+     "confidence": 0.485
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 1.0
+    },
+    {
+     "subject": 19561,
+     "predicate": "behind",
+     "object": 19560,
+     "confidence": 0.511
+    }
+   ]
+  },
+  {
+   "frame_id": 510,
+   "objects": [
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      290,
+      54,
+      552,
+      480
+     ],
+     "conf": 0.9
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      313,
+      312,
+      540,
+      479
+     ],
+     "conf": 0.824
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.979
+    },
+    {
+     "subject": 19561,
+     "predicate": "lean_on",
+     "object": 19560,
+     "confidence": 0.633
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.999
+    },
+    {
+     "subject": 19561,
+     "predicate": "watch",
+     "object": 19560,
+     "confidence": 0.453
+    }
+   ]
+  },
+  {
+   "frame_id": 540,
+   "objects": [
+    {
+     "track_id": 19561,
+     "class": "child",
+     "bbox": [
+      309,
+      13,
+      619,
+      456
+     ],
+     "conf": 0.725
+    },
+    {
+     "track_id": 19607,
+     "class": "motorcycle",
+     "bbox": [
+      312,
+      254,
+      627,
+      479
+     ],
+     "conf": 0.701
+    },
+    {
+     "track_id": 19560,
+     "class": "bicycle",
+     "bbox": [
+      277,
+      235,
+      640,
+      477
+     ],
+     "conf": 0.581
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 19607,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.973
+    },
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.959
+    },
+    {
+     "subject": 19561,
+     "predicate": "lean_on",
+     "object": 19607,
+     "confidence": 0.94
+    },
+    {
+     "subject": 19561,
+     "predicate": "lean_on",
+     "object": 19560,
+     "confidence": 0.856
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 19560,
+     "predicate": "beneath",
+     "object": 19561,
+     "confidence": 0.999
+    },
+    {
+     "subject": 19561,
+     "predicate": "watch",
+     "object": 19560,
+     "confidence": 0.417
+    },
+    {
+     "subject": 19607,
+     "predicate": "behind",
+     "object": 19561,
+     "confidence": 0.393
+    }
+   ]
+  }
+ ]
+}

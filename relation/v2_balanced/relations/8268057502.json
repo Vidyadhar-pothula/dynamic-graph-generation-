@@ -1,0 +1,310 @@
+{
+ "video_id": "8268057502",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 180,
+   "objects": [
+    {
+     "track_id": 16596,
+     "class": "child",
+     "bbox": [
+      7,
+      150,
+      97,
+      359
+     ],
+     "conf": 0.81
+    },
+    {
+     "track_id": 16582,
+     "class": "watercraft",
+     "bbox": [
+      424,
+      240,
+      587,
+      279
+     ],
+     "conf": 0.741
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 16582,
+     "predicate": "beneath",
+     "object": 16596,
+     "confidence": 0.951
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 210,
+   "objects": [
+    {
+     "track_id": 16596,
+     "class": "child",
+     "bbox": [
+      10,
+      156,
+      165,
+      358
+     ],
+     "conf": 0.846
+    },
+    {
+     "track_id": 16582,
+     "class": "watercraft",
+     "bbox": [
+      476,
+      248,
+      640,
+      289
+     ],
+     "conf": 0.44
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 16582,
+     "predicate": "beneath",
+     "object": 16596,
+     "confidence": 0.925
+    },
+    {
+     "subject": 16596,
+     "predicate": "next_to",
+     "object": 16582,
+     "confidence": 0.659
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 240,
+   "objects": [
+    {
+     "track_id": 16596,
+     "class": "child",
+     "bbox": [
+      33,
+      154,
+      243,
+      357
+     ],
+     "conf": 0.769
+    },
+    {
+     "track_id": 16582,
+     "class": "watercraft",
+     "bbox": [
+      527,
+      247,
+      640,
+      288
+     ],
+     "conf": 0.429
+    },
+    {
+     "track_id": 16627,
+     "class": "adult",
+     "bbox": [
+      27,
+      154,
+      247,
+      358
+     ],
+     "conf": 0.35
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 16582,
+     "predicate": "next_to",
+     "object": 16596,
+     "confidence": 0.793
+    },
+    {
+     "subject": 16596,
+     "predicate": "next_to",
+     "object": 16582,
+     "confidence": 0.646
+    },
+    {
+     "subject": 16596,
+     "predicate": "in_front_of",
+     "object": 16627,
+     "confidence": 0.472
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 300,
+   "objects": [
+    {
+     "track_id": 16647,
+     "class": "adult",
+     "bbox": [
+      8,
+      84,
+      66,
+      359
+     ],
+     "conf": 0.683
+    },
+    {
+     "track_id": 16642,
+     "class": "adult",
+     "bbox": [
+      203,
+      141,
+      424,
+      358
+     ],
+     "conf": 0.645
+    },
+    {
+     "track_id": 16645,
+     "class": "adult",
+     "bbox": [
+      8,
+      180,
+      311,
+      358
+     ],
+     "conf": 0.274
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 16642,
+     "predicate": "watch",
+     "object": 16645,
+     "confidence": 0.86
+    },
+    {
+     "subject": 16645,
+     "predicate": "in_front_of",
+     "object": 16642,
+     "confidence": 0.781
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 16642,
+     "predicate": "lean_on",
+     "object": 16645,
+     "confidence": 0.451
+    }
+   ]
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 16647,
+     "class": "adult",
+     "bbox": [
+      16,
+      29,
+      158,
+      359
+     ],
+     "conf": 0.916
+    },
+    {
+     "track_id": 16642,
+     "class": "adult",
+     "bbox": [
+      317,
+      147,
+      536,
+      358
+     ],
+     "conf": 0.41
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 16642,
+     "predicate": "in_front_of",
+     "object": 16647,
+     "confidence": 0.789
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 16647,
+     "class": "adult",
+     "bbox": [
+      18,
+      39,
+      294,
+      359
+     ],
+     "conf": 0.92
+    },
+    {
+     "track_id": 16667,
+     "class": "cup",
+     "bbox": [
+      497,
+      162,
+      571,
+      352
+     ],
+     "conf": 0.496
+    },
+    {
+     "track_id": 16642,
+     "class": "child",
+     "bbox": [
+      428,
+      142,
+      640,
+      358
+     ],
+     "conf": 0.421
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 16667,
+     "predicate": "in_front_of",
+     "object": 16647,
+     "confidence": 0.944
+    },
+    {
+     "subject": 16642,
+     "predicate": "in_front_of",
+     "object": 16647,
+     "confidence": 0.925
+    },
+    {
+     "subject": 16642,
+     "predicate": "hold",
+     "object": 16667,
+     "confidence": 0.856
+    },
+    {
+     "subject": 16667,
+     "predicate": "in_front_of",
+     "object": 16642,
+     "confidence": 0.561
+    },
+    {
+     "subject": 16647,
+     "predicate": "hold",
+     "object": 16667,
+     "confidence": 0.463
+    }
+   ],
+   "temporal_gru": []
+  }
+ ]
+}

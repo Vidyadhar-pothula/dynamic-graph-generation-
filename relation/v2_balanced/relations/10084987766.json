@@ -1,0 +1,239 @@
+{
+ "video_id": "10084987766",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 4833,
+     "class": "baby",
+     "bbox": [
+      228,
+      89,
+      378,
+      210
+     ],
+     "conf": 0.756
+    },
+    {
+     "track_id": 4834,
+     "class": "baby_seat",
+     "bbox": [
+      270,
+      12,
+      455,
+      187
+     ],
+     "conf": 0.315
+    },
+    {
+     "track_id": 4845,
+     "class": "chair",
+     "bbox": [
+      279,
+      5,
+      450,
+      185
+     ],
+     "conf": 0.297
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 4833,
+     "predicate": "towards",
+     "object": 4834,
+     "confidence": 0.616
+    },
+    {
+     "subject": 4834,
+     "predicate": "beneath",
+     "object": 4833,
+     "confidence": 0.511
+    },
+    {
+     "subject": 4845,
+     "predicate": "behind",
+     "object": 4833,
+     "confidence": 0.505
+    },
+    {
+     "subject": 4833,
+     "predicate": "next_to",
+     "object": 4845,
+     "confidence": 0.462
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 4833,
+     "class": "baby",
+     "bbox": [
+      232,
+      75,
+      381,
+      205
+     ],
+     "conf": 0.901
+    },
+    {
+     "track_id": 4834,
+     "class": "baby_seat",
+     "bbox": [
+      269,
+      2,
+      446,
+      179
+     ],
+     "conf": 0.867
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 4834,
+     "predicate": "beneath",
+     "object": 4833,
+     "confidence": 0.922
+    },
+    {
+     "subject": 4833,
+     "predicate": "lean_on",
+     "object": 4834,
+     "confidence": 0.784
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 4833,
+     "class": "baby",
+     "bbox": [
+      262,
+      61,
+      443,
+      198
+     ],
+     "conf": 0.786
+    },
+    {
+     "track_id": 4834,
+     "class": "baby_seat",
+     "bbox": [
+      283,
+      10,
+      440,
+      160
+     ],
+     "conf": 0.717
+    },
+    {
+     "track_id": 4856,
+     "class": "toy",
+     "bbox": [
+      0,
+      220,
+      40,
+      275
+     ],
+     "conf": 0.284
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 4834,
+     "predicate": "next_to",
+     "object": 4856,
+     "confidence": 0.876
+    },
+    {
+     "subject": 4834,
+     "predicate": "beneath",
+     "object": 4833,
+     "confidence": 0.857
+    },
+    {
+     "subject": 4833,
+     "predicate": "lean_on",
+     "object": 4834,
+     "confidence": 0.851
+    },
+    {
+     "subject": 4833,
+     "predicate": "next_to",
+     "object": 4856,
+     "confidence": 0.714
+    },
+    {
+     "subject": 4856,
+     "predicate": "next_to",
+     "object": 4834,
+     "confidence": 0.664
+    },
+    {
+     "subject": 4856,
+     "predicate": "next_to",
+     "object": 4833,
+     "confidence": 0.573
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 4834,
+     "predicate": "watch",
+     "object": 4833,
+     "confidence": 0.465
+    }
+   ]
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 4834,
+     "class": "baby_seat",
+     "bbox": [
+      279,
+      18,
+      443,
+      170
+     ],
+     "conf": 0.916
+    },
+    {
+     "track_id": 4833,
+     "class": "baby",
+     "bbox": [
+      320,
+      103,
+      446,
+      206
+     ],
+     "conf": 0.661
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 4833,
+     "predicate": "lean_on",
+     "object": 4834,
+     "confidence": 0.956
+    },
+    {
+     "subject": 4834,
+     "predicate": "beneath",
+     "object": 4833,
+     "confidence": 0.684
+    }
+   ],
+   "temporal_gru": []
+  }
+ ]
+}

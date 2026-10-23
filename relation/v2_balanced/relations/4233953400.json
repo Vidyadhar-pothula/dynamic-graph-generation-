@@ -1,0 +1,1120 @@
+{
+ "video_id": "4233953400",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      202,
+      73,
+      238,
+      135
+     ],
+     "conf": 0.824
+    },
+    {
+     "track_id": 34263,
+     "class": "adult",
+     "bbox": [
+      89,
+      47,
+      112,
+      95
+     ],
+     "conf": 0.805
+    },
+    {
+     "track_id": 34264,
+     "class": "adult",
+     "bbox": [
+      252,
+      68,
+      278,
+      111
+     ],
+     "conf": 0.767
+    },
+    {
+     "track_id": 34277,
+     "class": "adult",
+     "bbox": [
+      0,
+      0,
+      10,
+      28
+     ],
+     "conf": 0.462
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 34264,
+     "predicate": "in_front_of",
+     "object": 34277,
+     "confidence": 0.666
+    },
+    {
+     "subject": 34277,
+     "predicate": "in_front_of",
+     "object": 34263,
+     "confidence": 0.643
+    },
+    {
+     "subject": 34264,
+     "predicate": "in_front_of",
+     "object": 34263,
+     "confidence": 0.618
+    },
+    {
+     "subject": 34263,
+     "predicate": "in_front_of",
+     "object": 34277,
+     "confidence": 0.585
+    },
+    {
+     "subject": 34264,
+     "predicate": "watch",
+     "object": 34262,
+     "confidence": 0.583
+    },
+    {
+     "subject": 34263,
+     "predicate": "behind",
+     "object": 34262,
+     "confidence": 0.503
+    },
+    {
+     "subject": 34263,
+     "predicate": "behind",
+     "object": 34264,
+     "confidence": 0.5
+    },
+    {
+     "subject": 34277,
+     "predicate": "watch",
+     "object": 34264,
+     "confidence": 0.466
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 34262,
+     "predicate": "behind",
+     "object": 34263,
+     "confidence": 0.468
+    },
+    {
+     "subject": 34262,
+     "predicate": "behind",
+     "object": 34264,
+     "confidence": 0.39
+    },
+    {
+     "subject": 34263,
+     "predicate": "away",
+     "object": 34264,
+     "confidence": 0.359
+    },
+    {
+     "subject": 34277,
+     "predicate": "behind",
+     "object": 34263,
+     "confidence": 0.35
+    },
+    {
+     "subject": 34263,
+     "predicate": "away",
+     "object": 34262,
+     "confidence": 0.338
+    },
+    {
+     "subject": 34264,
+     "predicate": "away",
+     "object": 34277,
+     "confidence": 0.316
+    }
+   ]
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 34263,
+     "class": "adult",
+     "bbox": [
+      63,
+      12,
+      87,
+      59
+     ],
+     "conf": 0.754
+    },
+    {
+     "track_id": 34300,
+     "class": "snowboard",
+     "bbox": [
+      176,
+      109,
+      234,
+      124
+     ],
+     "conf": 0.734
+    },
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      189,
+      47,
+      234,
+      112
+     ],
+     "conf": 0.709
+    },
+    {
+     "track_id": 34297,
+     "class": "adult",
+     "bbox": [
+      223,
+      45,
+      250,
+      79
+     ],
+     "conf": 0.683
+    },
+    {
+     "track_id": 34290,
+     "class": "ski",
+     "bbox": [
+      53,
+      56,
+      97,
+      63
+     ],
+     "conf": 0.398
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 34300,
+     "predicate": "behind",
+     "object": 34262,
+     "confidence": 0.998
+    },
+    {
+     "subject": 34263,
+     "predicate": "behind",
+     "object": 34262,
+     "confidence": 0.948
+    },
+    {
+     "subject": 34300,
+     "predicate": "behind",
+     "object": 34297,
+     "confidence": 0.947
+    },
+    {
+     "subject": 34300,
+     "predicate": "behind",
+     "object": 34263,
+     "confidence": 0.815
+    },
+    {
+     "subject": 34263,
+     "predicate": "behind",
+     "object": 34297,
+     "confidence": 0.748
+    },
+    {
+     "subject": 34297,
+     "predicate": "in_front_of",
+     "object": 34263,
+     "confidence": 0.655
+    },
+    {
+     "subject": 34262,
+     "predicate": "behind",
+     "object": 34297,
+     "confidence": 0.589
+    },
+    {
+     "subject": 34262,
+     "predicate": "in_front_of",
+     "object": 34263,
+     "confidence": 0.476
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 34262,
+     "predicate": "behind",
+     "object": 34263,
+     "confidence": 0.764
+    },
+    {
+     "subject": 34290,
+     "predicate": "beneath",
+     "object": 34263,
+     "confidence": 0.552
+    },
+    {
+     "subject": 34300,
+     "predicate": "behind",
+     "object": 34262,
+     "confidence": 0.521
+    },
+    {
+     "subject": 34300,
+     "predicate": "beneath",
+     "object": 34263,
+     "confidence": 0.513
+    },
+    {
+     "subject": 34263,
+     "predicate": "away",
+     "object": 34262,
+     "confidence": 0.505
+    },
+    {
+     "subject": 34290,
+     "predicate": "beneath",
+     "object": 34297,
+     "confidence": 0.5
+    },
+    {
+     "subject": 34263,
+     "predicate": "away",
+     "object": 34297,
+     "confidence": 0.4
+    },
+    {
+     "subject": 34262,
+     "predicate": "away",
+     "object": 34297,
+     "confidence": 0.376
+    }
+   ]
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      212,
+      56,
+      261,
+      145
+     ],
+     "conf": 0.783
+    },
+    {
+     "track_id": 34281,
+     "class": "snowboard",
+     "bbox": [
+      203,
+      137,
+      276,
+      148
+     ],
+     "conf": 0.757
+    },
+    {
+     "track_id": 34263,
+     "class": "adult",
+     "bbox": [
+      161,
+      21,
+      184,
+      68
+     ],
+     "conf": 0.727
+    },
+    {
+     "track_id": 34322,
+     "class": "adult",
+     "bbox": [
+      133,
+      0,
+      160,
+      15
+     ],
+     "conf": 0.636
+    },
+    {
+     "track_id": 34311,
+     "class": "ski",
+     "bbox": [
+      152,
+      65,
+      192,
+      72
+     ],
+     "conf": 0.433
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 34281,
+     "predicate": "behind",
+     "object": 34262,
+     "confidence": 0.996
+    },
+    {
+     "subject": 34281,
+     "predicate": "behind",
+     "object": 34263,
+     "confidence": 0.952
+    },
+    {
+     "subject": 34322,
+     "predicate": "away",
+     "object": 34262,
+     "confidence": 0.92
+    },
+    {
+     "subject": 34322,
+     "predicate": "in_front_of",
+     "object": 34263,
+     "confidence": 0.804
+    },
+    {
+     "subject": 34281,
+     "predicate": "behind",
+     "object": 34322,
+     "confidence": 0.751
+    },
+    {
+     "subject": 34263,
+     "predicate": "in_front_of",
+     "object": 34322,
+     "confidence": 0.744
+    },
+    {
+     "subject": 34263,
+     "predicate": "behind",
+     "object": 34262,
+     "confidence": 0.736
+    },
+    {
+     "subject": 34322,
+     "predicate": "away",
+     "object": 34281,
+     "confidence": 0.724
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 34262,
+     "predicate": "behind",
+     "object": 34263,
+     "confidence": 0.794
+    },
+    {
+     "subject": 34281,
+     "predicate": "beneath",
+     "object": 34263,
+     "confidence": 0.704
+    },
+    {
+     "subject": 34311,
+     "predicate": "beneath",
+     "object": 34263,
+     "confidence": 0.673
+    },
+    {
+     "subject": 34322,
+     "predicate": "beneath",
+     "object": 34263,
+     "confidence": 0.538
+    },
+    {
+     "subject": 34281,
+     "predicate": "beneath",
+     "object": 34262,
+     "confidence": 0.398
+    },
+    {
+     "subject": 34263,
+     "predicate": "away",
+     "object": 34262,
+     "confidence": 0.262
+    }
+   ]
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      127,
+      67,
+      189,
+      156
+     ],
+     "conf": 0.802
+    },
+    {
+     "track_id": 34263,
+     "class": "adult",
+     "bbox": [
+      172,
+      0,
+      195,
+      45
+     ],
+     "conf": 0.708
+    },
+    {
+     "track_id": 34332,
+     "class": "ski",
+     "bbox": [
+      162,
+      42,
+      202,
+      48
+     ],
+     "conf": 0.612
+    },
+    {
+     "track_id": 34337,
+     "class": "snowboard",
+     "bbox": [
+      126,
+      146,
+      166,
+      160
+     ],
+     "conf": 0.541
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 34337,
+     "predicate": "behind",
+     "object": 34262,
+     "confidence": 0.997
+    },
+    {
+     "subject": 34337,
+     "predicate": "behind",
+     "object": 34263,
+     "confidence": 0.95
+    },
+    {
+     "subject": 34263,
+     "predicate": "behind",
+     "object": 34262,
+     "confidence": 0.853
+    },
+    {
+     "subject": 34262,
+     "predicate": "pull",
+     "object": 34337,
+     "confidence": 0.652
+    },
+    {
+     "subject": 34332,
+     "predicate": "away",
+     "object": 34262,
+     "confidence": 0.473
+    },
+    {
+     "subject": 34262,
+     "predicate": "behind",
+     "object": 34263,
+     "confidence": 0.318
+    },
+    {
+     "subject": 34263,
+     "predicate": "pull",
+     "object": 34337,
+     "confidence": 0.313
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 34262,
+     "predicate": "behind",
+     "object": 34263,
+     "confidence": 0.852
+    },
+    {
+     "subject": 34332,
+     "predicate": "beneath",
+     "object": 34263,
+     "confidence": 0.549
+    },
+    {
+     "subject": 34337,
+     "predicate": "beneath",
+     "object": 34263,
+     "confidence": 0.505
+    },
+    {
+     "subject": 34263,
+     "predicate": "away",
+     "object": 34337,
+     "confidence": 0.36
+    },
+    {
+     "subject": 34332,
+     "predicate": "beneath",
+     "object": 34262,
+     "confidence": 0.349
+    },
+    {
+     "subject": 34263,
+     "predicate": "away",
+     "object": 34262,
+     "confidence": 0.338
+    }
+   ]
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      115,
+      37,
+      182,
+      145
+     ],
+     "conf": 0.802
+    },
+    {
+     "track_id": 34356,
+     "class": "ski",
+     "bbox": [
+      140,
+      8,
+      179,
+      15
+     ],
+     "conf": 0.382
+    },
+    {
+     "track_id": 34354,
+     "class": "adult",
+     "bbox": [
+      145,
+      0,
+      172,
+      12
+     ],
+     "conf": 0.307
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 34354,
+     "predicate": "away",
+     "object": 34262,
+     "confidence": 0.503
+    },
+    {
+     "subject": 34356,
+     "predicate": "away",
+     "object": 34262,
+     "confidence": 0.44
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 34262,
+     "predicate": "play(instrument)",
+     "object": 34354,
+     "confidence": 0.32
+    }
+   ]
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      147,
+      75,
+      212,
+      188
+     ],
+     "conf": 0.844
+    },
+    {
+     "track_id": 34406,
+     "class": "adult",
+     "bbox": [
+      107,
+      120,
+      127,
+      155
+     ],
+     "conf": 0.676
+    },
+    {
+     "track_id": 34409,
+     "class": "adult",
+     "bbox": [
+      99,
+      140,
+      147,
+      177
+     ],
+     "conf": 0.532
+    },
+    {
+     "track_id": 34403,
+     "class": "snowboard",
+     "bbox": [
+      140,
+      171,
+      208,
+      194
+     ],
+     "conf": 0.442
+    },
+    {
+     "track_id": 34413,
+     "class": "ski",
+     "bbox": [
+      125,
+      177,
+      201,
+      192
+     ],
+     "conf": 0.368
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 34403,
+     "predicate": "behind",
+     "object": 34406,
+     "confidence": 0.984
+    },
+    {
+     "subject": 34403,
+     "predicate": "behind",
+     "object": 34409,
+     "confidence": 0.984
+    },
+    {
+     "subject": 34403,
+     "predicate": "behind",
+     "object": 34262,
+     "confidence": 0.977
+    },
+    {
+     "subject": 34262,
+     "predicate": "pull",
+     "object": 34403,
+     "confidence": 0.731
+    },
+    {
+     "subject": 34409,
+     "predicate": "pull",
+     "object": 34403,
+     "confidence": 0.651
+    },
+    {
+     "subject": 34262,
+     "predicate": "in_front_of",
+     "object": 34406,
+     "confidence": 0.632
+    },
+    {
+     "subject": 34409,
+     "predicate": "behind",
+     "object": 34406,
+     "confidence": 0.611
+    },
+    {
+     "subject": 34413,
+     "predicate": "in_front_of",
+     "object": 34406,
+     "confidence": 0.469
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 34413,
+     "predicate": "beneath",
+     "object": 34406,
+     "confidence": 0.762
+    },
+    {
+     "subject": 34413,
+     "predicate": "beneath",
+     "object": 34409,
+     "confidence": 0.706
+    },
+    {
+     "subject": 34403,
+     "predicate": "beneath",
+     "object": 34406,
+     "confidence": 0.607
+    },
+    {
+     "subject": 34413,
+     "predicate": "beneath",
+     "object": 34262,
+     "confidence": 0.477
+    },
+    {
+     "subject": 34403,
+     "predicate": "beneath",
+     "object": 34409,
+     "confidence": 0.425
+    },
+    {
+     "subject": 34409,
+     "predicate": "in_front_of",
+     "object": 34262,
+     "confidence": 0.386
+    },
+    {
+     "subject": 34409,
+     "predicate": "behind",
+     "object": 34406,
+     "confidence": 0.356
+    },
+    {
+     "subject": 34403,
+     "predicate": "behind",
+     "object": 34262,
+     "confidence": 0.325
+    }
+   ]
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 34427,
+     "class": "adult",
+     "bbox": [
+      248,
+      125,
+      290,
+      157
+     ],
+     "conf": 0.739
+    },
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      149,
+      77,
+      195,
+      148
+     ],
+     "conf": 0.717
+    },
+    {
+     "track_id": 34428,
+     "class": "adult",
+     "bbox": [
+      254,
+      106,
+      275,
+      136
+     ],
+     "conf": 0.706
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 34262,
+     "predicate": "next_to",
+     "object": 34427,
+     "confidence": 0.682
+    },
+    {
+     "subject": 34427,
+     "predicate": "next_to",
+     "object": 34262,
+     "confidence": 0.657
+    },
+    {
+     "subject": 34262,
+     "predicate": "in_front_of",
+     "object": 34428,
+     "confidence": 0.364
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 34262,
+     "predicate": "away",
+     "object": 34427,
+     "confidence": 0.354
+    },
+    {
+     "subject": 34427,
+     "predicate": "in_front_of",
+     "object": 34262,
+     "confidence": 0.318
+    }
+   ]
+  },
+  {
+   "frame_id": 390,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      189,
+      107,
+      219,
+      151
+     ],
+     "conf": 0.806
+    },
+    {
+     "track_id": 34428,
+     "class": "adult",
+     "bbox": [
+      246,
+      115,
+      268,
+      140
+     ],
+     "conf": 0.708
+    },
+    {
+     "track_id": 34427,
+     "class": "adult",
+     "bbox": [
+      237,
+      133,
+      286,
+      164
+     ],
+     "conf": 0.625
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 34427,
+     "predicate": "behind",
+     "object": 34262,
+     "confidence": 0.68
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 34262,
+     "predicate": "away",
+     "object": 34427,
+     "confidence": 0.546
+    },
+    {
+     "subject": 34427,
+     "predicate": "in_front_of",
+     "object": 34262,
+     "confidence": 0.511
+    },
+    {
+     "subject": 34428,
+     "predicate": "in_front_of",
+     "object": 34262,
+     "confidence": 0.436
+    },
+    {
+     "subject": 34427,
+     "predicate": "in_front_of",
+     "object": 34428,
+     "confidence": 0.295
+    }
+   ]
+  },
+  {
+   "frame_id": 420,
+   "objects": [
+    {
+     "track_id": 34427,
+     "class": "adult",
+     "bbox": [
+      202,
+      121,
+      252,
+      154
+     ],
+     "conf": 0.797
+    },
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      154,
+      111,
+      187,
+      144
+     ],
+     "conf": 0.714
+    },
+    {
+     "track_id": 34428,
+     "class": "adult",
+     "bbox": [
+      214,
+      103,
+      237,
+      129
+     ],
+     "conf": 0.589
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 34262,
+     "predicate": "behind",
+     "object": 34428,
+     "confidence": 0.518
+    },
+    {
+     "subject": 34262,
+     "predicate": "away",
+     "object": 34427,
+     "confidence": 0.46
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 34427,
+     "predicate": "in_front_of",
+     "object": 34262,
+     "confidence": 0.706
+    },
+    {
+     "subject": 34428,
+     "predicate": "in_front_of",
+     "object": 34262,
+     "confidence": 0.67
+    },
+    {
+     "subject": 34262,
+     "predicate": "away",
+     "object": 34427,
+     "confidence": 0.458
+    },
+    {
+     "subject": 34262,
+     "predicate": "behind",
+     "object": 34428,
+     "confidence": 0.448
+    },
+    {
+     "subject": 34427,
+     "predicate": "in_front_of",
+     "object": 34428,
+     "confidence": 0.328
+    }
+   ]
+  },
+  {
+   "frame_id": 450,
+   "objects": [
+    {
+     "track_id": 34262,
+     "class": "adult",
+     "bbox": [
+      129,
+      103,
+      166,
+      136
+     ],
+     "conf": 0.807
+    },
+    {
+     "track_id": 34428,
+     "class": "adult",
+     "bbox": [
+      189,
+      94,
+      211,
+      124
+     ],
+     "conf": 0.693
+    },
+    {
+     "track_id": 34427,
+     "class": "adult",
+     "bbox": [
+      179,
+      113,
+      227,
+      144
+     ],
+     "conf": 0.691
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 34428,
+     "predicate": "behind",
+     "object": 34262,
+     "confidence": 0.598
+    },
+    {
+     "subject": 34262,
+     "predicate": "behind",
+     "object": 34428,
+     "confidence": 0.392
+    },
+    {
+     "subject": 34262,
+     "predicate": "away",
+     "object": 34427,
+     "confidence": 0.363
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 34427,
+     "predicate": "in_front_of",
+     "object": 34262,
+     "confidence": 0.76
+    },
+    {
+     "subject": 34428,
+     "predicate": "in_front_of",
+     "object": 34262,
+     "confidence": 0.583
+    },
+    {
+     "subject": 34262,
+     "predicate": "behind",
+     "object": 34428,
+     "confidence": 0.582
+    },
+    {
+     "subject": 34262,
+     "predicate": "away",
+     "object": 34427,
+     "confidence": 0.394
+    },
+    {
+     "subject": 34427,
+     "predicate": "in_front_of",
+     "object": 34428,
+     "confidence": 0.336
+    }
+   ]
+  }
+ ]
+}

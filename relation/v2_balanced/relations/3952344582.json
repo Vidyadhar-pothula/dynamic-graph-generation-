@@ -1,0 +1,2064 @@
+{
+ "video_id": "3952344582",
+ "note": "predictions on a held-out new video, fine-tuned 78-class models",
+ "frames": [
+  {
+   "frame_id": 30,
+   "objects": [
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      84,
+      80,
+      489,
+      360
+     ],
+     "conf": 0.859
+    },
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      82,
+      1,
+      640,
+      359
+     ],
+     "conf": 0.849
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.976
+    },
+    {
+     "subject": 25618,
+     "predicate": "watch",
+     "object": 25619,
+     "confidence": 0.381
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.666
+    }
+   ]
+  },
+  {
+   "frame_id": 60,
+   "objects": [
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      111,
+      1,
+      640,
+      359
+     ],
+     "conf": 0.864
+    },
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      106,
+      89,
+      509,
+      359
+     ],
+     "conf": 0.827
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.996
+    },
+    {
+     "subject": 25618,
+     "predicate": "hug",
+     "object": 25619,
+     "confidence": 0.435
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.863
+    },
+    {
+     "subject": 25618,
+     "predicate": "behind",
+     "object": 25619,
+     "confidence": 0.284
+    }
+   ]
+  },
+  {
+   "frame_id": 90,
+   "objects": [
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      93,
+      1,
+      633,
+      360
+     ],
+     "conf": 0.883
+    },
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      91,
+      55,
+      518,
+      360
+     ],
+     "conf": 0.817
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.992
+    },
+    {
+     "subject": 25618,
+     "predicate": "hug",
+     "object": 25619,
+     "confidence": 0.798
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.875
+    },
+    {
+     "subject": 25618,
+     "predicate": "behind",
+     "object": 25619,
+     "confidence": 0.353
+    }
+   ]
+  },
+  {
+   "frame_id": 120,
+   "objects": [
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      125,
+      2,
+      636,
+      359
+     ],
+     "conf": 0.87
+    },
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      102,
+      42,
+      517,
+      359
+     ],
+     "conf": 0.849
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.982
+    },
+    {
+     "subject": 25618,
+     "predicate": "hug",
+     "object": 25619,
+     "confidence": 0.417
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.935
+    },
+    {
+     "subject": 25618,
+     "predicate": "behind",
+     "object": 25619,
+     "confidence": 0.351
+    }
+   ]
+  },
+  {
+   "frame_id": 150,
+   "objects": [
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      69,
+      40,
+      493,
+      358
+     ],
+     "conf": 0.866
+    },
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      109,
+      1,
+      626,
+      360
+     ],
+     "conf": 0.783
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.814
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.937
+    },
+    {
+     "subject": 25618,
+     "predicate": "behind",
+     "object": 25619,
+     "confidence": 0.447
+    }
+   ]
+  },
+  {
+   "frame_id": 180,
+   "objects": [
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      66,
+      45,
+      493,
+      360
+     ],
+     "conf": 0.793
+    },
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      142,
+      1,
+      634,
+      360
+     ],
+     "conf": 0.784
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.979
+    },
+    {
+     "subject": 25618,
+     "predicate": "hug",
+     "object": 25619,
+     "confidence": 0.843
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.891
+    },
+    {
+     "subject": 25618,
+     "predicate": "behind",
+     "object": 25619,
+     "confidence": 0.59
+    }
+   ]
+  },
+  {
+   "frame_id": 210,
+   "objects": [
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      41,
+      52,
+      492,
+      359
+     ],
+     "conf": 0.872
+    },
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      108,
+      1,
+      640,
+      358
+     ],
+     "conf": 0.742
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.595
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.755
+    },
+    {
+     "subject": 25618,
+     "predicate": "behind",
+     "object": 25619,
+     "confidence": 0.405
+    }
+   ]
+  },
+  {
+   "frame_id": 240,
+   "objects": [
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      50,
+      50,
+      484,
+      359
+     ],
+     "conf": 0.829
+    },
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      147,
+      1,
+      640,
+      360
+     ],
+     "conf": 0.78
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.878
+    },
+    {
+     "subject": 25618,
+     "predicate": "hug",
+     "object": 25619,
+     "confidence": 0.361
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.592
+    },
+    {
+     "subject": 25618,
+     "predicate": "behind",
+     "object": 25619,
+     "confidence": 0.318
+    }
+   ]
+  },
+  {
+   "frame_id": 270,
+   "objects": [
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      88,
+      2,
+      640,
+      359
+     ],
+     "conf": 0.897
+    },
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      96,
+      80,
+      466,
+      358
+     ],
+     "conf": 0.832
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.782
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.465
+    },
+    {
+     "subject": 25618,
+     "predicate": "behind",
+     "object": 25619,
+     "confidence": 0.34
+    }
+   ]
+  },
+  {
+   "frame_id": 300,
+   "objects": [
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      138,
+      0,
+      640,
+      359
+     ],
+     "conf": 0.963
+    },
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      130,
+      57,
+      514,
+      358
+     ],
+     "conf": 0.818
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.825
+    },
+    {
+     "subject": 25618,
+     "predicate": "watch",
+     "object": 25619,
+     "confidence": 0.538
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25618,
+     "predicate": "behind",
+     "object": 25619,
+     "confidence": 0.388
+    },
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.377
+    }
+   ]
+  },
+  {
+   "frame_id": 330,
+   "objects": [
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      126,
+      3,
+      637,
+      358
+     ],
+     "conf": 0.929
+    },
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      145,
+      118,
+      495,
+      359
+     ],
+     "conf": 0.819
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.978
+    },
+    {
+     "subject": 25618,
+     "predicate": "beneath",
+     "object": 25619,
+     "confidence": 0.423
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25618,
+     "predicate": "behind",
+     "object": 25619,
+     "confidence": 0.529
+    },
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.469
+    }
+   ]
+  },
+  {
+   "frame_id": 360,
+   "objects": [
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      116,
+      1,
+      640,
+      358
+     ],
+     "conf": 0.915
+    },
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      123,
+      113,
+      484,
+      359
+     ],
+     "conf": 0.774
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.942
+    },
+    {
+     "subject": 25618,
+     "predicate": "hug",
+     "object": 25619,
+     "confidence": 0.363
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.506
+    },
+    {
+     "subject": 25618,
+     "predicate": "in_front_of",
+     "object": 25619,
+     "confidence": 0.358
+    }
+   ]
+  },
+  {
+   "frame_id": 390,
+   "objects": [
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      105,
+      0,
+      633,
+      360
+     ],
+     "conf": 0.95
+    },
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      131,
+      119,
+      484,
+      359
+     ],
+     "conf": 0.787
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.948
+    },
+    {
+     "subject": 25618,
+     "predicate": "hug",
+     "object": 25619,
+     "confidence": 0.536
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.714
+    },
+    {
+     "subject": 25618,
+     "predicate": "beneath",
+     "object": 25619,
+     "confidence": 0.524
+    }
+   ]
+  },
+  {
+   "frame_id": 420,
+   "objects": [
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      122,
+      0,
+      640,
+      359
+     ],
+     "conf": 0.935
+    },
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      123,
+      98,
+      507,
+      359
+     ],
+     "conf": 0.879
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.835
+    },
+    {
+     "subject": 25618,
+     "predicate": "hug",
+     "object": 25619,
+     "confidence": 0.556
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.876
+    },
+    {
+     "subject": 25618,
+     "predicate": "beneath",
+     "object": 25619,
+     "confidence": 0.618
+    }
+   ]
+  },
+  {
+   "frame_id": 450,
+   "objects": [
+    {
+     "track_id": 25619,
+     "class": "baby",
+     "bbox": [
+      152,
+      10,
+      627,
+      360
+     ],
+     "conf": 0.867
+    },
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      133,
+      2,
+      635,
+      358
+     ],
+     "conf": 0.569
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.563
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25619,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.796
+    },
+    {
+     "subject": 25618,
+     "predicate": "beneath",
+     "object": 25619,
+     "confidence": 0.532
+    }
+   ]
+  },
+  {
+   "frame_id": 690,
+   "objects": [
+    {
+     "track_id": 25631,
+     "class": "baby",
+     "bbox": [
+      170,
+      2,
+      640,
+      359
+     ],
+     "conf": 0.902
+    },
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      165,
+      1,
+      640,
+      354
+     ],
+     "conf": 0.321
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25631,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.359
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 720,
+   "objects": [
+    {
+     "track_id": 25631,
+     "class": "baby",
+     "bbox": [
+      123,
+      24,
+      624,
+      359
+     ],
+     "conf": 0.856
+    },
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      103,
+      0,
+      627,
+      360
+     ],
+     "conf": 0.84
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25631,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.885
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 750,
+   "objects": [
+    {
+     "track_id": 25631,
+     "class": "baby",
+     "bbox": [
+      115,
+      9,
+      640,
+      360
+     ],
+     "conf": 0.862
+    },
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      109,
+      0,
+      640,
+      355
+     ],
+     "conf": 0.783
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25631,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.886
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25631,
+     "predicate": "beneath",
+     "object": 25618,
+     "confidence": 0.493
+    },
+    {
+     "subject": 25618,
+     "predicate": "beneath",
+     "object": 25631,
+     "confidence": 0.485
+    }
+   ]
+  },
+  {
+   "frame_id": 780,
+   "objects": [
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      102,
+      1,
+      634,
+      358
+     ],
+     "conf": 0.852
+    },
+    {
+     "track_id": 25631,
+     "class": "baby",
+     "bbox": [
+      106,
+      20,
+      631,
+      360
+     ],
+     "conf": 0.845
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25631,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.887
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25618,
+     "predicate": "beneath",
+     "object": 25631,
+     "confidence": 0.789
+    },
+    {
+     "subject": 25631,
+     "predicate": "beneath",
+     "object": 25618,
+     "confidence": 0.782
+    }
+   ]
+  },
+  {
+   "frame_id": 810,
+   "objects": [
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      70,
+      1,
+      640,
+      359
+     ],
+     "conf": 0.89
+    },
+    {
+     "track_id": 25631,
+     "class": "baby",
+     "bbox": [
+      82,
+      12,
+      628,
+      358
+     ],
+     "conf": 0.833
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25631,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.967
+    },
+    {
+     "subject": 25618,
+     "predicate": "hug",
+     "object": 25631,
+     "confidence": 0.576
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25631,
+     "predicate": "beneath",
+     "object": 25618,
+     "confidence": 0.845
+    },
+    {
+     "subject": 25618,
+     "predicate": "beneath",
+     "object": 25631,
+     "confidence": 0.839
+    }
+   ]
+  },
+  {
+   "frame_id": 840,
+   "objects": [
+    {
+     "track_id": 25631,
+     "class": "baby",
+     "bbox": [
+      114,
+      3,
+      640,
+      360
+     ],
+     "conf": 0.897
+    },
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      119,
+      1,
+      640,
+      355
+     ],
+     "conf": 0.703
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25631,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.926
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25631,
+     "predicate": "beneath",
+     "object": 25618,
+     "confidence": 0.867
+    },
+    {
+     "subject": 25618,
+     "predicate": "beneath",
+     "object": 25631,
+     "confidence": 0.859
+    }
+   ]
+  },
+  {
+   "frame_id": 870,
+   "objects": [
+    {
+     "track_id": 25631,
+     "class": "baby",
+     "bbox": [
+      110,
+      1,
+      637,
+      360
+     ],
+     "conf": 0.928
+    },
+    {
+     "track_id": 25618,
+     "class": "adult",
+     "bbox": [
+      119,
+      0,
+      640,
+      357
+     ],
+     "conf": 0.671
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25631,
+     "predicate": "lean_on",
+     "object": 25618,
+     "confidence": 0.931
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25618,
+     "predicate": "beneath",
+     "object": 25631,
+     "confidence": 0.803
+    },
+    {
+     "subject": 25631,
+     "predicate": "beneath",
+     "object": 25618,
+     "confidence": 0.783
+    }
+   ]
+  },
+  {
+   "frame_id": 930,
+   "objects": [
+    {
+     "track_id": 25618,
+     "class": "baby",
+     "bbox": [
+      103,
+      28,
+      640,
+      359
+     ],
+     "conf": 0.828
+    },
+    {
+     "track_id": 25632,
+     "class": "adult",
+     "bbox": [
+      74,
+      1,
+      640,
+      356
+     ],
+     "conf": 0.692
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25618,
+     "predicate": "lean_on",
+     "object": 25632,
+     "confidence": 0.988
+    },
+    {
+     "subject": 25632,
+     "predicate": "beneath",
+     "object": 25618,
+     "confidence": 0.421
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25632,
+     "predicate": "beneath",
+     "object": 25618,
+     "confidence": 0.448
+    },
+    {
+     "subject": 25618,
+     "predicate": "beneath",
+     "object": 25632,
+     "confidence": 0.376
+    }
+   ]
+  },
+  {
+   "frame_id": 960,
+   "objects": [
+    {
+     "track_id": 25618,
+     "class": "baby",
+     "bbox": [
+      205,
+      2,
+      640,
+      360
+     ],
+     "conf": 0.823
+    },
+    {
+     "track_id": 25632,
+     "class": "adult",
+     "bbox": [
+      31,
+      4,
+      596,
+      360
+     ],
+     "conf": 0.52
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25618,
+     "predicate": "lean_on",
+     "object": 25632,
+     "confidence": 0.995
+    },
+    {
+     "subject": 25632,
+     "predicate": "beneath",
+     "object": 25618,
+     "confidence": 0.93
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25632,
+     "predicate": "beneath",
+     "object": 25618,
+     "confidence": 0.72
+    },
+    {
+     "subject": 25618,
+     "predicate": "beneath",
+     "object": 25632,
+     "confidence": 0.548
+    }
+   ]
+  },
+  {
+   "frame_id": 1080,
+   "objects": [
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      116,
+      5,
+      640,
+      360
+     ],
+     "conf": 0.872
+    },
+    {
+     "track_id": 25645,
+     "class": "adult",
+     "bbox": [
+      129,
+      1,
+      640,
+      353
+     ],
+     "conf": 0.47
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25645,
+     "confidence": 0.827
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1140,
+   "objects": [
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      115,
+      7,
+      629,
+      360
+     ],
+     "conf": 0.78
+    },
+    {
+     "track_id": 25651,
+     "class": "adult",
+     "bbox": [
+      115,
+      0,
+      636,
+      354
+     ],
+     "conf": 0.527
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25651,
+     "confidence": 0.888
+    }
+   ],
+   "temporal_gru": []
+  },
+  {
+   "frame_id": 1170,
+   "objects": [
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      134,
+      38,
+      589,
+      359
+     ],
+     "conf": 0.794
+    },
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      119,
+      2,
+      640,
+      354
+     ],
+     "conf": 0.717
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.972
+    },
+    {
+     "subject": 25653,
+     "predicate": "hug",
+     "object": 25632,
+     "confidence": 0.787
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25653,
+     "predicate": "lean_on",
+     "object": 25632,
+     "confidence": 0.365
+    },
+    {
+     "subject": 25632,
+     "predicate": "beneath",
+     "object": 25653,
+     "confidence": 0.278
+    }
+   ]
+  },
+  {
+   "frame_id": 1200,
+   "objects": [
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      136,
+      1,
+      640,
+      356
+     ],
+     "conf": 0.898
+    },
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      141,
+      51,
+      637,
+      360
+     ],
+     "conf": 0.866
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.922
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25653,
+     "predicate": "lean_on",
+     "object": 25632,
+     "confidence": 0.743
+    },
+    {
+     "subject": 25632,
+     "predicate": "beneath",
+     "object": 25653,
+     "confidence": 0.387
+    }
+   ]
+  },
+  {
+   "frame_id": 1230,
+   "objects": [
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      164,
+      59,
+      639,
+      360
+     ],
+     "conf": 0.931
+    },
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      161,
+      0,
+      640,
+      359
+     ],
+     "conf": 0.925
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.894
+    },
+    {
+     "subject": 25653,
+     "predicate": "hug",
+     "object": 25632,
+     "confidence": 0.716
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25653,
+     "predicate": "lean_on",
+     "object": 25632,
+     "confidence": 0.786
+    },
+    {
+     "subject": 25632,
+     "predicate": "beneath",
+     "object": 25653,
+     "confidence": 0.609
+    }
+   ]
+  },
+  {
+   "frame_id": 1260,
+   "objects": [
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      155,
+      1,
+      640,
+      359
+     ],
+     "conf": 0.891
+    },
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      152,
+      58,
+      616,
+      359
+     ],
+     "conf": 0.842
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.897
+    },
+    {
+     "subject": 25653,
+     "predicate": "hug",
+     "object": 25632,
+     "confidence": 0.549
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25632,
+     "predicate": "beneath",
+     "object": 25653,
+     "confidence": 0.664
+    },
+    {
+     "subject": 25653,
+     "predicate": "lean_on",
+     "object": 25632,
+     "confidence": 0.621
+    }
+   ]
+  },
+  {
+   "frame_id": 1290,
+   "objects": [
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      130,
+      1,
+      635,
+      358
+     ],
+     "conf": 0.888
+    },
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      114,
+      62,
+      523,
+      359
+     ],
+     "conf": 0.752
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.982
+    },
+    {
+     "subject": 25653,
+     "predicate": "hug",
+     "object": 25632,
+     "confidence": 0.954
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25653,
+     "predicate": "beneath",
+     "object": 25632,
+     "confidence": 0.47
+    },
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.357
+    }
+   ]
+  },
+  {
+   "frame_id": 1320,
+   "objects": [
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      135,
+      1,
+      640,
+      359
+     ],
+     "conf": 0.965
+    },
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      137,
+      66,
+      549,
+      360
+     ],
+     "conf": 0.831
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.957
+    },
+    {
+     "subject": 25653,
+     "predicate": "hug",
+     "object": 25632,
+     "confidence": 0.91
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25653,
+     "predicate": "beneath",
+     "object": 25632,
+     "confidence": 0.548
+    },
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.426
+    }
+   ]
+  },
+  {
+   "frame_id": 1350,
+   "objects": [
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      115,
+      1,
+      631,
+      358
+     ],
+     "conf": 0.923
+    },
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      94,
+      68,
+      529,
+      359
+     ],
+     "conf": 0.788
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.92
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25653,
+     "predicate": "beneath",
+     "object": 25632,
+     "confidence": 0.731
+    },
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.353
+    }
+   ]
+  },
+  {
+   "frame_id": 1380,
+   "objects": [
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      101,
+      64,
+      576,
+      358
+     ],
+     "conf": 0.903
+    },
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      116,
+      1,
+      640,
+      360
+     ],
+     "conf": 0.899
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.976
+    },
+    {
+     "subject": 25653,
+     "predicate": "hug",
+     "object": 25632,
+     "confidence": 0.686
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25653,
+     "predicate": "beneath",
+     "object": 25632,
+     "confidence": 0.877
+    },
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.352
+    }
+   ]
+  },
+  {
+   "frame_id": 1410,
+   "objects": [
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      120,
+      0,
+      640,
+      359
+     ],
+     "conf": 0.953
+    },
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      115,
+      80,
+      554,
+      359
+     ],
+     "conf": 0.908
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.966
+    },
+    {
+     "subject": 25653,
+     "predicate": "hug",
+     "object": 25632,
+     "confidence": 0.888
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25653,
+     "predicate": "beneath",
+     "object": 25632,
+     "confidence": 0.92
+    },
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.493
+    }
+   ]
+  },
+  {
+   "frame_id": 1440,
+   "objects": [
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      125,
+      1,
+      638,
+      359
+     ],
+     "conf": 0.915
+    },
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      128,
+      77,
+      545,
+      359
+     ],
+     "conf": 0.851
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.958
+    },
+    {
+     "subject": 25653,
+     "predicate": "hug",
+     "object": 25632,
+     "confidence": 0.599
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25653,
+     "predicate": "beneath",
+     "object": 25632,
+     "confidence": 0.911
+    },
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.563
+    }
+   ]
+  },
+  {
+   "frame_id": 1470,
+   "objects": [
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      130,
+      0,
+      640,
+      359
+     ],
+     "conf": 0.936
+    },
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      133,
+      79,
+      508,
+      359
+     ],
+     "conf": 0.852
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.976
+    },
+    {
+     "subject": 25653,
+     "predicate": "hug",
+     "object": 25632,
+     "confidence": 0.894
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25653,
+     "predicate": "beneath",
+     "object": 25632,
+     "confidence": 0.959
+    },
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.561
+    }
+   ]
+  },
+  {
+   "frame_id": 1500,
+   "objects": [
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      124,
+      1,
+      637,
+      355
+     ],
+     "conf": 0.921
+    },
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      133,
+      74,
+      545,
+      358
+     ],
+     "conf": 0.888
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.846
+    },
+    {
+     "subject": 25653,
+     "predicate": "hug",
+     "object": 25632,
+     "confidence": 0.648
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25653,
+     "predicate": "beneath",
+     "object": 25632,
+     "confidence": 0.952
+    },
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.547
+    }
+   ]
+  },
+  {
+   "frame_id": 1530,
+   "objects": [
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      106,
+      1,
+      638,
+      358
+     ],
+     "conf": 0.928
+    },
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      99,
+      74,
+      540,
+      359
+     ],
+     "conf": 0.852
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.984
+    },
+    {
+     "subject": 25653,
+     "predicate": "hug",
+     "object": 25632,
+     "confidence": 0.901
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25653,
+     "predicate": "beneath",
+     "object": 25632,
+     "confidence": 0.974
+    },
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.728
+    }
+   ]
+  },
+  {
+   "frame_id": 1560,
+   "objects": [
+    {
+     "track_id": 25653,
+     "class": "adult",
+     "bbox": [
+      110,
+      1,
+      639,
+      359
+     ],
+     "conf": 0.93
+    },
+    {
+     "track_id": 25632,
+     "class": "baby",
+     "bbox": [
+      106,
+      65,
+      502,
+      359
+     ],
+     "conf": 0.877
+    }
+   ],
+   "relation_model": [
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.939
+    },
+    {
+     "subject": 25653,
+     "predicate": "hug",
+     "object": 25632,
+     "confidence": 0.719
+    }
+   ],
+   "temporal_gru": [
+    {
+     "subject": 25653,
+     "predicate": "beneath",
+     "object": 25632,
+     "confidence": 0.974
+    },
+    {
+     "subject": 25632,
+     "predicate": "lean_on",
+     "object": 25653,
+     "confidence": 0.835
+    }
+   ]
+  }
+ ]
+}
